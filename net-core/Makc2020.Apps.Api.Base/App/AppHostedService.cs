@@ -9,6 +9,7 @@ using Microsoft.Extensions.Hosting;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
+using Makc2020.Apps.Api.Base.App.Parts.Mods.Product.Base.Jobs.Item.Get;
 
 namespace Makc2020.Apps.Api.Base.App
 {
@@ -50,7 +51,8 @@ namespace Makc2020.Apps.Api.Base.App
             {
                 GetService<AppPartCoreBaseResourceErrorsClient>(),
                 GetService<AppPartModDummyMainBaseJobItemGetClient>(),
-                GetService<AppPartModDummyMainBaseJobListGetClient>()
+                GetService<AppPartModDummyMainBaseJobListGetClient>(),
+                GetService<AppPartModProductBaseJobItemGetClient>()
             };
 
             foreach (var client in clients)

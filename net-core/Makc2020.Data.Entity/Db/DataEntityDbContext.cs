@@ -52,6 +52,21 @@ namespace Makc2020.Data.Entity.Db
         /// </summary>
         public DbSet<DataEntityObjectDummyTree> DummyTree { get; set; }
 
+        /// <summary>
+        /// Данные сущности "Product".
+        /// </summary>
+        public DbSet<DataEntityObjectProduct> Product { get; set; }
+
+        /// <summary>
+        /// Данные сущности "ProductCategory".
+        /// </summary>
+        public DbSet<DataEntityObjectProductCategory> ProductCategory { get; set; }
+
+        /// <summary>
+        /// Данные сущности "ProductFeature".
+        /// </summary>
+        public DbSet<DataEntityObjectProductFeature> ProductFeature { get; set; }
+
         #endregion Properties
 
         #region Constructors

@@ -55,6 +55,26 @@ namespace Makc2020.Data.Base
         public DataBaseSettingDummyTree DummyTree { get; private set; }
 
         /// <summary>
+        /// Сущность "Product".
+        /// </summary>
+        public DataBaseSettingProduct Product { get; private set; }
+
+        /// <summary>
+        /// Сущность "ProductCategory".
+        /// </summary>
+        public DataBaseSettingProductCategory ProductCategory { get; private set; }
+
+        /// <summary>
+        /// Сущность "ProductFeature".
+        /// </summary>
+        public DataBaseSettingProductFeature ProductFeature { get; private set; }
+
+        /// <summary>
+        /// Сущность "ProductFeature".
+        /// </summary>
+        public DataBaseSettingProductProductFeature ProductProductFeature { get; private set; }
+
+        /// <summary>
         /// Сущность "Role".
         /// </summary>
         public DataBaseSettingRole Role { get; private set; }
@@ -100,6 +120,9 @@ namespace Makc2020.Data.Base
             DummyManyToMany = new DataBaseSettingDummyManyToMany();
             DummyOneToMany = new DataBaseSettingDummyOneToMany();
             DummyTree = new DataBaseSettingDummyTree();
+            Product = new DataBaseSettingProduct();
+            ProductCategory = new DataBaseSettingProductCategory();
+            ProductFeature = new DataBaseSettingProductFeature();
             Role = new DataBaseSettingRole();
             RoleClaim = new DataBaseSettingRoleClaim();
             User = new DataBaseSettingUser();

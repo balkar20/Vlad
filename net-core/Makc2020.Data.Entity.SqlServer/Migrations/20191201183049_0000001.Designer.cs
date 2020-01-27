@@ -1753,14 +1753,14 @@ namespace Makc2020.Data.Entity.SqlServer.Migrations
                         .HasColumnName("DummyMainId")
                         .HasColumnType("bigint");
 
-                    b.Property<long>("ObjectDummyManyToManyId")
+                    b.Property<long>("ObjectProductFeatureId")
                         .HasColumnName("DummyManyToManyId")
                         .HasColumnType("bigint");
 
-                    b.HasKey("ObjectDummyMainId", "ObjectDummyManyToManyId")
+                    b.HasKey("ObjectDummyMainId", "ObjectProductFeatureId")
                         .HasName("PK_DummyMainDummyManyToMany");
 
-                    b.HasIndex("ObjectDummyManyToManyId");
+                    b.HasIndex("ObjectProductFeatureId");
 
                     b.ToTable("DummyMainDummyManyToMany","dbo");
 
@@ -5056,7 +5056,7 @@ namespace Makc2020.Data.Entity.SqlServer.Migrations
             modelBuilder.Entity("Makc2020.Data.Entity.Objects.DataEntityObjectDummyMain", b =>
                 {
                     b.HasOne("Makc2020.Data.Entity.Objects.DataEntityObjectDummyOneToMany", "ObjectDummyOneToMany")
-                        .WithMany("ObjectsDummyMain")
+                        .WithMany("ObjectsProduct")
                         .HasForeignKey("ObjectDummyOneToManyId")
                         .HasConstraintName("FK_DummyMain_DummyOneToMany")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -5072,9 +5072,9 @@ namespace Makc2020.Data.Entity.SqlServer.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Makc2020.Data.Entity.Objects.DataEntityObjectDummyManyToMany", "ObjectDummyManyToMany")
+                    b.HasOne("Makc2020.Data.Entity.Objects.DataEntityObjectDummyManyToMany", "ObjectProductFeature")
                         .WithMany("ObjectsDummyMainDummyManyToMany")
-                        .HasForeignKey("ObjectDummyManyToManyId")
+                        .HasForeignKey("ObjectProductFeatureId")
                         .HasConstraintName("FK_DummyMainDummyManyToMany_DummyManyToMany")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

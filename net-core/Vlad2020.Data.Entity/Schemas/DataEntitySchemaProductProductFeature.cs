@@ -50,7 +50,7 @@ namespace Vlad2020.Data.Entity.Schema
                 .HasConstraintName(setting.DbForeignKeyToProduct);
 
             builder.HasOne(x => x.ObjectProductFeature)
-                .WithMany(x => x.ObjectsDummyMainProductFeature)
+                .WithMany(x => x.ObjectsProductProductFeature)
                 .HasForeignKey(x => x.ObjectProductFeatureId)
                 .HasConstraintName(setting.DbForeignKeyToProductFeature);
         }

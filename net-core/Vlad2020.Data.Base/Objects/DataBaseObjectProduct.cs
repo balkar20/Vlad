@@ -24,7 +24,7 @@ namespace Vlad2020.Data.Base.Objects
         /// <summary>
         /// Идентификатор объекта, где хранятся данные сущности "DummyOneToMany".
         /// </summary>
-        public long ObjectDummyOneToManyId { get; set; }
+        public long ObjectProductCategoryId { get; set; }
 
         /// <summary>
         /// Свойство, содержащее логическое значение.

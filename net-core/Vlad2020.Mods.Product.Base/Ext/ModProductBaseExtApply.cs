@@ -61,12 +61,12 @@ namespace Vlad2020.Mods.Product.Base.Ext
 
             if (input.DataObjectProductCategoryId > 0)
             {
-                query = query.Where(x => x.ObjectDummyOneToManyId == input.DataObjectProductCategoryId);
+                query = query.Where(x => x.ObjectProductCategoryId == input.DataObjectProductCategoryId);
             }
 
             if (input.DataObjectProductCategoryIds != null && input.DataObjectProductCategoryIds.Any())
             {
-                query = query.Where(x => input.DataObjectProductCategoryIds.Contains(x.ObjectDummyOneToManyId));
+                query = query.Where(x => input.DataObjectProductCategoryIds.Contains(x.ObjectProductCategoryId));
             }
 
             if (!string.IsNullOrWhiteSpace(input.DataObjectProductCategoryName))

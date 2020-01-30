@@ -32,7 +32,7 @@ namespace Vlad2020.Data.Entity.SqlServer.Migrations
                         .HasMaxLength(50)
                         .IsUnicode(true);
 
-                    b.Property<long>("ObjectDummyOneToManyId")
+                    b.Property<long>("ObjectProductCategoryId")
                         .HasColumnName("DummyOneToManyId")
                         .HasColumnType("bigint");
 
@@ -88,7 +88,7 @@ namespace Vlad2020.Data.Entity.SqlServer.Migrations
                         .IsUnique()
                         .HasName("UX_DummyMain_Name");
 
-                    b.HasIndex("ObjectDummyOneToManyId");
+                    b.HasIndex("ObjectProductCategoryId");
 
                     b.ToTable("DummyMain","dbo");
 
@@ -5055,7 +5055,7 @@ namespace Vlad2020.Data.Entity.SqlServer.Migrations
                 {
                     b.HasOne("Vlad2020.Data.Entity.Objects.DataEntityObjectDummyOneToMany", "ObjectDummyOneToMany")
                         .WithMany("ObjectsProduct")
-                        .HasForeignKey("ObjectDummyOneToManyId")
+                        .HasForeignKey("ObjectProductCategoryId")
                         .HasConstraintName("FK_DummyMain_DummyOneToMany")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

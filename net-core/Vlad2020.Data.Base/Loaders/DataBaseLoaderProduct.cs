@@ -45,9 +45,9 @@ namespace Vlad2020.Data.Base.Loaders
                 Data.Name = source.Name ?? string.Empty;
             }
 
-            if (props.Contains(nameof(Data.ObjectDummyOneToManyId)))
+            if (props.Contains(nameof(Data.ObjectProductCategoryId)))
             {
-                Data.ObjectDummyOneToManyId = source.ObjectDummyOneToManyId;
+                Data.ObjectProductCategoryId = source.ObjectProductCategoryId;
             }
 
             if (props.Contains(nameof(Data.PropBoolean)))
@@ -132,7 +132,7 @@ namespace Vlad2020.Data.Base.Loaders
             {
                 nameof(Data.Id),
                 nameof(Data.Name),
-                nameof(Data.ObjectDummyOneToManyId),
+                nameof(Data.ObjectProductCategoryId),
                 nameof(Data.PropBoolean),
                 nameof(Data.PropBooleanNullable),
                 nameof(Data.PropDate),

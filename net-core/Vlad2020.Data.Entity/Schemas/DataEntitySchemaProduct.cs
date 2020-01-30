@@ -29,11 +29,11 @@ namespace Vlad2020.Data.Entity.Schema
         /// <inheritdoc/>
         public sealed override void Configure(EntityTypeBuilder<DataEntityObjectProduct> builder)
         {
-            //var setting = DataBaseSettings.Product;
+            var setting = DataBaseSettings.Product;
 
-            //builder.ToTable(setting.DbTable, setting.DbSchema);
+            builder.ToTable(setting.DbTable, setting.DbSchema);
 
-            //builder.HasKey(x => x.Id).HasName(setting.DbPrimaryKey);            
+            builder.HasKey(x => x.Id).HasName(setting.DbPrimaryKey);
 
             builder.Property(x => x.Id).ValueGeneratedOnAdd();
             builder.Property(x => x.Name).IsRequired().IsUnicode().HasMaxLength(50);
@@ -52,18 +52,18 @@ namespace Vlad2020.Data.Entity.Schema
             builder.Property(x => x.PropString).IsRequired().IsUnicode();
             builder.Property(x => x.PropStringNullable).IsUnicode();
 
-            //builder.Property(x => x.ObjectDummyOneToManyId)
-            //    .IsRequired()
-            //    .HasColumnName(setting.DbColumnForProductCategoryId);
+            builder.Property(x => x.ObjectProductCategoryId)
+                .IsRequired()
+                .HasColumnName(setting.DbColumnForProductCategoryId);
 
-            //builder.HasIndex(x => x.Name)
-            //    .IsUnique()
-            //    .HasName(setting.DbUniqueIndexForName);
+            builder.HasIndex(x => x.Name)
+                .IsUnique()
+                .HasName(setting.DbUniqueIndexForName);
 
-            //builder.HasOne(x => x.ObjectDummyOneToMany)
-            //    .WithMany(x => x.ObjectsProduct)
-            //    .HasForeignKey(x => x.ObjectDummyOneToManyId)
-            //    .HasConstraintName(setting.DbForeignKeyToProductCategory);
+            builder.HasOne(x => x.ObjectProductCategory)
+                .WithMany(x => x.ObjectsProduct)
+                .HasForeignKey(x => x.ObjectProductCategoryId)
+                .HasConstraintName(setting.DbForeignKeyToProductCategory);
         }
 
         /// <summary>
@@ -98,7 +98,7 @@ namespace Vlad2020.Data.Entity.Schema
             {
                 Id = id,
                 Name = $"Name-{id}",
-                ObjectDummyOneToManyId = new Random(Guid.NewGuid().GetHashCode()).Next(1, 10),
+                ObjectProductCategoryId = new Random(Guid.NewGuid().GetHashCode()).Next(1, 10),
                 PropBoolean = isEven,
                 PropBooleanNullable = isEven ? new bool?(!isEven) : null,
                 PropDate = new DateTime(2018, 01, day),

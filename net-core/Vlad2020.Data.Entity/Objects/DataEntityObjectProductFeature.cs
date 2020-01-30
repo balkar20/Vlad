@@ -16,7 +16,7 @@ namespace Vlad2020.Data.Entity.Objects
         /// <summary>
         /// Объекты, где хранятся данные сущности "ProductProductFeature".
         /// </summary>
-        public virtual List<DataEntityObjectProductProductFeature> ObjectsDummyMainProductFeature { get; set; }
+        public virtual List<DataEntityObjectProductProductFeature> ObjectsProductProductFeature { get; set; }
 
         #endregion Properties
 
@@ -27,7 +27,7 @@ namespace Vlad2020.Data.Entity.Objects
         /// </summary>
         public DataEntityObjectProductFeature()
         {
-            ObjectsDummyMainProductFeature = new List<DataEntityObjectProductProductFeature>();
+            ObjectsProductProductFeature = new List<DataEntityObjectProductProductFeature>();
         }
 
         #endregion Constructors

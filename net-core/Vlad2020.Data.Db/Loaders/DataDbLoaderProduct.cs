@@ -52,9 +52,9 @@ namespace Vlad2020.Data.Db.Loaders
                 Data.Name = await source.GetFieldValueAsync<string>(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
             }
 
-            if (props.Contains(nameof(Data.ObjectDummyOneToManyId)))
+            if (props.Contains(nameof(Data.ObjectProductCategoryId)))
             {
-                Data.ObjectDummyOneToManyId = await source.GetFieldValueAsync<long>(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
+                Data.ObjectProductCategoryId = await source.GetFieldValueAsync<long>(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
             }
 
             if (props.Contains(nameof(Data.PropBoolean)))

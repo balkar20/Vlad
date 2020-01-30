@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base;
-using Makc2020.Host.Base.Config;
+using Vlad2020.Core.Base;
+using Vlad2020.Host.Base.Config;
 using System.IO;
 
-namespace Makc2020.Host.Base
+namespace Vlad2020.Host.Base
 {
     /// <summary>
     /// Хост. Основа. Конфигурация.

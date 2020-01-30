@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Caching.Config;
+using Vlad2020.Core.Caching.Config;
 
-namespace Makc2020.Core.Caching.Storages.Local
+namespace Vlad2020.Core.Caching.Storages.Local
 {
     /// <summary>
     /// Ядро. Кэширование. Хранилища. Локальное. Помощник.

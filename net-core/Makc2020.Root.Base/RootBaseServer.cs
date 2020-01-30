@@ -1,13 +1,13 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base;
-using Makc2020.Core.Base.Common;
-using Makc2020.Core.Base.Execution;
-using Makc2020.Core.Base.Ext;
-using Makc2020.Data.Entity.Db;
-using Makc2020.Data.Entity.Jobs.Database.Migrate;
-using Makc2020.Data.Entity.Objects;
-using Makc2020.Host.Base.Parts.Auth.Jobs.Seed;
+using Vlad2020.Core.Base;
+using Vlad2020.Core.Base.Common;
+using Vlad2020.Core.Base.Execution;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Data.Entity.Db;
+using Vlad2020.Data.Entity.Jobs.Database.Migrate;
+using Vlad2020.Data.Entity.Objects;
+using Vlad2020.Host.Base.Parts.Auth.Jobs.Seed;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -17,7 +17,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 
-namespace Makc2020.Root.Base
+namespace Vlad2020.Root.Base
 {
     /// <summary>
     /// Корень. Основа. Сервер.

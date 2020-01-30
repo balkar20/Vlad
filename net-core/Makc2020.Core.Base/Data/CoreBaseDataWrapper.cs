@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Core.Base.Data
+namespace Vlad2020.Core.Base.Data
 {
     /// <summary>
     /// Ядро. Основа. Данные. Обёртка. 

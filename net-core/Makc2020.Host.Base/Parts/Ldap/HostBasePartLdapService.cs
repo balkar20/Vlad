@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Host.Base.Parts.Ldap.Config;
-using Makc2020.Host.Base.Parts.Ldap.Jobs.Login;
+using Vlad2020.Host.Base.Parts.Ldap.Config;
+using Vlad2020.Host.Base.Parts.Ldap.Jobs.Login;
 using Novell.Directory.Ldap;
 
-namespace Makc2020.Host.Base.Parts.Ldap
+namespace Vlad2020.Host.Base.Parts.Ldap
 {
     /// <summary>
     /// Хост. Основа. Часть "LDAP". Сервис.

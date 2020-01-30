@@ -1,12 +1,12 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Resources.Converting;
+using Vlad2020.Core.Base.Resources.Converting;
 using System;
 using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace Makc2020.Core.Base.Ext
+namespace Vlad2020.Core.Base.Ext
 {
     /// <summary>
     /// Ядро. Основа. Расширение. Преобразовать.

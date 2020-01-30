@@ -1,14 +1,14 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Caching.Exceptions;
-using Makc2020.Core.Base.Ext;
+using Vlad2020.Core.Caching.Exceptions;
+using Vlad2020.Core.Base.Ext;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Makc2020.Core.Caching.Resources.Errors;
+using Vlad2020.Core.Caching.Resources.Errors;
 
-namespace Makc2020.Core.Caching.Ext
+namespace Vlad2020.Core.Caching.Ext
 {
     /// <summary>
     /// Ядро. Кэширование. Расширение. Вызвать.

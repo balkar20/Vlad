@@ -1,15 +1,15 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Ext;
-using Makc2020.Mod.Auth.Base.Common.Jobs.Login;
-using Makc2020.Mod.Auth.Base.Common.Jobs.Login.Jwt;
-using Makc2020.Mods.Auth.Base.Jobs.Refresh.Jwt;
-using Makc2020.Mods.Auth.Base.Jobs.Register;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Mod.Auth.Base.Common.Jobs.Login;
+using Vlad2020.Mod.Auth.Base.Common.Jobs.Login.Jwt;
+using Vlad2020.Mods.Auth.Base.Jobs.Refresh.Jwt;
+using Vlad2020.Mods.Auth.Base.Jobs.Register;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.Auth.Web.Api
+namespace Vlad2020.Mods.Auth.Web.Api
 {
     /// <summary>
     /// Мод "Auth". Веб. API. Контроллер.

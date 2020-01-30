@@ -2,18 +2,18 @@
 
 using IdentityServer4.Services;
 using IdentityServer4.Stores;
-using Makc2020.Core.Web.Mvc;
-using Makc2020.Data.Entity.Objects;
-using Makc2020.Host.Base.Parts.Auth.Jobs.UserEntity.Create;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Callback.Get;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get;
+using Vlad2020.Core.Web.Mvc;
+using Vlad2020.Data.Entity.Objects;
+using Vlad2020.Host.Base.Parts.Auth.Jobs.UserEntity.Create;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Callback.Get;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.ViewEngines;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "External". Модель.

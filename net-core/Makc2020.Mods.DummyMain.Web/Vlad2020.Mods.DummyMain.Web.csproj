@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Configurations>Debug;Release;Test</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vlad2020.Core.Web\Vlad2020.Core.Web.csproj" />
+    <ProjectReference Include="..\Vlad2020.Mods.DummyMain.Caching\Vlad2020.Mods.DummyMain.Caching.csproj" />
+  </ItemGroup>
+
+</Project>

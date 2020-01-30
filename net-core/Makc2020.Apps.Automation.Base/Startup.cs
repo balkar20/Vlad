@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Apps.Automation.Base.App;
+using Vlad2020.Apps.Automation.Base.App;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -8,7 +8,7 @@ using NLog.Extensions.Hosting;
 using System;
 using System.IO;
 
-namespace Makc2020.Apps.Automation.Base
+namespace Vlad2020.Apps.Automation.Base
 {
     /// <summary>
     /// Пуск.

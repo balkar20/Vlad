@@ -1,11 +1,11 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Ext;
-using Makc2020.Core.Base.Resources.Errors;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Core.Base.Resources.Errors;
 using System;
 using System.Threading.Tasks;
 
-namespace Makc2020.Core.Base.Executable.Services.Async
+namespace Vlad2020.Core.Base.Executable.Services.Async
 {
     /// <summary>
     /// Ядро. Основа. Выполняемое. Сервис асинхронный с вводом и выводом.

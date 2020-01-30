@@ -1,11 +1,11 @@
 ﻿//Author Maxim Kuzmin//makc//
 
 using Microsoft.AspNetCore.Identity;
-using Makc2020.Data.Entity.Objects;
+using Vlad2020.Data.Entity.Objects;
 using System.Collections.Generic;
 using System.Security.Claims;
 
-namespace Makc2020.Host.Base.Parts.Auth.Jobs.UserEntity.Create
+namespace Vlad2020.Host.Base.Parts.Auth.Jobs.UserEntity.Create
 {
     /// <summary>
     /// Хост. Основа. Часть "Auth". Задания. Сущность пользователя. Создание. Ввод.

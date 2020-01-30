@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Host.Base.Parts.Ldap.Config;
+using Vlad2020.Host.Base.Parts.Ldap.Config;
 
-namespace Makc2020.Host.Base.Parts.Ldap
+namespace Vlad2020.Host.Base.Parts.Ldap
 {
     /// <summary>
     /// Хост. Основа. Часть "LDAP". Контекст.

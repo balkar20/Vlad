@@ -6,14 +6,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using NLog.Web;
-using Makc2020.Apps.IdentityServer.Web.Root;
+using Vlad2020.Apps.IdentityServer.Web.Root;
 using System;
 using System.IO;
 
-namespace Makc2020.Apps.IdentityServer.Web
+namespace Vlad2020.Apps.IdentityServer.Web
 {
     /// <summary>
-    /// Пуск.
+    /// пїЅпїЅпїЅ.
     /// </summary>
     public class Startup
     {
@@ -26,19 +26,19 @@ namespace Makc2020.Apps.IdentityServer.Web
         #region Public methods
 
         /// <summary>
-        /// Запустить.
+        /// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
         /// </summary>
-        /// <param name="args">Аргументы.</param>        
+        /// <param name="args">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</param>        
         public static void Run(string[] args)
         {
             Run<Startup>(args);
         }
 
         /// <summary>
-        /// Запустить.
+        /// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
         /// </summary>
-        /// <typeparam name="TStartup">Тип пуска.</typeparam>
-        /// <param name="args">Аргументы.</param>        
+        /// <typeparam name="TStartup">пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.</typeparam>
+        /// <param name="args">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</param>        
         public static void Run<TStartup>(string[] args) where TStartup : class
         {
             var basePath = System.AppContext.BaseDirectory;
@@ -89,20 +89,20 @@ namespace Makc2020.Apps.IdentityServer.Web
         }
 
         /// <summary>
-        /// Настроить сервисы.
+        /// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
         /// </summary>
-        /// <param name="services">Сервисы.</param>
+        /// <param name="services">пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</param>
         public void ConfigureServices(IServiceCollection services)
         {
             Server.ConfigureServices(services);
         }
 
         /// <summary>
-        /// Настроить.
+        /// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
         /// </summary>
-        /// <param name="app">Построитель приложения.</param>
-        /// <param name="env">Окружение.</param>
-        /// <param name="appLifetime">Жизненный цикл приложения.</param>
+        /// <param name="app">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</param>
+        /// <param name="env">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</param>
+        /// <param name="appLifetime">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</param>
         public void Configure(
             IApplicationBuilder app,
             IWebHostEnvironment env,

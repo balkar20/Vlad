@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace Makc2020.Core.Web.Mvc
+namespace Vlad2020.Core.Web.Mvc
 {
     /// <summary>
     /// Ядро. Веб. MVC. Модель.

@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Host.Base.Parts.Ldap.Resources.Errors;
-using Makc2020.Host.Base.Parts.Ldap.Resources.Successes;
+using Vlad2020.Host.Base.Parts.Ldap.Resources.Errors;
+using Vlad2020.Host.Base.Parts.Ldap.Resources.Successes;
 using Microsoft.Extensions.Localization;
 
-namespace Makc2020.Host.Base.Parts.Ldap
+namespace Vlad2020.Host.Base.Parts.Ldap
 {
     /// <summary>
     /// Хост. Основа. Часть "LDAP". Ресурсы.

@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Host.Web.Mvc.Parts.Auth
+namespace Vlad2020.Host.Web.Mvc.Parts.Auth
 {
     /// <summary>
     /// Хост. Веб. MVC. Часть "Auth". Настройки.

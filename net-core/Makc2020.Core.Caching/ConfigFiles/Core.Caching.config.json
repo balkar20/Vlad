@@ -6,7 +6,7 @@
   "Hosts": null,
   "IsCachingEnabled": true,
   "IsGlobalStorageEnabled": false,
-  "KeyPrefix": "Makc2020",
+  "KeyPrefix": "Vlad2020",
   "Password": null,
   "Port": 6379
 }

@@ -1,11 +1,11 @@
-# Библиотека классов Makc2020.Mods.Auth.Base
+# Библиотека классов Vlad2020.Mods.Auth.Base
 
 Библиотека классов, предназначенная для реализации основной функциональности мода "Auth" -
 аутентификации и авторизации.
 
 ## Настройка
 
-1. Открыть файл **Makc2020.Mods.Auth.Base/ConfigFiles/Mod.Auth.Base.config.json**.
+1. Открыть файл **Vlad2020.Mods.Auth.Base/ConfigFiles/Mod.Auth.Base.config.json**.
 
 2. В разделе **Type** указать тип аутентификации:
 **"Jwt"** или **"Oidc"**.
@@ -26,14 +26,14 @@
       "Type": "Oidc",
       "Types": {
         "Jwt": {
-          "Issuer": "Makc2020",
-          "Audience": "Makc2020WebApi",
+          "Issuer": "Vlad2020",
+          "Audience": "Vlad2020WebApi",
           "SecretKey": "mysupersecret_secretkey!123",
           "TimeToLiveInMinutesOfAccessToken": "5",
           "TimeToLiveInDaysOfRefreshToken": "7"
         },
         "Oidc": {
-          "Audience": "Makc2020WebApi",
+          "Audience": "Vlad2020WebApi",
           "Authority": "http://localhost:6002",
           "RequireHttpsMetadata": false
         }

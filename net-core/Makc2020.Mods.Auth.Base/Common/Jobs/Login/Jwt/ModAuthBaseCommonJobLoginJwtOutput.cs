@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Mod.Auth.Base.Common.Jobs.Login.Jwt
+namespace Vlad2020.Mod.Auth.Base.Common.Jobs.Login.Jwt
 {
     /// <summary>
     /// Мод "Auth". Основа. Общее. Задания. Вход в систему. JWT. Вывод.

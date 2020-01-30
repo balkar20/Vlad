@@ -1,14 +1,14 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Resources.Errors;
-using Makc2020.Core.Caching;
-using Makc2020.Core.Caching.Resources.Errors;
-using Makc2020.Data.Base;
-using Makc2020.Mods.DummyMain.Base;
-using Makc2020.Mods.DummyMain.Base.Resources.Errors;
-using Makc2020.Mods.DummyMain.Base.Resources.Successes;
+using Vlad2020.Core.Base.Resources.Errors;
+using Vlad2020.Core.Caching;
+using Vlad2020.Core.Caching.Resources.Errors;
+using Vlad2020.Data.Base;
+using Vlad2020.Mods.DummyMain.Base;
+using Vlad2020.Mods.DummyMain.Base.Resources.Errors;
+using Vlad2020.Mods.DummyMain.Base.Resources.Successes;
 
-namespace Makc2020.Mods.DummyMain.Caching
+namespace Vlad2020.Mods.DummyMain.Caching
 {
     /// <summary>
     /// Мод "DummyMain". Кэширование. Внешнее.

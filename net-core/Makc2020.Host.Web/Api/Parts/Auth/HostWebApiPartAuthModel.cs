@@ -1,15 +1,15 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Web;
-using Makc2020.Data.Entity.Objects;
-using Makc2020.Host.Base.Parts.Auth;
-using Makc2020.Host.Base.Parts.Auth.Jobs.CurrentUser.Get;
+using Vlad2020.Core.Web;
+using Vlad2020.Data.Entity.Objects;
+using Vlad2020.Host.Base.Parts.Auth;
+using Vlad2020.Host.Base.Parts.Auth.Jobs.CurrentUser.Get;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace Makc2020.Host.Web.Api.Parts.Auth
+namespace Vlad2020.Host.Web.Api.Parts.Auth
 {
     /// <summary>
     /// Хост. Beб. API. Часть "Auth". API. Модель.

@@ -1,22 +1,22 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Execution;
-using Makc2020.Core.Web;
-using Makc2020.Mods.DummyMain.Base.Common.Jobs.Option.List.Get;
-using Makc2020.Mods.DummyMain.Base.Jobs.Item.Get;
-using Makc2020.Mods.DummyMain.Base.Jobs.List.Get;
-using Makc2020.Mods.DummyMain.Caching.Jobs.Item.Delete;
-using Makc2020.Mods.DummyMain.Caching.Jobs.Item.Get;
-using Makc2020.Mods.DummyMain.Caching.Jobs.Item.Insert;
-using Makc2020.Mods.DummyMain.Caching.Jobs.Item.Update;
-using Makc2020.Mods.DummyMain.Caching.Jobs.List.Get;
-using Makc2020.Mods.DummyMain.Caching.Jobs.Options.DummyManyToMany.Get;
-using Makc2020.Mods.DummyMain.Caching.Jobs.Options.DummyOneToMany.Get;
+using Vlad2020.Core.Base.Execution;
+using Vlad2020.Core.Web;
+using Vlad2020.Mods.DummyMain.Base.Common.Jobs.Option.List.Get;
+using Vlad2020.Mods.DummyMain.Base.Jobs.Item.Get;
+using Vlad2020.Mods.DummyMain.Base.Jobs.List.Get;
+using Vlad2020.Mods.DummyMain.Caching.Jobs.Item.Delete;
+using Vlad2020.Mods.DummyMain.Caching.Jobs.Item.Get;
+using Vlad2020.Mods.DummyMain.Caching.Jobs.Item.Insert;
+using Vlad2020.Mods.DummyMain.Caching.Jobs.Item.Update;
+using Vlad2020.Mods.DummyMain.Caching.Jobs.List.Get;
+using Vlad2020.Mods.DummyMain.Caching.Jobs.Options.DummyManyToMany.Get;
+using Vlad2020.Mods.DummyMain.Caching.Jobs.Options.DummyOneToMany.Get;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.DummyMain.Web.Api
+namespace Vlad2020.Mods.DummyMain.Web.Api
 {
     /// <summary>
     /// Мод "DummyMain". Веб. API. Модель.

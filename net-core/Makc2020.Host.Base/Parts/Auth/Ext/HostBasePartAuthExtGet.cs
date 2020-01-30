@@ -5,7 +5,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Security.Principal;
 
-namespace Makc2020.Host.Base.Parts.Auth.Ext
+namespace Vlad2020.Host.Base.Parts.Auth.Ext
 {
     /// <summary>
     /// Хост. Основа. Часть "Auth". Расширение. Получить.

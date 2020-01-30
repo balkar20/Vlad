@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Auth.Types.Oidc;
+using Vlad2020.Core.Base.Auth.Types.Oidc;
 
-namespace Makc2020.Mods.Auth.Base.Config.Settings.Types
+namespace Vlad2020.Mods.Auth.Base.Config.Settings.Types
 {
     /// <summary>
     /// Мод "Auth". Основа. Конфигурация. Настройки. Типы. OIDC.

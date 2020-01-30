@@ -1,12 +1,12 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Mods.Automation.Base.Common;
-using Makc2020.Mods.Automation.Base.Common.Code.Generate;
+using Vlad2020.Mods.Automation.Base.Common;
+using Vlad2020.Mods.Automation.Base.Common.Code.Generate;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.Automation.Base.Parts.Angular
+namespace Vlad2020.Mods.Automation.Base.Parts.Angular
 {
     /// <summary>
     /// Мод "Automation". Основа. Часть "Angular". Сервис.

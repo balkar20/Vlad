@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Apps.Api.Web.App;
+using Vlad2020.Apps.Api.Web.App;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
@@ -10,7 +10,7 @@ using NLog.Web;
 using System;
 using System.IO;
 
-namespace Makc2020.Apps.Api.Web
+namespace Vlad2020.Apps.Api.Web
 {
     /// <summary>
     /// Пуск.

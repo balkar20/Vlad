@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Mods.Automation.Base.Parts.NetCore.Config;
+using Vlad2020.Mods.Automation.Base.Parts.NetCore.Config;
 
-namespace Makc2020.Mods.Automation.Base.Parts.NetCore
+namespace Vlad2020.Mods.Automation.Base.Parts.NetCore
 {
     /// <summary>
     /// Мод "Automation". Основа. Часть "NetCore". Контекст.

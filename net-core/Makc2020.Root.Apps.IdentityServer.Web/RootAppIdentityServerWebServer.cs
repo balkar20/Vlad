@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Root.Web;
+using Vlad2020.Root.Web;
 
-namespace Makc2020.Root.Apps.IdentityServer.Web
+namespace Vlad2020.Root.Apps.IdentityServer.Web
 {
     /// <summary>
     /// Корень. Приложение "IdentityServer". Веб. Сервер.

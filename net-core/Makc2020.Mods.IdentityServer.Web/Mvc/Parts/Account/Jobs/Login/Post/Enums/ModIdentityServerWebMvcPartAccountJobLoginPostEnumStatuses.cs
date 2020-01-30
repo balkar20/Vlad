@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Login.Post.Enums
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Login.Post.Enums
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "Account". Задания. Вход в систему. Отправка. Перечисления. Статусы.

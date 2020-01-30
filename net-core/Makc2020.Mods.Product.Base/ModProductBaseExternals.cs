@@ -1,14 +1,14 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Data;
-using Makc2020.Core.Base.Resources.Errors;
-using Makc2020.Data.Base;
-using Makc2020.Data.Entity.Db;
-using Makc2020.Mods.Product.Base.Resources.Errors;
-using Makc2020.Mods.Product.Base.Resources.Successes;
+using Vlad2020.Core.Base.Data;
+using Vlad2020.Core.Base.Resources.Errors;
+using Vlad2020.Data.Base;
+using Vlad2020.Data.Entity.Db;
+using Vlad2020.Mods.Product.Base.Resources.Errors;
+using Vlad2020.Mods.Product.Base.Resources.Successes;
 using Microsoft.Extensions.Localization;
 
-namespace Makc2020.Mods.Product.Base
+namespace Vlad2020.Mods.Product.Base
 {
     /// <summary>
     /// Мод "Product". Основа. Внешнее.

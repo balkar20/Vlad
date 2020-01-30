@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Core.Base.Common.Jobs.Option.List.Get
+namespace Vlad2020.Core.Base.Common.Jobs.Option.List.Get
 {
     /// <summary>
     /// Ядро. Основа. Общее. Задания. Варианты выбора. Список. Получить. Вывод.

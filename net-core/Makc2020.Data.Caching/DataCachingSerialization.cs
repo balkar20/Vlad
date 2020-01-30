@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Caching.ProtoBufs;
-using Makc2020.Data.Base.Objects;
+using Vlad2020.Core.Caching.ProtoBufs;
+using Vlad2020.Data.Base.Objects;
 
-namespace Makc2020.Data.Caching
+namespace Vlad2020.Data.Caching
 {
     /// <summary>
     /// Данные. Кэширование. Сериализация.

@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Core.Base.Auth.Types.Oidc
+namespace Vlad2020.Core.Base.Auth.Types.Oidc
 {
     /// <summary>
     /// Ядро. Основа. Аутентификация. Типы. OIDC. Настройки. Интерфейс.

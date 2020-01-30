@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Ext;
-using Makc2020.Core.Base.Common.Jobs.List.Get;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Core.Base.Common.Jobs.List.Get;
 using System.Linq;
 
-namespace Makc2020.Mods.Product.Base.Jobs.List.Get
+namespace Vlad2020.Mods.Product.Base.Jobs.List.Get
 {
     /// <summary>
     /// Мод "Product". Задания. Список. Получение. Ввод.

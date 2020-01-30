@@ -2,7 +2,7 @@
 
 using Microsoft.Extensions.Localization;
 
-namespace Makc2020.Mods.IdentityServer.Base.Resources.Successes
+namespace Vlad2020.Mods.IdentityServer.Base.Resources.Successes
 {
     /// <summary>
     /// Мод "IdentityServer". Основа. Ресурсы. Успехи.

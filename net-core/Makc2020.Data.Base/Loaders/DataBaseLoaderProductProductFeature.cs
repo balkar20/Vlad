@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Data;
-using Makc2020.Data.Base.Objects;
+using Vlad2020.Core.Base.Data;
+using Vlad2020.Data.Base.Objects;
 using System.Collections.Generic;
 
-namespace Makc2020.Data.Base.Loaders
+namespace Vlad2020.Data.Base.Loaders
 {
     /// <summary>
     /// Данные. Основа. Загрузчики. Сущность "DummyMainProductFeature".

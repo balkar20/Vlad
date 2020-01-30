@@ -2,9 +2,9 @@
 
 using System;
 using ProtoBuf;
-using Makc2020.Core.Base.Ext;
+using Vlad2020.Core.Base.Ext;
 
-namespace Makc2020.Core.Caching.ProtoBufs
+namespace Vlad2020.Core.Caching.ProtoBufs
 {
     /// <summary>
     /// Ядро. Кэширование. Суррогаты "ProtoBuf". DateTimeOffset.

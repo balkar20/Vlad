@@ -2,7 +2,7 @@
 
 using System;
 
-namespace Makc2020.Mods.IdentityServer.Base.Exceptions
+namespace Vlad2020.Mods.IdentityServer.Base.Exceptions
 {
     /// <summary>
     /// Мод "IdentityServer". Основа. Исключения. Внешняя аутентификация.

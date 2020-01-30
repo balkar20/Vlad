@@ -3,7 +3,7 @@
 using System.Collections.Generic;
 using System.Data;
 
-namespace Makc2020.Data.Db.Ext
+namespace Vlad2020.Data.Db.Ext
 {
     /// <summary>
     /// Данные. База данных. Расширение. Преобразовать.

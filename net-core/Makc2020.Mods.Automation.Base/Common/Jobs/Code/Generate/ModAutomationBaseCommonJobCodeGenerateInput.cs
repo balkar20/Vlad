@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Makc2020.Mods.Automation.Base.Common.Code.Generate
+namespace Vlad2020.Mods.Automation.Base.Common.Code.Generate
 {
     /// <summary>
     /// Мод "Automation". Основа. Общее. Задания. Код. Генерация. Ввод.

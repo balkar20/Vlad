@@ -2,7 +2,7 @@
 
 using Microsoft.AspNetCore.Routing;
 
-namespace Makc2020.Core.Web.Ext
+namespace Vlad2020.Core.Web.Ext
 {
     /// <summary>
     /// Ядро. Веб. Расширение. Данные маршрута.

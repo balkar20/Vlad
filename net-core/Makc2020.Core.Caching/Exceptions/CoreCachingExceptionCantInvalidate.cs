@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Caching.Resources.Errors;
+using Vlad2020.Core.Caching.Resources.Errors;
 using System;
 
-namespace Makc2020.Core.Caching.Exceptions
+namespace Vlad2020.Core.Caching.Exceptions
 {
     /// <summary>
     /// Ядро. Кэширование. Исключения. Исключение, возникающее при невозможности 

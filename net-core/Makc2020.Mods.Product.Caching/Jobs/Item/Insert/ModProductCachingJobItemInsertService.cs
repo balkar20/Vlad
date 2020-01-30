@@ -1,19 +1,19 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Resources.Errors;
-using Makc2020.Core.Caching;
-using Makc2020.Core.Caching.Common.Client.Config;
-using Makc2020.Core.Caching.Clients;
-using Makc2020.Core.Caching.Resources.Errors;
-using Makc2020.Data.Base;
-using Makc2020.Mods.Product.Base.Jobs.Item.Get;
-using Makc2020.Mods.Product.Base.Jobs.Item.Insert;
-using Makc2020.Mods.Product.Base.Resources.Errors;
-using Makc2020.Mods.Product.Base.Resources.Successes;
+using Vlad2020.Core.Base.Resources.Errors;
+using Vlad2020.Core.Caching;
+using Vlad2020.Core.Caching.Common.Client.Config;
+using Vlad2020.Core.Caching.Clients;
+using Vlad2020.Core.Caching.Resources.Errors;
+using Vlad2020.Data.Base;
+using Vlad2020.Mods.Product.Base.Jobs.Item.Get;
+using Vlad2020.Mods.Product.Base.Jobs.Item.Insert;
+using Vlad2020.Mods.Product.Base.Resources.Errors;
+using Vlad2020.Mods.Product.Base.Resources.Successes;
 using System;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.Product.Caching.Jobs.Item.Insert
+namespace Vlad2020.Mods.Product.Caching.Jobs.Item.Insert
 {
     /// <summary>
     /// Мод "Product". Кэширование. Задания. Элемент. Вставка. Сервис.

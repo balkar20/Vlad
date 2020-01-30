@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Core.Base.Common.Enums
+namespace Vlad2020.Core.Base.Common.Enums
 {
     /// <summary>
     /// Ядро. Основа. Общее. Перечисления. Оси.

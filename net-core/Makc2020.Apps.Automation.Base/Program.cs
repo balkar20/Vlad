@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Apps.Automation.Base
+namespace Vlad2020.Apps.Automation.Base
 {
     /// <summary>
     /// Программа.

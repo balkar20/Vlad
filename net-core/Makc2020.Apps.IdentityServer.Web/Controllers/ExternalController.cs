@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External;
 
-namespace Makc2020.Apps.IdentityServer.Web.Controllers
+namespace Vlad2020.Apps.IdentityServer.Web.Controllers
 {
     public class ExternalController : ModIdentityServerWebMvcPartExternalController
     {

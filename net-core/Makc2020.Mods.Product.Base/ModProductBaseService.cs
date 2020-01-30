@@ -1,24 +1,24 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Common.Ext;
-using Makc2020.Core.Base.Data;
-using Makc2020.Core.Base.Ext;
-using Makc2020.Data.Base.Loaders;
-using Makc2020.Data.Base.Objects;
-using Makc2020.Data.Entity.Db;
-using Makc2020.Data.Entity.Objects;
-using Makc2020.Mods.Product.Base.Common.Jobs.Option.Item.Get;
-using Makc2020.Mods.Product.Base.Common.Jobs.Option.List.Get;
-using Makc2020.Mods.Product.Base.Config;
-using Makc2020.Mods.Product.Base.Ext;
-using Makc2020.Mods.Product.Base.Jobs.Item.Get;
-using Makc2020.Mods.Product.Base.Jobs.List.Get;
+using Vlad2020.Core.Base.Common.Ext;
+using Vlad2020.Core.Base.Data;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Data.Base.Loaders;
+using Vlad2020.Data.Base.Objects;
+using Vlad2020.Data.Entity.Db;
+using Vlad2020.Data.Entity.Objects;
+using Vlad2020.Mods.Product.Base.Common.Jobs.Option.Item.Get;
+using Vlad2020.Mods.Product.Base.Common.Jobs.Option.List.Get;
+using Vlad2020.Mods.Product.Base.Config;
+using Vlad2020.Mods.Product.Base.Ext;
+using Vlad2020.Mods.Product.Base.Jobs.Item.Get;
+using Vlad2020.Mods.Product.Base.Jobs.List.Get;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.Product.Base
+namespace Vlad2020.Mods.Product.Base
 {
     /// <summary>
     /// Мод "Product". Основа. Сервис.

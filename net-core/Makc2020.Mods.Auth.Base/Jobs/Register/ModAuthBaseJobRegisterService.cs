@@ -1,17 +1,17 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Executable.Services.Async;
-using Makc2020.Core.Base.Execution.Exceptions;
-using Makc2020.Core.Base.Resources.Errors;
-using Makc2020.Host.Base.Parts.Auth;
-using Makc2020.Mods.Auth.Base.Resources.Errors;
-using Makc2020.Mods.Auth.Base.Resources.Successes;
+using Vlad2020.Core.Base.Executable.Services.Async;
+using Vlad2020.Core.Base.Execution.Exceptions;
+using Vlad2020.Core.Base.Resources.Errors;
+using Vlad2020.Host.Base.Parts.Auth;
+using Vlad2020.Mods.Auth.Base.Resources.Errors;
+using Vlad2020.Mods.Auth.Base.Resources.Successes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.Auth.Base.Jobs.Register
+namespace Vlad2020.Mods.Auth.Base.Jobs.Register
 {
     /// <summary>
     /// Мод "Auth". Основа. Задания. Регистрация. Сервис.

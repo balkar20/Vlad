@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Core.Base.Common.Config
+namespace Vlad2020.Core.Base.Common.Config
 {
     /// <summary>
     /// Ядро. Основа. Общее. Конфигурация. Поставщик.

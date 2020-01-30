@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Data.Base.Settings;
+using Vlad2020.Data.Base.Settings;
 using System;
 
-namespace Makc2020.Data.Base
+namespace Vlad2020.Data.Base
 {
     /// <summary>
     /// Данные. Основа. Настройки.

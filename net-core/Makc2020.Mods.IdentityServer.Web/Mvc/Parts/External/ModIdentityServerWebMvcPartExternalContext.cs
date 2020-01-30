@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Config;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Config;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "External". Контекст.

@@ -2,7 +2,7 @@
 
 using Microsoft.Extensions.Localization;
 
-namespace Makc2020.Mods.Product.Base.Resources.Successes
+namespace Vlad2020.Mods.Product.Base.Resources.Successes
 {
     /// <summary>
     /// Мод "Product". Основа. Ресурсы. Успехи.

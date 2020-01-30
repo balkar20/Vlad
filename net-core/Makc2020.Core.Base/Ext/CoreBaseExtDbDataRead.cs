@@ -4,7 +4,7 @@ using System;
 using System.Data.Common;
 using System.Threading.Tasks;
 
-namespace Makc2020.Core.Base.Ext
+namespace Vlad2020.Core.Base.Ext
 {
     /// <summary>
     /// Ядро. Основа. Расширение. Данные из базы. Прочитать.

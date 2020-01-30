@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Common;
+using Vlad2020.Core.Base.Common;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Makc2020.Host.Web.Api.Parts.Auth
+namespace Vlad2020.Host.Web.Api.Parts.Auth
 {
     /// <summary>
     /// Хост. Beб. API. Часть "Auth". API. Модуль.

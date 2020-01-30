@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Data.Base.Loaders;
-using Makc2020.Data.Base.Objects;
+using Vlad2020.Data.Base.Loaders;
+using Vlad2020.Data.Base.Objects;
 using System.Collections.Generic;
 
-namespace Makc2020.Data.Entity.Objects
+namespace Vlad2020.Data.Entity.Objects
 {
     /// <summary>
     /// Данные. Entity Framework. Объекты. Сущность "DummyTree".

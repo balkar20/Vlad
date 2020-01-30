@@ -1,13 +1,13 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base;
-using Makc2020.Core.Base.Common;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External;
+using Vlad2020.Core.Base;
+using Vlad2020.Core.Base.Common;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Модуль.

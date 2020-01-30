@@ -1,13 +1,13 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Ext;
-using Makc2020.Data.Entity.Objects;
-using Makc2020.Host.Base.Common.Identity;
-using Makc2020.Host.Base.Parts.Auth.Config;
-using Makc2020.Host.Base.Parts.Auth.Ext;
-using Makc2020.Host.Base.Parts.Auth.Jobs.CurrentUser.Get;
-using Makc2020.Host.Base.Parts.Auth.Jobs.Seed;
-using Makc2020.Host.Base.Parts.Auth.Jobs.UserEntity.Create;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Data.Entity.Objects;
+using Vlad2020.Host.Base.Common.Identity;
+using Vlad2020.Host.Base.Parts.Auth.Config;
+using Vlad2020.Host.Base.Parts.Auth.Ext;
+using Vlad2020.Host.Base.Parts.Auth.Jobs.CurrentUser.Get;
+using Vlad2020.Host.Base.Parts.Auth.Jobs.Seed;
+using Vlad2020.Host.Base.Parts.Auth.Jobs.UserEntity.Create;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -15,7 +15,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace Makc2020.Host.Base.Parts.Auth
+namespace Vlad2020.Host.Base.Parts.Auth
 {
     /// <summary>
     /// Хост. Основа. Часть "Auth". Сервис.

@@ -1,12 +1,12 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Data.Base;
-using Makc2020.Data.Entity.Objects;
-using Makc2020.Data.Entity.Schema;
+using Vlad2020.Data.Base;
+using Vlad2020.Data.Entity.Objects;
+using Vlad2020.Data.Entity.Schema;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Makc2020.Data.Entity.Db
+namespace Vlad2020.Data.Entity.Db
 {
     /// <summary>
     /// Данные. Entity Framework. База данных. Контекст.

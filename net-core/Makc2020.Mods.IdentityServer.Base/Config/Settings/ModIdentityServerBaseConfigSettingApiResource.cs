@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Mods.IdentityServer.Base.Config.Settings
+namespace Vlad2020.Mods.IdentityServer.Base.Config.Settings
 {
     /// <summary>
     /// Мод "IdentityServer". Основа. Конфигурация. Настройки. Ресурс API.

@@ -1,12 +1,12 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Ext;
-using Makc2020.Host.Base.Parts.Auth.Jobs.CurrentUser.Get;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Host.Base.Parts.Auth.Jobs.CurrentUser.Get;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 
-namespace Makc2020.Host.Web.Api.Parts.Auth
+namespace Vlad2020.Host.Web.Api.Parts.Auth
 {
     /// <summary>
     /// Хост. Beб. API. Часть "Auth". API. Контроллер.

@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Data.Base.Objects;
+using Vlad2020.Data.Base.Objects;
 
-namespace Makc2020.Mods.Product.Base.Jobs.Item.Get
+namespace Vlad2020.Mods.Product.Base.Jobs.Item.Get
 {
     /// <summary>
     /// Мод "Product". Основа. Задания. Элемент. Получение. Вывод.

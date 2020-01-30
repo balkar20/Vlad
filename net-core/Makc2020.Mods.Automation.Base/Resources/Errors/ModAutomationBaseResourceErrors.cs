@@ -2,7 +2,7 @@
 
 using Microsoft.Extensions.Localization;
 
-namespace Makc2020.Mods.Automation.Base.Resources.Errors
+namespace Vlad2020.Mods.Automation.Base.Resources.Errors
 {
     /// <summary>
     /// Мод "Automation". Основа. Ресурсы. Ошибки.

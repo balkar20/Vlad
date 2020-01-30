@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Mods.Automation.Base.Parts.Angular.Config;
+using Vlad2020.Mods.Automation.Base.Parts.Angular.Config;
 
-namespace Makc2020.Mods.Automation.Base.Parts.Angular
+namespace Vlad2020.Mods.Automation.Base.Parts.Angular
 {
     /// <summary>
     /// Мод "Automation". Основа. Часть "Angular". Контекст.

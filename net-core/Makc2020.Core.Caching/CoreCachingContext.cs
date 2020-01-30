@@ -4,7 +4,7 @@ using Microsoft.Extensions.Caching.Memory;
 using System.Linq;
 using System.Text;
 
-namespace Makc2020.Core.Caching
+namespace Vlad2020.Core.Caching
 {
     /// <summary>
     /// Ядро. Кэширование. Контекст.

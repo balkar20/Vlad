@@ -2,9 +2,9 @@
 
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
-using Makc2020.Root.Apps.IdentityServer.Web;
+using Vlad2020.Root.Apps.IdentityServer.Web;
 
-namespace Makc2020.Apps.IdentityServer.Web.Root
+namespace Vlad2020.Apps.IdentityServer.Web.Root
 {
     /// <summary>
     /// Приложение. Конфигуратор.

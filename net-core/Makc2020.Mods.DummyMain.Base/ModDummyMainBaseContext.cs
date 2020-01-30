@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Mods.DummyMain.Base
+namespace Vlad2020.Mods.DummyMain.Base
 {
     /// <summary>
     /// Мод "DummyMain". Основа. Контекст.

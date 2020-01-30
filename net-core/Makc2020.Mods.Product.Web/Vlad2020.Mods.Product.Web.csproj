@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Vlad2020.Mods.Product.Web</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vlad2020.Core.Web\Vlad2020.Core.Web.csproj" />
+    <ProjectReference Include="..\Vlad2020.Mods.Product.Base\Vlad2020.Mods.Product.Base.csproj" />
+    <ProjectReference Include="..\Vlad2020.Mods.Product.Caching\Vlad2020.Mods.Product.Caching.csproj" />
+  </ItemGroup>
+
+</Project>

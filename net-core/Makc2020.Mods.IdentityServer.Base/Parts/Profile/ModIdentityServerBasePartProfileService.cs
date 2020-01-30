@@ -3,15 +3,15 @@
 using IdentityServer4;
 using IdentityServer4.Models;
 using IdentityServer4.Services;
-using Makc2020.Core.Base.Ext;
-using Makc2020.Data.Entity.Objects;
-using Makc2020.Host.Base.Parts.Auth;
-using Makc2020.Host.Base.Parts.Auth.Ext;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Data.Entity.Objects;
+using Vlad2020.Host.Base.Parts.Auth;
+using Vlad2020.Host.Base.Parts.Auth.Ext;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.IdentityServer.Base.Parts.Profile
+namespace Vlad2020.Mods.IdentityServer.Base.Parts.Profile
 {
     /// <summary>
     /// Мод "IdentityServer". Основа. Части. Профиль. Сервис.

@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Auth.Types.Jwt;
+using Vlad2020.Core.Base.Auth.Types.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-namespace Makc2020.Mods.Auth.Base.Config.Settings.Types
+namespace Vlad2020.Mods.Auth.Base.Config.Settings.Types
 {
     /// <summary>
     /// Мод "Auth". Основа. Конфигурация. Настройки. Типы. JWT.

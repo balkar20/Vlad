@@ -1,11 +1,11 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Data.Entity.Objects;
-using Makc2020.Mods.DummyMain.Base.Jobs.Item.Get;
-using Makc2020.Mods.DummyMain.Base.Jobs.List.Get;
+using Vlad2020.Data.Entity.Objects;
+using Vlad2020.Mods.DummyMain.Base.Jobs.Item.Get;
+using Vlad2020.Mods.DummyMain.Base.Jobs.List.Get;
 using System.Linq;
 
-namespace Makc2020.Mods.DummyMain.Base.Ext
+namespace Vlad2020.Mods.DummyMain.Base.Ext
 {
     /// <summary>
     /// Мод "DummyMain". Основа. Расширение. Применить.

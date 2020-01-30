@@ -1,13 +1,13 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Resources.Errors;
-using Makc2020.Mods.Auth.Base.Jobs.Login.Jwt;
-using Makc2020.Mods.Auth.Base.Jobs.Refresh.Jwt;
-using Makc2020.Mods.Auth.Base.Jobs.Register;
-using Makc2020.Mods.Auth.Base.Resources.Errors;
-using Makc2020.Mods.Auth.Base.Resources.Successes;
+using Vlad2020.Core.Base.Resources.Errors;
+using Vlad2020.Mods.Auth.Base.Jobs.Login.Jwt;
+using Vlad2020.Mods.Auth.Base.Jobs.Refresh.Jwt;
+using Vlad2020.Mods.Auth.Base.Jobs.Register;
+using Vlad2020.Mods.Auth.Base.Resources.Errors;
+using Vlad2020.Mods.Auth.Base.Resources.Successes;
 
-namespace Makc2020.Mods.Auth.Base
+namespace Vlad2020.Mods.Auth.Base
 {
     /// <summary>
     /// Мод "Auth". Основа. Задания.

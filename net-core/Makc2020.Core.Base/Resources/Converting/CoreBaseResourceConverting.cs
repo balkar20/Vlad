@@ -2,7 +2,7 @@
 
 using Microsoft.Extensions.Localization;
 
-namespace Makc2020.Core.Base.Resources.Converting
+namespace Vlad2020.Core.Base.Resources.Converting
 {
     /// <summary>
     /// Ядро. Основа. Ресурсы. Преобразование.

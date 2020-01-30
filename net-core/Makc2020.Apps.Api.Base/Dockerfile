@@ -5,26 +5,26 @@ WORKDIR /app
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["Makc2020.Apps.Api.Base/Makc2020.Apps.Api.Base.csproj", "Makc2020.Apps.Api.Base/"]
-COPY ["Makc2020.Root.Apps.Api.Base/Makc2020.Root.Apps.Api.Base.csproj", "Makc2020.Root.Apps.Api.Base/"]
-COPY ["Makc2020.Mods.DummyMain.Base/Makc2020.Mods.DummyMain.Base.csproj", "Makc2020.Mods.DummyMain.Base/"]
-COPY ["Makc2020.Data.Entity/Makc2020.Data.Entity.csproj", "Makc2020.Data.Entity/"]
-COPY ["Makc2020.Data.Base/Makc2020.Data.Base.csproj", "Makc2020.Data.Base/"]
-COPY ["Makc2020.Core.Base/Makc2020.Core.Base.csproj", "Makc2020.Core.Base/"]
-COPY ["Makc2020.Mods.Auth.Base/Makc2020.Mods.Auth.Base.csproj", "Makc2020.Mods.Auth.Base/"]
-COPY ["Makc2020.Host.Base/Makc2020.Host.Base.csproj", "Makc2020.Host.Base/"]
-COPY ["Makc2020.Root.Base/Makc2020.Root.Base.csproj", "Makc2020.Root.Base/"]
-COPY ["Makc2020.Core.Data.SqlServer/Makc2020.Core.Data.SqlServer.csproj", "Makc2020.Core.Data.SqlServer/"]
-COPY ["Makc2020.Data.Entity.SqlServer/Makc2020.Data.Entity.SqlServer.csproj", "Makc2020.Data.Entity.SqlServer/"]
-RUN dotnet restore "Makc2020.Apps.Api.Base/Makc2020.Apps.Api.Base.csproj"
+COPY ["Vlad2020.Apps.Api.Base/Vlad2020.Apps.Api.Base.csproj", "Vlad2020.Apps.Api.Base/"]
+COPY ["Vlad2020.Root.Apps.Api.Base/Vlad2020.Root.Apps.Api.Base.csproj", "Vlad2020.Root.Apps.Api.Base/"]
+COPY ["Vlad2020.Mods.DummyMain.Base/Vlad2020.Mods.DummyMain.Base.csproj", "Vlad2020.Mods.DummyMain.Base/"]
+COPY ["Vlad2020.Data.Entity/Vlad2020.Data.Entity.csproj", "Vlad2020.Data.Entity/"]
+COPY ["Vlad2020.Data.Base/Vlad2020.Data.Base.csproj", "Vlad2020.Data.Base/"]
+COPY ["Vlad2020.Core.Base/Vlad2020.Core.Base.csproj", "Vlad2020.Core.Base/"]
+COPY ["Vlad2020.Mods.Auth.Base/Vlad2020.Mods.Auth.Base.csproj", "Vlad2020.Mods.Auth.Base/"]
+COPY ["Vlad2020.Host.Base/Vlad2020.Host.Base.csproj", "Vlad2020.Host.Base/"]
+COPY ["Vlad2020.Root.Base/Vlad2020.Root.Base.csproj", "Vlad2020.Root.Base/"]
+COPY ["Vlad2020.Core.Data.SqlServer/Vlad2020.Core.Data.SqlServer.csproj", "Vlad2020.Core.Data.SqlServer/"]
+COPY ["Vlad2020.Data.Entity.SqlServer/Vlad2020.Data.Entity.SqlServer.csproj", "Vlad2020.Data.Entity.SqlServer/"]
+RUN dotnet restore "Vlad2020.Apps.Api.Base/Vlad2020.Apps.Api.Base.csproj"
 COPY . .
-WORKDIR "/src/Makc2020.Apps.Api.Base"
-RUN dotnet build "Makc2020.Apps.Api.Base.csproj" -c Release -o /app/build
+WORKDIR "/src/Vlad2020.Apps.Api.Base"
+RUN dotnet build "Vlad2020.Apps.Api.Base.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Makc2020.Apps.Api.Base.csproj" -c Release -o /app/publish
+RUN dotnet publish "Vlad2020.Apps.Api.Base.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Makc2020.Apps.Api.Base.dll"]
+ENTRYPOINT ["dotnet", "Vlad2020.Apps.Api.Base.dll"]

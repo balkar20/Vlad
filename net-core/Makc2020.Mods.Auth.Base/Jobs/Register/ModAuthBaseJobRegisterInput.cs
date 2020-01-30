@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Data.Entity.Objects;
+using Vlad2020.Data.Entity.Objects;
 using Microsoft.AspNetCore.Identity;
 using System.Collections.Generic;
 
-namespace Makc2020.Mods.Auth.Base.Jobs.Register
+namespace Vlad2020.Mods.Auth.Base.Jobs.Register
 {
     /// <summary>
     /// Мод "Auth". Основа. Задания. Регистрация. Ввод.

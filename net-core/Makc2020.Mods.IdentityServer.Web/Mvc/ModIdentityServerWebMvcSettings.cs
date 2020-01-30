@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Настройки.

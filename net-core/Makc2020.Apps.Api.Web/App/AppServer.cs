@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Common;
-using Makc2020.Core.Base.Ext;
-using Makc2020.Root.Apps.Api.Web;
+using Vlad2020.Core.Base.Common;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Root.Apps.Api.Web;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.IO;
 
-namespace Makc2020.Apps.Api.Web.App
+namespace Vlad2020.Apps.Api.Web.App
 {
     /// <summary>
     /// Приложение. Сервер.

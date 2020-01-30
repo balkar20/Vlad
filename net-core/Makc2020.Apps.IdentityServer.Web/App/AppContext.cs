@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
 using Microsoft.Extensions.Logging;
-using Makc2020.Root.Apps.IdentityServer.Web;
+using Vlad2020.Root.Apps.IdentityServer.Web;
 
-namespace Makc2020.Apps.IdentityServer.Web.Root
+namespace Vlad2020.Apps.IdentityServer.Web.Root
 {
     /// <summary>
     /// Приложение. Контекст.

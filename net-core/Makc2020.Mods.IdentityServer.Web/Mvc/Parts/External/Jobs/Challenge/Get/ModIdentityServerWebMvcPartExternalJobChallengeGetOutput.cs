@@ -2,7 +2,7 @@
 
 using Microsoft.AspNetCore.Authentication;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "External". Задания. Вызов. Получение. Вывод.

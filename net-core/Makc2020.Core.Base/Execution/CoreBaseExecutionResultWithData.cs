@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Core.Base.Execution
+namespace Vlad2020.Core.Base.Execution
 {
     /// <summary>
     /// Ядро. Основа. Выполнение. Результат с данными.

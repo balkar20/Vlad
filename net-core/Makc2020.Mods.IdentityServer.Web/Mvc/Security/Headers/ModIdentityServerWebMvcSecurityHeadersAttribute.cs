@@ -3,7 +3,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Security.Headers
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Security.Headers
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Безопасность. Заголовки. Атрибут.

@@ -1,26 +1,26 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base;
-using Makc2020.Core.Base.Common;
-using Makc2020.Core.Base.Resources.Converting;
-using Makc2020.Core.Base.Resources.Errors;
-using Makc2020.Core.Data.SqlServer;
-using Makc2020.Data.Base;
-using Makc2020.Data.Entity;
-using Makc2020.Data.Entity.SqlServer;
-using Makc2020.Host.Base;
-using Makc2020.Host.Base.Parts.Auth.Resources.Errors;
-using Makc2020.Host.Base.Parts.Auth.Resources.Successes;
-using Makc2020.Host.Base.Parts.Ldap;
-using Makc2020.Host.Base.Parts.Ldap.Resources.Errors;
-using Makc2020.Host.Base.Parts.Ldap.Resources.Successes;
+using Vlad2020.Core.Base;
+using Vlad2020.Core.Base.Common;
+using Vlad2020.Core.Base.Resources.Converting;
+using Vlad2020.Core.Base.Resources.Errors;
+using Vlad2020.Core.Data.SqlServer;
+using Vlad2020.Data.Base;
+using Vlad2020.Data.Entity;
+using Vlad2020.Data.Entity.SqlServer;
+using Vlad2020.Host.Base;
+using Vlad2020.Host.Base.Parts.Auth.Resources.Errors;
+using Vlad2020.Host.Base.Parts.Auth.Resources.Successes;
+using Vlad2020.Host.Base.Parts.Ldap;
+using Vlad2020.Host.Base.Parts.Ldap.Resources.Errors;
+using Vlad2020.Host.Base.Parts.Ldap.Resources.Successes;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Localization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Makc2020.Root.Base
+namespace Vlad2020.Root.Base
 {
     /// <summary>
     /// Корень. Основа. Модули.

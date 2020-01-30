@@ -2,7 +2,7 @@
 
 using System;
 
-namespace Makc2020.Data.Base.Objects
+namespace Vlad2020.Data.Base.Objects
 {
     /// <summary>
     /// Данные. Основа. Объекты. Сущность "Product".

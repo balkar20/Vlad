@@ -2,7 +2,7 @@
 
 using Microsoft.Extensions.Localization;
 
-namespace Makc2020.Mods.IdentityServer.Base.Resources.Titles
+namespace Vlad2020.Mods.IdentityServer.Base.Resources.Titles
 {
     /// <summary>
     /// Мод "IdentityServer". Основа. Ресурсы. Заголовки.

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Configurations>Debug;Release;Test</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vlad2020.Data.Caching\Vlad2020.Data.Caching.csproj" />
+    <ProjectReference Include="..\Vlad2020.Mods.Auth.Web\Vlad2020.Mods.Auth.Web.csproj" />
+    <ProjectReference Include="..\Vlad2020.Mods.DummyMain.Web\Vlad2020.Mods.DummyMain.Web.csproj" />
+    <ProjectReference Include="..\Vlad2020.Root.Apps.Api.Base\Vlad2020.Root.Apps.Api.Base.csproj" />
+    <ProjectReference Include="..\Vlad2020.Root.Web\Vlad2020.Root.Web.csproj" />
+  </ItemGroup>
+
+</Project>

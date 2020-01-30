@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Common.Jobs.Item.Get.Item;
+using Vlad2020.Core.Base.Common.Jobs.Item.Get.Item;
 
-namespace Makc2020.Core.Base.Common.Jobs.Tree.Item.Get
+namespace Vlad2020.Core.Base.Common.Jobs.Tree.Item.Get
 {
     /// <summary>
     /// Ядро. Основа. Общее. Задания. Дерево. Элемент. Получить. Ввод.

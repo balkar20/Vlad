@@ -1,13 +1,13 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Ext;
-using Makc2020.Core.Base.Resources.Errors;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Core.Base.Resources.Errors;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Makc2020.Core.Base.Execution
+namespace Vlad2020.Core.Base.Execution
 {
     /// <summary>
     /// Ядро. Основа. Выполнение. Сервис.

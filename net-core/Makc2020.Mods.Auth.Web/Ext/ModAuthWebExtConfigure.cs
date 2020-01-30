@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Auth.Enums;
-using Makc2020.Core.Base.Auth.Types.Jwt;
-using Makc2020.Host.Base.Parts.Auth;
-using Makc2020.Host.Web.Mvc.Parts.Auth;
-using Makc2020.Mods.Auth.Base.Config;
+using Vlad2020.Core.Base.Auth.Enums;
+using Vlad2020.Core.Base.Auth.Types.Jwt;
+using Vlad2020.Host.Base.Parts.Auth;
+using Vlad2020.Host.Web.Mvc.Parts.Auth;
+using Vlad2020.Mods.Auth.Base.Config;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -17,7 +17,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Makc2020.Mods.Auth.Web.Ext
+namespace Vlad2020.Mods.Auth.Web.Ext
 {
     /// <summary>
     /// Мод "Auth". Веб. Расширение. Настроить.

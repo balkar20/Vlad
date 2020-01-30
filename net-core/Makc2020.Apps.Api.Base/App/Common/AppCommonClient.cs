@@ -3,7 +3,7 @@
 using Microsoft.Extensions.Logging;
 using System;
 
-namespace Makc2020.Apps.Api.Base.App.Common
+namespace Vlad2020.Apps.Api.Base.App.Common
 {
     /// <summary>
     /// Приложение. Общее. Клиент.

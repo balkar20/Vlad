@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Common;
+using Vlad2020.Core.Base.Common;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Makc2020.Mods.DummyMain.Web.Api
+namespace Vlad2020.Mods.DummyMain.Web.Api
 {
     /// <summary>
     /// Мод "DummyMain". Веб. API. Модуль.

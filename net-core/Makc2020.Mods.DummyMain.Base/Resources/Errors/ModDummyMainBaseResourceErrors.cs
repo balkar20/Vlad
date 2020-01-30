@@ -2,7 +2,7 @@
 
 using Microsoft.Extensions.Localization;
 
-namespace Makc2020.Mods.DummyMain.Base.Resources.Errors
+namespace Vlad2020.Mods.DummyMain.Base.Resources.Errors
 {
     /// <summary>
     /// Мод "DummyMain". Основа. Ресурсы. Ошибки.

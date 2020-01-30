@@ -1,13 +1,13 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Resources.Errors;
-using Makc2020.Mods.Automation.Base.Common.Code.Generate;
-using Makc2020.Mods.Automation.Base.Parts.Angular.Config;
-using Makc2020.Mods.Automation.Base.Resources.Successes;
+using Vlad2020.Core.Base.Resources.Errors;
+using Vlad2020.Mods.Automation.Base.Common.Code.Generate;
+using Vlad2020.Mods.Automation.Base.Parts.Angular.Config;
+using Vlad2020.Mods.Automation.Base.Resources.Successes;
 using System;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.Automation.Base.Parts.Angular.Jobs.Code.Generate
+namespace Vlad2020.Mods.Automation.Base.Parts.Angular.Jobs.Code.Generate
 {
     /// <summary>
     /// Мод "Automation". Основа. Часть "Angular". Задания. Код. Генерация. Сервис.

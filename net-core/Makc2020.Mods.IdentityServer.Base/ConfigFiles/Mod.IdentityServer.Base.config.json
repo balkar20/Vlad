@@ -1,8 +1,8 @@
 ﻿{
   "ApiResources": [
     {
-      "DisplayName": "Makc2020 web API",
-      "Name": "Makc2020WebApi"
+      "DisplayName": "Vlad2020 web API",
+      "Name": "Vlad2020WebApi"
     }
   ],
   "Clients": [
@@ -15,10 +15,10 @@
       "AllowedScopes": [
         "offline_access",
         "openid",
-        "Makc2020WebApi"
+        "Vlad2020WebApi"
       ],
-      "ClientId": "Makc2020WebClient",
-      "ClientName": "Makc2020 web client",
+      "ClientId": "Vlad2020WebClient",
+      "ClientName": "Vlad2020 web client",
       "ClientUri": "http://localhost:4201",
       "RequireClientSecret": false,
       "RequireConsent": false,

@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Mods.Automation.Base.Common.Config
+namespace Vlad2020.Mods.Automation.Base.Common.Config
 {
     /// <summary>
     /// Мод "Automation". Основа. Общее. Конфигурация. Настройки.

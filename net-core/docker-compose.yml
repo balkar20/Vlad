@@ -1,44 +1,44 @@
 ﻿version: "3.7"
 
 services:
-  makc2020.apps.api.base:
-    image: ${DOCKER_REGISTRY-}makc2020appsapibase:${TAG:-latest}
+  Vlad2020.apps.api.base:
+    image: ${DOCKER_REGISTRY-}Vlad2020appsapibase:${TAG:-latest}
     build:
       context: .
-      dockerfile: Makc2020.Apps.Api.Base/Dockerfile
+      dockerfile: Vlad2020.Apps.Api.Base/Dockerfile
     depends_on:
       - mssql
 
-  makc2020.apps.api.web:
-    image: ${DOCKER_REGISTRY-}makc2020appsapiweb:${TAG:-latest}
+  Vlad2020.apps.api.web:
+    image: ${DOCKER_REGISTRY-}Vlad2020appsapiweb:${TAG:-latest}
     build:
       context: .
-      dockerfile: Makc2020.Apps.Api.Web/Dockerfile
+      dockerfile: Vlad2020.Apps.Api.Web/Dockerfile
     depends_on:
       - mssql
 
-  makc2020.apps.automation.base:
-    image: ${DOCKER_REGISTRY-}makc2020appsautomationbase:${TAG:-latest}
+  Vlad2020.apps.automation.base:
+    image: ${DOCKER_REGISTRY-}Vlad2020appsautomationbase:${TAG:-latest}
     build:
       context: .
-      dockerfile: Makc2020.Apps.Automation.Base/Dockerfile
+      dockerfile: Vlad2020.Apps.Automation.Base/Dockerfile
 
-  makc2020.apps.identityserver.web:
-    image: ${DOCKER_REGISTRY-}makc2020appsidentityserverweb:${TAG:-latest}
+  Vlad2020.apps.identityserver.web:
+    image: ${DOCKER_REGISTRY-}Vlad2020appsidentityserverweb:${TAG:-latest}
     build:
       context: .
-      dockerfile: Makc2020.Apps.IdentityServer.Web/Dockerfile
+      dockerfile: Vlad2020.Apps.IdentityServer.Web/Dockerfile
     depends_on:
       - mssql
 
-  makc2020-angular-redux:
-    image: ${DOCKER_REGISTRY-}makc2020angularredux:${TAG:-latest}
-    container_name: makc2020-angular-redux
+  Vlad2020-angular-redux:
+    image: ${DOCKER_REGISTRY-}Vlad2020angularredux:${TAG:-latest}
+    container_name: Vlad2020-angular-redux
     build:
-      context: ../javascript/makc2020-angular-redux      
+      context: ../javascript/Vlad2020-angular-redux      
     depends_on:
-      - makc2020.apps.api.web
-      - makc2020.apps.identityserver.web
+      - Vlad2020.apps.api.web
+      - Vlad2020.apps.identityserver.web
 
   mssql:
     image: mcr.microsoft.com/mssql/server

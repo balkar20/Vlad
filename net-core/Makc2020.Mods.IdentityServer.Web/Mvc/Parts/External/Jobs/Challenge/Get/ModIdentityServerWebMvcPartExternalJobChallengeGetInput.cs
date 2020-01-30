@@ -1,12 +1,12 @@
 ﻿//Author Maxim Kuzmin//makc//
 
 using IdentityServer4.Services;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get.Enums;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get.Enums;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "External". Задания. Вызов. Получение. Ввод.

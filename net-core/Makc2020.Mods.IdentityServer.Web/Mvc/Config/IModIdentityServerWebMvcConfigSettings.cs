@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Config;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Config;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Config
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Config
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Конфигурация. Настройки. Интерфейс.

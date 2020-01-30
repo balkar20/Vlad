@@ -1,14 +1,14 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Auth.Types.Jwt;
-using Makc2020.Core.Base.Ext;
-using Makc2020.Data.Entity.Objects;
-using Makc2020.Host.Base.Parts.Auth.Ext;
-using Makc2020.Mod.Auth.Base.Common.Jobs.Login.Jwt;
+using Vlad2020.Core.Base.Auth.Types.Jwt;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Data.Entity.Objects;
+using Vlad2020.Host.Base.Parts.Auth.Ext;
+using Vlad2020.Mod.Auth.Base.Common.Jobs.Login.Jwt;
 using Microsoft.AspNetCore.Identity;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.Auth.Base.Ext
+namespace Vlad2020.Mods.Auth.Base.Ext
 {
     /// <summary>
     /// Мод "Auth". Основа. Расширение. Создать.

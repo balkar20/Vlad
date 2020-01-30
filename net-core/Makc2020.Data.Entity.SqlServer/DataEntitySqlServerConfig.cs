@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base;
-using Makc2020.Data.Entity.SqlServer.Config;
+using Vlad2020.Core.Base;
+using Vlad2020.Data.Entity.SqlServer.Config;
 using System.IO;
 
-namespace Makc2020.Data.Entity.SqlServer
+namespace Vlad2020.Data.Entity.SqlServer
 {
     /// <summary>
     /// Данные. Entity Framework. SQL Server. Конфигурация.

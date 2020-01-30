@@ -2,7 +2,7 @@
 
 using System.Collections.Generic;
 
-namespace Makc2020.Core.Base.Common.Jobs.Item.Get.Item
+namespace Vlad2020.Core.Base.Common.Jobs.Item.Get.Item
 {
     /// <summary>
     /// Ядро. Основа. Общее. Задания. Элемент. Получить. Ввод.

@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Data.Base.Objects;
+using Vlad2020.Data.Base.Objects;
 
-namespace Makc2020.Data.Base.Settings
+namespace Vlad2020.Data.Base.Settings
 {
     /// <summary>
     /// Данные. Основа. Настройки. Сущность "ProductFeature".

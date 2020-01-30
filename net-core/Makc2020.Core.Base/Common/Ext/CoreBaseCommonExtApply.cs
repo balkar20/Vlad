@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Common.Jobs.List.Get;
+using Vlad2020.Core.Base.Common.Jobs.List.Get;
 using System.Linq;
 
-namespace Makc2020.Core.Base.Common.Ext
+namespace Vlad2020.Core.Base.Common.Ext
 {
     /// <summary>
     /// Ядро. Основа. Общее. Расширение. Применить.

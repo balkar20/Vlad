@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Data.Entity.Db;
+using Vlad2020.Data.Entity.Db;
 
-namespace Makc2020.Data.Entity
+namespace Vlad2020.Data.Entity
 {
     /// <summary>
     /// Данные. Entity Framework. Контекст.

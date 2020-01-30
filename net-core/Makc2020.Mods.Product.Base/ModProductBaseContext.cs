@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Mods.Product.Base
+namespace Vlad2020.Mods.Product.Base
 {
     /// <summary>
     /// Мод "Product". Основа. Контекст.

@@ -1,12 +1,12 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Executable.Services.Async;
-using Makc2020.Core.Base.Resources.Errors;
-using Makc2020.Mods.DummyMain.Base.Common.Jobs.Option.List.Get;
+using Vlad2020.Core.Base.Executable.Services.Async;
+using Vlad2020.Core.Base.Resources.Errors;
+using Vlad2020.Mods.DummyMain.Base.Common.Jobs.Option.List.Get;
 using System;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.DummyMain.Base.Jobs.Option.ProductCategory.List.Get
+namespace Vlad2020.Mods.DummyMain.Base.Jobs.Option.ProductCategory.List.Get
 {
     /// <summary>
     /// Мод "DummyMain". Задания. Вариант выбора. Сущность "DummyManyToMany". Список. Получение. Сервис.

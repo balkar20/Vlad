@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base;
-using Makc2020.Core.Base.Common.Config.Providers;
+using Vlad2020.Core.Base;
+using Vlad2020.Core.Base.Common.Config.Providers;
 
-namespace Makc2020.Mods.Product.Base.Config
+namespace Vlad2020.Mods.Product.Base.Config
 {
     /// <summary>
     /// Мод "Product". Основа. Конфигурация. Поставщик.

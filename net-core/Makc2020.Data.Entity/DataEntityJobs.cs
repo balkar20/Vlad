@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Resources.Errors;
-using Makc2020.Data.Entity.Jobs.Database.Migrate;
+using Vlad2020.Core.Base.Resources.Errors;
+using Vlad2020.Data.Entity.Jobs.Database.Migrate;
 
-namespace Makc2020.Data.Entity
+namespace Vlad2020.Data.Entity
 {
     /// <summary>
     /// Данные. Entity Framework. Задания.

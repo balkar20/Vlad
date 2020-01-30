@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Host.Base.Common.Identity;
+using Vlad2020.Host.Base.Common.Identity;
 using Microsoft.AspNetCore.Identity;
 using System.Collections.Generic;
 
-namespace Makc2020.Host.Base.Parts.Auth.Jobs.Seed
+namespace Vlad2020.Host.Base.Parts.Auth.Jobs.Seed
 {
     /// <summary>
     /// Хост. Основа. Часть "Auth". Задания. Посев. Исключение.

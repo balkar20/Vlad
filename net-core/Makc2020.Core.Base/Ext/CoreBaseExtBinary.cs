@@ -4,7 +4,7 @@ using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
-namespace Makc2020.Core.Base.Ext
+namespace Vlad2020.Core.Base.Ext
 {
     /// <summary>
     /// Ядро. Основа. Расширение. Бинарно.

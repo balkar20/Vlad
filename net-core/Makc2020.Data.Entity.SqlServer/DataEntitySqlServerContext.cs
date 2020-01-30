@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Data.Entity.Db;
-using Makc2020.Data.Entity.SqlServer.Db;
+using Vlad2020.Data.Entity.Db;
+using Vlad2020.Data.Entity.SqlServer.Db;
 
-namespace Makc2020.Data.Entity.SqlServer
+namespace Vlad2020.Data.Entity.SqlServer
 {
     /// <summary>
     /// Данные. Entity Framework. SQL Server. Контекст.

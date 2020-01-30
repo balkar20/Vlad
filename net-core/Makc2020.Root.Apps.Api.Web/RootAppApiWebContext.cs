@@ -1,12 +1,12 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Caching;
-using Makc2020.Core.Web;
-using Makc2020.Mods.DummyMain.Caching;
-using Makc2020.Root.Apps.Api.Base;
+using Vlad2020.Core.Caching;
+using Vlad2020.Core.Web;
+using Vlad2020.Mods.DummyMain.Caching;
+using Vlad2020.Root.Apps.Api.Base;
 using Microsoft.Extensions.Logging;
 
-namespace Makc2020.Root.Apps.Api.Web
+namespace Vlad2020.Root.Apps.Api.Web
 {
     /// <summary>
     /// Корень. Приложение "API". Веб. Контекст.

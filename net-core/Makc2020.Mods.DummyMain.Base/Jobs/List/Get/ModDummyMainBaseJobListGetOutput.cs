@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Common.Jobs.List.Get;
-using Makc2020.Mods.DummyMain.Base.Jobs.Item.Get;
+using Vlad2020.Core.Base.Common.Jobs.List.Get;
+using Vlad2020.Mods.DummyMain.Base.Jobs.Item.Get;
 
-namespace Makc2020.Mods.DummyMain.Base.Jobs.List.Get
+namespace Vlad2020.Mods.DummyMain.Base.Jobs.List.Get
 {
     /// <summary>
     /// Мод "DummyMain". Задания. Список. Получение. Вывод.

@@ -6,35 +6,35 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["Makc2020.Apps.Api.Web/Makc2020.Apps.Api.Web.csproj", "Makc2020.Apps.Api.Web/"]
-COPY ["Makc2020.Root.Apps.Api.Web/Makc2020.Root.Apps.Api.Web.csproj", "Makc2020.Root.Apps.Api.Web/"]
-COPY ["Makc2020.Data.Caching/Makc2020.Data.Caching.csproj", "Makc2020.Data.Caching/"]
-COPY ["Makc2020.Data.Base/Makc2020.Data.Base.csproj", "Makc2020.Data.Base/"]
-COPY ["Makc2020.Core.Base/Makc2020.Core.Base.csproj", "Makc2020.Core.Base/"]
-COPY ["Makc2020.Core.Caching/Makc2020.Core.Caching.csproj", "Makc2020.Core.Caching/"]
-COPY ["Makc2020.Root.Web/Makc2020.Root.Web.csproj", "Makc2020.Root.Web/"]
-COPY ["Makc2020.Root.Base/Makc2020.Root.Base.csproj", "Makc2020.Root.Base/"]
-COPY ["Makc2020.Core.Data.SqlServer/Makc2020.Core.Data.SqlServer.csproj", "Makc2020.Core.Data.SqlServer/"]
-COPY ["Makc2020.Data.Entity.SqlServer/Makc2020.Data.Entity.SqlServer.csproj", "Makc2020.Data.Entity.SqlServer/"]
-COPY ["Makc2020.Data.Entity/Makc2020.Data.Entity.csproj", "Makc2020.Data.Entity/"]
-COPY ["Makc2020.Host.Base/Makc2020.Host.Base.csproj", "Makc2020.Host.Base/"]
-COPY ["Makc2020.Mods.Auth.Web/Makc2020.Mods.Auth.Web.csproj", "Makc2020.Mods.Auth.Web/"]
-COPY ["Makc2020.Host.Web/Makc2020.Host.Web.csproj", "Makc2020.Host.Web/"]
-COPY ["Makc2020.Core.Web/Makc2020.Core.Web.csproj", "Makc2020.Core.Web/"]
-COPY ["Makc2020.Mods.Auth.Base/Makc2020.Mods.Auth.Base.csproj", "Makc2020.Mods.Auth.Base/"]
-COPY ["Makc2020.Root.Apps.Api.Base/Makc2020.Root.Apps.Api.Base.csproj", "Makc2020.Root.Apps.Api.Base/"]
-COPY ["Makc2020.Mods.DummyMain.Base/Makc2020.Mods.DummyMain.Base.csproj", "Makc2020.Mods.DummyMain.Base/"]
-COPY ["Makc2020.Mods.DummyMain.Web/Makc2020.Mods.DummyMain.Web.csproj", "Makc2020.Mods.DummyMain.Web/"]
-COPY ["Makc2020.Mods.DummyMain.Caching/Makc2020.Mods.DummyMain.Caching.csproj", "Makc2020.Mods.DummyMain.Caching/"]
-RUN dotnet restore "Makc2020.Apps.Api.Web/Makc2020.Apps.Api.Web.csproj"
+COPY ["Vlad2020.Apps.Api.Web/Vlad2020.Apps.Api.Web.csproj", "Vlad2020.Apps.Api.Web/"]
+COPY ["Vlad2020.Root.Apps.Api.Web/Vlad2020.Root.Apps.Api.Web.csproj", "Vlad2020.Root.Apps.Api.Web/"]
+COPY ["Vlad2020.Data.Caching/Vlad2020.Data.Caching.csproj", "Vlad2020.Data.Caching/"]
+COPY ["Vlad2020.Data.Base/Vlad2020.Data.Base.csproj", "Vlad2020.Data.Base/"]
+COPY ["Vlad2020.Core.Base/Vlad2020.Core.Base.csproj", "Vlad2020.Core.Base/"]
+COPY ["Vlad2020.Core.Caching/Vlad2020.Core.Caching.csproj", "Vlad2020.Core.Caching/"]
+COPY ["Vlad2020.Root.Web/Vlad2020.Root.Web.csproj", "Vlad2020.Root.Web/"]
+COPY ["Vlad2020.Root.Base/Vlad2020.Root.Base.csproj", "Vlad2020.Root.Base/"]
+COPY ["Vlad2020.Core.Data.SqlServer/Vlad2020.Core.Data.SqlServer.csproj", "Vlad2020.Core.Data.SqlServer/"]
+COPY ["Vlad2020.Data.Entity.SqlServer/Vlad2020.Data.Entity.SqlServer.csproj", "Vlad2020.Data.Entity.SqlServer/"]
+COPY ["Vlad2020.Data.Entity/Vlad2020.Data.Entity.csproj", "Vlad2020.Data.Entity/"]
+COPY ["Vlad2020.Host.Base/Vlad2020.Host.Base.csproj", "Vlad2020.Host.Base/"]
+COPY ["Vlad2020.Mods.Auth.Web/Vlad2020.Mods.Auth.Web.csproj", "Vlad2020.Mods.Auth.Web/"]
+COPY ["Vlad2020.Host.Web/Vlad2020.Host.Web.csproj", "Vlad2020.Host.Web/"]
+COPY ["Vlad2020.Core.Web/Vlad2020.Core.Web.csproj", "Vlad2020.Core.Web/"]
+COPY ["Vlad2020.Mods.Auth.Base/Vlad2020.Mods.Auth.Base.csproj", "Vlad2020.Mods.Auth.Base/"]
+COPY ["Vlad2020.Root.Apps.Api.Base/Vlad2020.Root.Apps.Api.Base.csproj", "Vlad2020.Root.Apps.Api.Base/"]
+COPY ["Vlad2020.Mods.DummyMain.Base/Vlad2020.Mods.DummyMain.Base.csproj", "Vlad2020.Mods.DummyMain.Base/"]
+COPY ["Vlad2020.Mods.DummyMain.Web/Vlad2020.Mods.DummyMain.Web.csproj", "Vlad2020.Mods.DummyMain.Web/"]
+COPY ["Vlad2020.Mods.DummyMain.Caching/Vlad2020.Mods.DummyMain.Caching.csproj", "Vlad2020.Mods.DummyMain.Caching/"]
+RUN dotnet restore "Vlad2020.Apps.Api.Web/Vlad2020.Apps.Api.Web.csproj"
 COPY . .
-WORKDIR "/src/Makc2020.Apps.Api.Web"
-RUN dotnet build "Makc2020.Apps.Api.Web.csproj" -c Release -o /app/build
+WORKDIR "/src/Vlad2020.Apps.Api.Web"
+RUN dotnet build "Vlad2020.Apps.Api.Web.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Makc2020.Apps.Api.Web.csproj" -c Release -o /app/publish
+RUN dotnet publish "Vlad2020.Apps.Api.Web.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Makc2020.Apps.Api.Web.dll"]
+ENTRYPOINT ["dotnet", "Vlad2020.Apps.Api.Web.dll"]

@@ -1,18 +1,18 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Resources.Errors;
-using Makc2020.Data.Base;
-using Makc2020.Mods.Product.Base.Jobs.Item.Delete;
-using Makc2020.Mods.Product.Base.Jobs.Item.Get;
-using Makc2020.Mods.Product.Base.Jobs.Item.Insert;
-using Makc2020.Mods.Product.Base.Jobs.Item.Update;
-using Makc2020.Mods.Product.Base.Jobs.List.Get;
-using Makc2020.Mods.Product.Base.Jobs.Option.DummyManyToMany.List.Get;
-using Makc2020.Mods.Product.Base.Jobs.Option.DummyOneToMany.List.Get;
-using Makc2020.Mods.Product.Base.Resources.Errors;
-using Makc2020.Mods.Product.Base.Resources.Successes;
+using Vlad2020.Core.Base.Resources.Errors;
+using Vlad2020.Data.Base;
+using Vlad2020.Mods.Product.Base.Jobs.Item.Delete;
+using Vlad2020.Mods.Product.Base.Jobs.Item.Get;
+using Vlad2020.Mods.Product.Base.Jobs.Item.Insert;
+using Vlad2020.Mods.Product.Base.Jobs.Item.Update;
+using Vlad2020.Mods.Product.Base.Jobs.List.Get;
+using Vlad2020.Mods.Product.Base.Jobs.Option.DummyManyToMany.List.Get;
+using Vlad2020.Mods.Product.Base.Jobs.Option.DummyOneToMany.List.Get;
+using Vlad2020.Mods.Product.Base.Resources.Errors;
+using Vlad2020.Mods.Product.Base.Resources.Successes;
 
-namespace Makc2020.Mods.Product.Base
+namespace Vlad2020.Mods.Product.Base
 {
     /// <summary>
     /// Мод "Product". Основа. Задания.

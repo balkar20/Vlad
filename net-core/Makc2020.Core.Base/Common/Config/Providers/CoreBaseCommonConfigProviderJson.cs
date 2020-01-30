@@ -1,11 +1,11 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Ext;
+using Vlad2020.Core.Base.Ext;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.IO;
 
-namespace Makc2020.Core.Base.Common.Config.Providers
+namespace Vlad2020.Core.Base.Common.Config.Providers
 {
     /// <summary>
     /// Ядро. Основа. Общее. Конфигурация. Поставщики. JSON.

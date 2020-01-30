@@ -1,11 +1,11 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Ext;
-using Makc2020.Data.Entity.Db;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Data.Entity.Db;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
-namespace Makc2020.Data.Entity
+namespace Vlad2020.Data.Entity
 {
     /// <summary>
     /// Данные. Entity Framework. Сервис.

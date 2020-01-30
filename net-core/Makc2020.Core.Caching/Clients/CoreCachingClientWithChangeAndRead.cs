@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Ext;
-using Makc2020.Core.Caching.Common.Client.Config;
-using Makc2020.Core.Caching.Ext;
-using Makc2020.Core.Caching.Resources.Errors;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Core.Caching.Common.Client.Config;
+using Vlad2020.Core.Caching.Ext;
+using Vlad2020.Core.Caching.Resources.Errors;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Makc2020.Core.Caching.Clients
+namespace Vlad2020.Core.Caching.Clients
 {
     /// <summary>
     /// Ядро. Модуль. Кэширование. Клиенты. Клиент с изменением и чтением кэшируемых данных.

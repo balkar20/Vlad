@@ -1,13 +1,13 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Resources.Errors;
-using Makc2020.Host.Base.Parts.Auth.Jobs.CurrentUser.Get;
-using Makc2020.Host.Base.Parts.Auth.Jobs.Seed;
-using Makc2020.Host.Base.Parts.Auth.Jobs.UserEntity.Create;
-using Makc2020.Host.Base.Parts.Auth.Resources.Errors;
-using Makc2020.Host.Base.Parts.Auth.Resources.Successes;
+using Vlad2020.Core.Base.Resources.Errors;
+using Vlad2020.Host.Base.Parts.Auth.Jobs.CurrentUser.Get;
+using Vlad2020.Host.Base.Parts.Auth.Jobs.Seed;
+using Vlad2020.Host.Base.Parts.Auth.Jobs.UserEntity.Create;
+using Vlad2020.Host.Base.Parts.Auth.Resources.Errors;
+using Vlad2020.Host.Base.Parts.Auth.Resources.Successes;
 
-namespace Makc2020.Host.Base.Parts.Auth
+namespace Vlad2020.Host.Base.Parts.Auth
 {
     /// <summary>
     /// Хост. Основа. Часть "Auth". Задания.

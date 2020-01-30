@@ -2,7 +2,7 @@
 
 using System;
 
-namespace Makc2020.Host.Base.Parts.Ldap.Jobs.Login
+namespace Vlad2020.Host.Base.Parts.Ldap.Jobs.Login
 {
     /// <summary>
     /// Хост. Основа. Часть "LDAP". Задания. Вход в систему. Исключение.

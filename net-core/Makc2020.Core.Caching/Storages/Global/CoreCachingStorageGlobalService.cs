@@ -1,12 +1,12 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Ext;
+using Vlad2020.Core.Base.Ext;
 using StackExchange.Redis;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Makc2020.Core.Caching.Storages.Global
+namespace Vlad2020.Core.Caching.Storages.Global
 {
     /// <summary>
     /// Ядро. Кэширование. Хранилища. Глобальное. Сервис.

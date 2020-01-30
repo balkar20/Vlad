@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Views.LoggedOut
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Views.LoggedOut
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "Account". Виды. После выхода из системы. Модель.

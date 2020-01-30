@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base;
-using Makc2020.Core.Caching.Common.Client.Config;
+using Vlad2020.Core.Base;
+using Vlad2020.Core.Caching.Common.Client.Config;
 
-namespace Makc2020.Mods.DummyMain.Caching.Config
+namespace Vlad2020.Mods.DummyMain.Caching.Config
 {
     /// <summary>
     /// Мод "DummyMain". Кэширование. Конфигурация. Настройки.

@@ -1,14 +1,14 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Data;
-using Makc2020.Core.Base.Ext;
-using Makc2020.Core.Base.Common.Jobs.List.Get;
+using Vlad2020.Core.Base.Data;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Core.Base.Common.Jobs.List.Get;
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Threading.Tasks;
 
-namespace Makc2020.Core.Base.Common.Data.Db.Loaders
+namespace Vlad2020.Core.Base.Common.Data.Db.Loaders
 {
     /// <summary>
     /// Ядро. Основа. Общее. Данные. База данных. Загрузчик списка.

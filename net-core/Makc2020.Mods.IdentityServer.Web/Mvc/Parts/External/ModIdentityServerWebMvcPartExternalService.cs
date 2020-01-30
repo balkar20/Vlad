@@ -4,18 +4,18 @@ using IdentityModel;
 using IdentityServer4.Events;
 using IdentityServer4.Services;
 using IdentityServer4.Stores;
-using Makc2020.Core.Base.Execution;
-using Makc2020.Core.Base.Ext;
-using Makc2020.Data.Entity.Objects;
-using Makc2020.Host.Base.Parts.Auth.Ext;
-using Makc2020.Host.Base.Parts.Auth.Jobs.UserEntity.Create;
-using Makc2020.Mods.IdentityServer.Base.Exceptions;
-using Makc2020.Mods.IdentityServer.Web.Ext;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Config;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Callback.Get;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Callback.Get.Enums;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get.Enums;
+using Vlad2020.Core.Base.Execution;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Data.Entity.Objects;
+using Vlad2020.Host.Base.Parts.Auth.Ext;
+using Vlad2020.Host.Base.Parts.Auth.Jobs.UserEntity.Create;
+using Vlad2020.Mods.IdentityServer.Base.Exceptions;
+using Vlad2020.Mods.IdentityServer.Web.Ext;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Config;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Callback.Get;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Callback.Get.Enums;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get.Enums;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -28,7 +28,7 @@ using System.Security.Claims;
 using System.Security.Principal;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "External". Сервис.

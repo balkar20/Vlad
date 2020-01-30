@@ -1,16 +1,16 @@
 ﻿//Author Maxim Kuzmin//makc//
 
 using IdentityServer4.Services;
-using Makc2020.Data.Entity.Objects;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Common.Jobs.Login;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Login.Post.Enums;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Views.Login;
+using Vlad2020.Data.Entity.Objects;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Common.Jobs.Login;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Login.Post.Enums;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Views.Login;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System.Collections.Generic;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Login.Post
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Login.Post
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "Account". Задания. Вход в систему. Отправка. Ввод.

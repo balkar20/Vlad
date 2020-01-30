@@ -1,4 +1,4 @@
-# Серверное веб-приложение Makc2020.Apps.IdentityServer.Web
+# Серверное веб-приложение Vlad2020.Apps.IdentityServer.Web
 
 Реализовано на .NET Core 3.x, C#, Entity Framework, MS SQL Server.
 
@@ -8,7 +8,7 @@
 
 ## Настройка
 
-1. Открыть файл **Makc2020.Apps.IdentityServer.Web/ConfigFiles/App.config.json**.
+1. Открыть файл **Vlad2020.Apps.IdentityServer.Web/ConfigFiles/App.config.json**.
 
 2. В разделе **Logging:LogLevel:Default** указать уровень логирования по-умолчанию.
 
@@ -27,34 +27,34 @@
 ## Настройка хоста
 
 Описание настроек основной функциональности хоста можно увидеть
-[здесь](../Makc2020.Host.Base/README.md).
+[здесь](../Vlad2020.Host.Base/README.md).
 
 ## Настройка мода "IdentityServer"
 
 Описание настроек основной функциональности мода "IdentityServer" можно увидеть
-[здесь](../Makc2020.Mods.IdentityServer.Base/README.md).
+[здесь](../Vlad2020.Mods.IdentityServer.Base/README.md).
 
 Описание настроек связанной с веб-интерфейсом функциональности мода "IdentityServer" можно увидеть
-[здесь](../Makc2020.Mods.IdentityServer.Web/README.md).
+[здесь](../Vlad2020.Mods.IdentityServer.Web/README.md).
 
 ## Развёртывание
 
 1. Подготовить компьютер, на котором будет развёрнуто приложение, установив на нём
 [.NET Core 3.1 Runtime](https://dotnet.microsoft.com/download/dotnet-core/3.1).
 
-2. Открыть консоль и перейти в папку Makc2020.Apps.Api.Web.
+2. Открыть консоль и перейти в папку Vlad2020.Apps.Api.Web.
 
 3. Выполнить сборку и публикацию приложения:
  
-- для продуктовой среды выполнить команду **dotnet publish Makc2020.Apps.IdentityServer.Web.csproj -c Release**;
+- для продуктовой среды выполнить команду **dotnet publish Vlad2020.Apps.IdentityServer.Web.csproj -c Release**;
 
-- для тестовой среды выполнить команду **dotnet publish Makc2020.Apps.IdentityServer.Web.csproj -c Test**. 
+- для тестовой среды выполнить команду **dotnet publish Vlad2020.Apps.IdentityServer.Web.csproj -c Test**. 
 
 4. Перейти в папку с файлами, предназначенными для публикации:
  
-- для продуктовой среды: **Makc2020.Apps.IdentityServer.Web/bin/Release/netcoreapp3.1/publish**;
+- для продуктовой среды: **Vlad2020.Apps.IdentityServer.Web/bin/Release/netcoreapp3.1/publish**;
 
-- для тестовой среды: **Makc2020.Apps.IdentityServer.Web/bin/Test/netcoreapp3.1/publish**.
+- для тестовой среды: **Vlad2020.Apps.IdentityServer.Web/bin/Test/netcoreapp3.1/publish**.
 
 5. Скопировать всё содержимое папки с файлами, предназначенными для публикации,
 в папку компьютера, на котором должно быть развёрнуто приложение.

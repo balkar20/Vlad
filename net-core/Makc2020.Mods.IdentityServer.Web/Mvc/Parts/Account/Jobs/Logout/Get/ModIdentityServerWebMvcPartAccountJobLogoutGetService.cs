@@ -1,13 +1,13 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Executable.Services.Async;
-using Makc2020.Core.Base.Execution.Exceptions;
-using Makc2020.Core.Base.Resources.Errors;
+using Vlad2020.Core.Base.Executable.Services.Async;
+using Vlad2020.Core.Base.Execution.Exceptions;
+using Vlad2020.Core.Base.Resources.Errors;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Logout.Get
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Logout.Get
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "Account". Задания. Выход из системы. Получение. Сервис.

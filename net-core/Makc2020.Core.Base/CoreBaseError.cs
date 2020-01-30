@@ -1,11 +1,11 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Resources.Errors;
+using Vlad2020.Core.Base.Resources.Errors;
 using System;
 using System.Net;
 using System.Net.Http;
 
-namespace Makc2020.Core.Base
+namespace Vlad2020.Core.Base
 {
     /// <summary>
     /// Ядро. Основа. Ошибка.

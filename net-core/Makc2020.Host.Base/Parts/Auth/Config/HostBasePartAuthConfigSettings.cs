@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Host.Base.Parts.Auth.Config.Settings;
+using Vlad2020.Host.Base.Parts.Auth.Config.Settings;
 
-namespace Makc2020.Host.Base.Parts.Auth.Config
+namespace Vlad2020.Host.Base.Parts.Auth.Config
 {
     /// <summary>
     /// Хост. Основа. Часть "Auth". Конфигурация. Настройки.

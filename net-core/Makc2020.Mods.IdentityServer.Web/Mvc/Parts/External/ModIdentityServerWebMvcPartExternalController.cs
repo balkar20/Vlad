@@ -1,18 +1,18 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Ext;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Callback.Get;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Callback.Get.Enums;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get.Enums;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Security.Headers;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Views.Redirect;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Callback.Get;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Callback.Get.Enums;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get.Enums;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Security.Headers;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Views.Redirect;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External
 {
     [ModIdentityServerWebMvcSecurityHeaders]
     [AllowAnonymous]

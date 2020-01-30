@@ -1,14 +1,14 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Apps.Automation.Base.App.Common.Jobs.Code.Generate;
-using Makc2020.Core.Base.Execution;
-using Makc2020.Core.Base.Ext;
-using Makc2020.Mods.Automation.Base.Common.Code.Generate;
-using Makc2020.Mods.Automation.Base.Parts.NetCore.Jobs.Code.Generate;
+using Vlad2020.Apps.Automation.Base.App.Common.Jobs.Code.Generate;
+using Vlad2020.Core.Base.Execution;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Mods.Automation.Base.Common.Code.Generate;
+using Vlad2020.Mods.Automation.Base.Parts.NetCore.Jobs.Code.Generate;
 using Microsoft.Extensions.Logging;
 using System;
 
-namespace Makc2020.Apps.Automation.Base.App.Parts.NetCore.Jobs.Code.Generate
+namespace Vlad2020.Apps.Automation.Base.App.Parts.NetCore.Jobs.Code.Generate
 {
     /// <summary>
     /// Приложение. Часть "NetCore". Задания. Код. Генерация. Клиент.

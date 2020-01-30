@@ -5,7 +5,7 @@ using IdentityServer4.Stores;
 using Microsoft.AspNetCore.Authentication;
 using System.Collections.Generic;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Common.Jobs.Login
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Common.Jobs.Login
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "Account". Общее. Вход в систему. Ввод.

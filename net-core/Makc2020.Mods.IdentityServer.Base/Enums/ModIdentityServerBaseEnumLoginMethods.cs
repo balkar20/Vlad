@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Mods.IdentityServer.Base.Enums
+namespace Vlad2020.Mods.IdentityServer.Base.Enums
 {
     /// <summary>
     /// Мод "IdentityServer". Основа. Перечисления. Способы входа в систему.

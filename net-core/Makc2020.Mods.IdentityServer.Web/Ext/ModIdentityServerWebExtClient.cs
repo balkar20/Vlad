@@ -3,7 +3,7 @@
 using IdentityServer4.Stores;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.IdentityServer.Web.Ext
+namespace Vlad2020.Mods.IdentityServer.Web.Ext
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. Расширение. Клиент.

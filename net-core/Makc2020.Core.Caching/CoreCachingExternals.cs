@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Caching.Resources.Errors;
+using Vlad2020.Core.Caching.Resources.Errors;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Localization;
 
-namespace Makc2020.Core.Caching
+namespace Vlad2020.Core.Caching
 {
     /// <summary>
     /// Ядро. Кэширование. Внешнее.

@@ -4,14 +4,14 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Makc2020.Core.Base.Common;
-using Makc2020.Core.Base.Ext;
-using Makc2020.Root.Apps.IdentityServer.Web;
+using Vlad2020.Core.Base.Common;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Root.Apps.IdentityServer.Web;
 using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace Makc2020.Apps.IdentityServer.Web.Root
+namespace Vlad2020.Apps.IdentityServer.Web.Root
 {
     /// <summary>
     /// Приложение. Сервер.

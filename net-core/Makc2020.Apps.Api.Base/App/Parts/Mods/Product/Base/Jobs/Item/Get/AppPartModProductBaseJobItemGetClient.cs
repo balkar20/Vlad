@@ -1,13 +1,13 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Apps.Api.Base.App.Common;
-using Makc2020.Core.Base.Execution;
-using Makc2020.Core.Base.Ext;
-using Makc2020.Mods.Product.Base.Jobs.Item.Get;
+using Vlad2020.Apps.Api.Base.App.Common;
+using Vlad2020.Core.Base.Execution;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Mods.Product.Base.Jobs.Item.Get;
 using Microsoft.Extensions.Logging;
 using System;
 
-namespace Makc2020.Apps.Api.Base.App.Parts.Mods.Product.Base.Jobs.Item.Get
+namespace Vlad2020.Apps.Api.Base.App.Parts.Mods.Product.Base.Jobs.Item.Get
 {
     /// <summary>
     /// Приложение. Часть "Mods". Мод "Product". Основа. Задания. Элемент. Получение. Клиент.

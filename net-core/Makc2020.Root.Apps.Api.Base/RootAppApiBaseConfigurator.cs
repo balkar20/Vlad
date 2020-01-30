@@ -1,13 +1,13 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Common;
-using Makc2020.Mods.Auth.Base;
-using Makc2020.Mods.DummyMain.Base;
-using Makc2020.Root.Base;
+using Vlad2020.Core.Base.Common;
+using Vlad2020.Mods.Auth.Base;
+using Vlad2020.Mods.DummyMain.Base;
+using Vlad2020.Root.Base;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 
-namespace Makc2020.Root.Apps.Api.Base
+namespace Vlad2020.Root.Apps.Api.Base
 {
     /// <summary>
     /// Корень. Приложение "API". Основа. Конфигуратор.

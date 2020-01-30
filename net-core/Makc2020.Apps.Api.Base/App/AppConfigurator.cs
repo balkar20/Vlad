@@ -1,13 +1,13 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Apps.Api.Base.App.Parts.Core.Base.Resources.Errors;
-using Makc2020.Apps.Api.Base.App.Parts.Mods.DummyMain.Base.Jobs.Item.Get;
-using Makc2020.Apps.Api.Base.App.Parts.Mods.DummyMain.Base.Jobs.List.Get;
-using Makc2020.Apps.Api.Base.App.Parts.Mods.Product.Base.Jobs.Item.Get;
-using Makc2020.Root.Apps.Api.Base;
+using Vlad2020.Apps.Api.Base.App.Parts.Core.Base.Resources.Errors;
+using Vlad2020.Apps.Api.Base.App.Parts.Mods.DummyMain.Base.Jobs.Item.Get;
+using Vlad2020.Apps.Api.Base.App.Parts.Mods.DummyMain.Base.Jobs.List.Get;
+using Vlad2020.Apps.Api.Base.App.Parts.Mods.Product.Base.Jobs.Item.Get;
+using Vlad2020.Root.Apps.Api.Base;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Makc2020.Apps.Api.Base.App
+namespace Vlad2020.Apps.Api.Base.App
 {
     /// <summary>
     /// Приложение. Конфигуратор.

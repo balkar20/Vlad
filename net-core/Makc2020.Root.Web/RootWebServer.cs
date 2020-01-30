@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Root.Base;
+using Vlad2020.Root.Base;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
-namespace Makc2020.Root.Web
+namespace Vlad2020.Root.Web
 {
     /// <summary>
     /// Корень. Веб. Внедрение зависимостей. Autofac. Сервер.

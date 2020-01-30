@@ -2,7 +2,7 @@
 
 using System;
 
-namespace Makc2020.Mods.Auth.Base.Jobs.Refresh.Jwt
+namespace Vlad2020.Mods.Auth.Base.Jobs.Refresh.Jwt
 {
     /// <summary>
     /// Мод "Auth". Основа. Задания. Обновление. JWT. Исключение.

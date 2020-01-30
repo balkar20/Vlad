@@ -2,7 +2,7 @@
 
 using System.Collections.Generic;
 
-namespace Makc2020.Host.Base.Parts.Auth
+namespace Vlad2020.Host.Base.Parts.Auth
 {
     /// <summary>
     /// Хост. Основа. Часть "Auth". Пользователь.

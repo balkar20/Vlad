@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Apps.Api.Web
+namespace Vlad2020.Apps.Api.Web
 {
     /// <summary>
     /// Программа.

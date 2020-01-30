@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base;
-using Makc2020.Mods.IdentityServer.Base.Config;
+using Vlad2020.Core.Base;
+using Vlad2020.Mods.IdentityServer.Base.Config;
 using System.IO;
 
-namespace Makc2020.Mods.IdentityServer.Base
+namespace Vlad2020.Mods.IdentityServer.Base
 {
     /// <summary>
     /// Мод "IdentityServer". Основа. Конфигурация.

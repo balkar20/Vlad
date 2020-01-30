@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get.Enums
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get.Enums
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "External". Задания. Вызов. Получение. Перечисления. Статусы.

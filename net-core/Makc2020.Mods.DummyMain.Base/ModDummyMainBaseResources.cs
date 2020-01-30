@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Mods.DummyMain.Base.Resources.Errors;
-using Makc2020.Mods.DummyMain.Base.Resources.Successes;
+using Vlad2020.Mods.DummyMain.Base.Resources.Errors;
+using Vlad2020.Mods.DummyMain.Base.Resources.Successes;
 using Microsoft.Extensions.Localization;
 
-namespace Makc2020.Mods.DummyMain.Base
+namespace Vlad2020.Mods.DummyMain.Base
 {
     /// <summary>
     /// Мод "DummyMain". Основа. Ресурсы.

@@ -2,7 +2,7 @@
 
 using Microsoft.Extensions.Logging;
 
-namespace Makc2020.Core.Web
+namespace Vlad2020.Core.Web
 {
     /// <summary>
     /// Ядро. Веб. Модель.

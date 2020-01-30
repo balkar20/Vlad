@@ -3,7 +3,7 @@
 using System.Text.Encodings.Web;
 using System.Text.Json;
 
-namespace Makc2020.Core.Base.Ext
+namespace Vlad2020.Core.Base.Ext
 {
     /// <summary>
     /// Ядро. Основа. Расширение. JSON.

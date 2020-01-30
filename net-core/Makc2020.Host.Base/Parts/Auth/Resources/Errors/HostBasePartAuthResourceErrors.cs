@@ -2,7 +2,7 @@
 
 using Microsoft.Extensions.Localization;
 
-namespace Makc2020.Host.Base.Parts.Auth.Resources.Errors
+namespace Vlad2020.Host.Base.Parts.Auth.Resources.Errors
 {
     /// <summary>
     /// Хост. Основа. Часть "Auth". Ресурсы. Ошибки.

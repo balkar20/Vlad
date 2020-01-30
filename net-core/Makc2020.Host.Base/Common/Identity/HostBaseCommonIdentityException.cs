@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Makc2020.Host.Base.Common.Identity
+namespace Vlad2020.Host.Base.Common.Identity
 {
     /// <summary>
     /// Хост. Основа. Общее. Идентичность. Исключение.

@@ -1,11 +1,11 @@
-# Библиотека классов Makc2020.Mods.IdentityServer.Web
+# Библиотека классов Vlad2020.Mods.IdentityServer.Web
 
 Библиотека классов, предназначенная для реализации связанной с веб-интерфейсом функциональности мода "IdentityServer" -
 сервера идентичности с помощью библиотеки [IdentityServer4](http://docs.identityserver.io/en/latest/index.html).
 
 ## Настройка MVC
 
-1. Открыть файл **Makc2020.Mods.IdentityServer.Web/ConfigFiles/Mod.IdentityServer.Web.Mvc.config.json**.
+1. Открыть файл **Vlad2020.Mods.IdentityServer.Web/ConfigFiles/Mod.IdentityServer.Web.Mvc.config.json**.
 
 2. В разделе **PartAccount** указать:
 

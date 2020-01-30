@@ -1,11 +1,11 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Mods.DummyMain.Base.Common.Jobs.Option.Item.Get;
-using Makc2020.Mods.DummyMain.Base.Common.Jobs.Option.List.Get;
-using Makc2020.Mods.DummyMain.Base.Jobs.Item.Get;
-using Makc2020.Mods.DummyMain.Base.Jobs.List.Get;
+using Vlad2020.Mods.DummyMain.Base.Common.Jobs.Option.Item.Get;
+using Vlad2020.Mods.DummyMain.Base.Common.Jobs.Option.List.Get;
+using Vlad2020.Mods.DummyMain.Base.Jobs.Item.Get;
+using Vlad2020.Mods.DummyMain.Base.Jobs.List.Get;
 
-namespace Makc2020.Mods.DummyMain.Caching
+namespace Vlad2020.Mods.DummyMain.Caching
 {
     /// <summary>
     /// Мод "DummyMain". Кэширование. Сериализация кэшируемых моделей.

@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "Account". Внешний поставщик.

@@ -1,4 +1,4 @@
-# Консольное приложение Makc2020.Apps.Automation.Base
+# Консольное приложение Vlad2020.Apps.Automation.Base
 
 Реализовано на .NET Core 3.x, C#.
 
@@ -7,7 +7,7 @@
 
 ## Настройка приложения
 
-1. Открыть файл **Makc2020.Apps.Automation.Base/ConfigFiles/App.config.json**.
+1. Открыть файл **Vlad2020.Apps.Automation.Base/ConfigFiles/App.config.json**.
 
 2. В разделе **Logging:LogLevel:Default** указать уровень логирования по-умолчанию.
 
@@ -24,9 +24,9 @@
 ## Настройка хоста
 
 Описание настроек основной функциональности хоста можно увидеть
-[здесь](../Makc2020.Host.Base/README.md).
+[здесь](../Vlad2020.Host.Base/README.md).
 
 ## Настройка мода "Automation"
 
 Описание настроек основной функциональности мода "Automation" можно увидеть
-[здесь](../Makc2020.Mods.Automation.Base/README.md).
+[здесь](../Vlad2020.Mods.Automation.Base/README.md).

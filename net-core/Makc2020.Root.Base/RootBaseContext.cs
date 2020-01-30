@@ -1,15 +1,15 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base;
-using Makc2020.Data.Base;
-using Makc2020.Data.Entity;
-using Makc2020.Data.Entity.SqlServer;
-using Makc2020.Host.Base;
+using Vlad2020.Core.Base;
+using Vlad2020.Data.Base;
+using Vlad2020.Data.Entity;
+using Vlad2020.Data.Entity.SqlServer;
+using Vlad2020.Host.Base;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Globalization;
 
-namespace Makc2020.Root.Base
+namespace Vlad2020.Root.Base
 {
     /// <summary>
     /// Корень. Основа. Контекст.

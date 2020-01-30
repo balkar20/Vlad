@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Data.Entity.SqlServer.Config
+namespace Vlad2020.Data.Entity.SqlServer.Config
 {
     /// <summary>
     /// Данные. Entity Framework. База данных MS SQL Server. Конфигурация. Настройки. Интерфейс.

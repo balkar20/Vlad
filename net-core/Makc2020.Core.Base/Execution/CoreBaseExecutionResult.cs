@@ -2,7 +2,7 @@
 
 using System.Collections.Generic;
 
-namespace Makc2020.Core.Base.Execution
+namespace Vlad2020.Core.Base.Execution
 {
     /// <summary>
     /// Ядро. Основа. Выполнение. Результат.

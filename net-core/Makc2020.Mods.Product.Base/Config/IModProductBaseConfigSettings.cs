@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Mods.Product.Base.Config
+namespace Vlad2020.Mods.Product.Base.Config
 {
     /// <summary>
     /// Мод "Product". Основа. Конфигурация. Настройки. Интерфейс.

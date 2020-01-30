@@ -1,17 +1,17 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base;
-using Makc2020.Core.Base.Ext;
-using Makc2020.Core.Caching.Config;
-using Makc2020.Core.Caching.Resources.Errors;
-using Makc2020.Core.Caching.Storages.Local;
+using Vlad2020.Core.Base;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Core.Caching.Config;
+using Vlad2020.Core.Caching.Resources.Errors;
+using Vlad2020.Core.Caching.Storages.Local;
 using StackExchange.Redis;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Makc2020.Core.Caching.Storages.Global
+namespace Vlad2020.Core.Caching.Storages.Global
 {
     /// <summary>
     /// Ядро. Кэширование. Хранилища. Глобальное. Помощник.

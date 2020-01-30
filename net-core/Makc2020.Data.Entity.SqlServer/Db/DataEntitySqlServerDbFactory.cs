@@ -1,13 +1,13 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base;
-using Makc2020.Data.Base;
-using Makc2020.Data.Entity.Db;
-using Makc2020.Data.Entity.SqlServer.Config;
+using Vlad2020.Core.Base;
+using Vlad2020.Data.Base;
+using Vlad2020.Data.Entity.Db;
+using Vlad2020.Data.Entity.SqlServer.Config;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
-namespace Makc2020.Data.Entity.SqlServer.Db
+namespace Vlad2020.Data.Entity.SqlServer.Db
 {
     /// <summary>
     /// Данные. Entity Framework. SQL Server. База данных. Фабрика.

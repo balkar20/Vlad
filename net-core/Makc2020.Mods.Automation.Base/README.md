@@ -1,11 +1,11 @@
-# Библиотека классов Makc2020.Mods.Automation.Base
+# Библиотека классов Vlad2020.Mods.Automation.Base
 
 Библиотека классов, предназначенная для реализации основной функциональности мода "Automation" -
 автоматизации.
 
 ## Настройка
 
-1. Открыть файл **Makc2020.Mods.Automation.Base/ConfigFiles/Mod.Automation.Base.config.json**.
+1. Открыть файл **Vlad2020.Mods.Automation.Base/ConfigFiles/Mod.Automation.Base.config.json**.
 
 2. В разделе **PartAngular** указать настройки части "Angular":
 
@@ -32,9 +32,9 @@
     {
       "PartAngular": {
         "SourceEntityName": "DummyMain",
-        "SourcePath": "E:\\TMP\\source\\javascript\\makc2020-angular-redux\\src",
+        "SourcePath": "E:\\TMP\\source\\javascript\\Vlad2020-angular-redux\\src",
         "TargetEntityName": "Product",
-        "TargetPath": "E:\\TMP\\target\\javascript\\makc2020-angular-redux\\src"
+        "TargetPath": "E:\\TMP\\target\\javascript\\Vlad2020-angular-redux\\src"
       },
       "PartNetCore": {
         "SourceEntityName": "DummyMain",

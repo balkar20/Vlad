@@ -1,12 +1,12 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Common;
-using Makc2020.Root.Apps.Api.Base;
+using Vlad2020.Core.Base.Common;
+using Vlad2020.Root.Apps.Api.Base;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 
-namespace Makc2020.Apps.Api.Base.App
+namespace Vlad2020.Apps.Api.Base.App
 {
     /// <summary>
     /// Приложение. Сервер.

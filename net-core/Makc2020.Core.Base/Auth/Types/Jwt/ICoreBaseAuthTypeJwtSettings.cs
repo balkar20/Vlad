@@ -2,7 +2,7 @@
 
 using Microsoft.IdentityModel.Tokens;
 
-namespace Makc2020.Core.Base.Auth.Types.Jwt
+namespace Vlad2020.Core.Base.Auth.Types.Jwt
 {
     /// <summary>
     /// Ядро. Основа. Аутентификация. Типы. JWT. Настройки. Интерфейс.

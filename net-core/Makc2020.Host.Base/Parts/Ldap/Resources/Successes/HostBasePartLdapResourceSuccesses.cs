@@ -2,7 +2,7 @@
 
 using Microsoft.Extensions.Localization;
 
-namespace Makc2020.Host.Base.Parts.Ldap.Resources.Successes
+namespace Vlad2020.Host.Base.Parts.Ldap.Resources.Successes
 {
     /// <summary>
     /// Хост. Основа. Часть "LDAP". Ресурсы. Успехи.

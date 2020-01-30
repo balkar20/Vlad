@@ -1,10 +1,10 @@
-# Библиотека классов Makc2020.Core.Caching
+# Библиотека классов Vlad2020.Core.Caching
 
 Библиотека классов, предназначенная для реализации связанной с кэшированием функциональности ядра.
 
 ## Настройка
 
-1. Открыть файл **Makc2020.Core.Caching/ConfigFiles/Core.Caching.config.json**.
+1. Открыть файл **Vlad2020.Core.Caching/ConfigFiles/Core.Caching.config.json**.
 
 2. В разделе **ConnectTimeout** указать таймаут подключения к базе данных Redis:
 **целое число**.
@@ -46,7 +46,7 @@
       "Hosts": null,
       "IsCachingEnabled": true,
       "IsGlobalStorageEnabled": false,
-      "KeyPrefix": "Makc2020",
+      "KeyPrefix": "Vlad2020",
       "Password": null,
       "Port": 6379
     }

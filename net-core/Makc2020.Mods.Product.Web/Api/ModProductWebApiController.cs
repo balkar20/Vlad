@@ -1,15 +1,15 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Execution;
-using Makc2020.Core.Base.Ext;
-using Makc2020.Mods.Product.Base.Common.Jobs.Option.List.Get;
-using Makc2020.Mods.Product.Base.Jobs.Item.Get;
-using Makc2020.Mods.Product.Base.Jobs.List.Get;
+using Vlad2020.Core.Base.Execution;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Mods.Product.Base.Common.Jobs.Option.List.Get;
+using Vlad2020.Mods.Product.Base.Jobs.Item.Get;
+using Vlad2020.Mods.Product.Base.Jobs.List.Get;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.Product.Web.Api
+namespace Vlad2020.Mods.Product.Web.Api
 {
     /// <summary>
     /// Мод "Product". Веб. API. Контроллер.

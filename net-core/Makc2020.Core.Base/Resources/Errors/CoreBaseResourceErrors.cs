@@ -2,7 +2,7 @@
 
 using Microsoft.Extensions.Localization;
 
-namespace Makc2020.Core.Base.Resources.Errors
+namespace Vlad2020.Core.Base.Resources.Errors
 {
     /// <summary>
     /// Ядро. Основа. Ресурсы. Ошибки.

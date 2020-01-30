@@ -1,21 +1,21 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base;
-using Makc2020.Core.Base.Common;
-using Makc2020.Core.Caching;
-using Makc2020.Core.Caching.Resources.Errors;
-using Makc2020.Data.Caching;
-using Makc2020.Host.Web.Api.Parts.Auth;
-using Makc2020.Mods.Auth.Web.Api;
-using Makc2020.Mods.DummyMain.Caching;
-using Makc2020.Mods.DummyMain.Web.Api;
-using Makc2020.Root.Apps.Api.Base;
+using Vlad2020.Core.Base;
+using Vlad2020.Core.Base.Common;
+using Vlad2020.Core.Caching;
+using Vlad2020.Core.Caching.Resources.Errors;
+using Vlad2020.Data.Caching;
+using Vlad2020.Host.Web.Api.Parts.Auth;
+using Vlad2020.Mods.Auth.Web.Api;
+using Vlad2020.Mods.DummyMain.Caching;
+using Vlad2020.Mods.DummyMain.Web.Api;
+using Vlad2020.Root.Apps.Api.Base;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 
-namespace Makc2020.Root.Apps.Api.Web
+namespace Vlad2020.Root.Apps.Api.Web
 {
     /// <summary>
     /// Корень. Приложение "API". Веб. Модули.

@@ -1,24 +1,24 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Ext;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Common.Jobs.Login;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Login.Get;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Login.Post;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Login.Post.Enums;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Logout.Get;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Logout.Post;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Logout.Post.Enums;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Views.Login;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Views.Logout;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Security.Headers;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Views.Redirect;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Common.Jobs.Login;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Login.Get;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Login.Post;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Login.Post.Enums;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Logout.Get;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Logout.Post;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Logout.Post.Enums;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Views.Login;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Views.Logout;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Security.Headers;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Views.Redirect;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account
 {
     [ModIdentityServerWebMvcSecurityHeaders]
     [AllowAnonymous]

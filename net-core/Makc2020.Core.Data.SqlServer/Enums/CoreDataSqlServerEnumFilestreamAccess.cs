@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Core.Data.SqlServer.Enums
+namespace Vlad2020.Core.Data.SqlServer.Enums
 {
     /// <summary>
     /// Ядро. Данные. SQL Server. Перечисление. Уровни доступа к файловому потоку.

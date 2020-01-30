@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base;
-using Makc2020.Mods.Automation.Base.Parts.Angular.Config;
-using Makc2020.Mods.Automation.Base.Parts.NetCore.Config;
+using Vlad2020.Core.Base;
+using Vlad2020.Mods.Automation.Base.Parts.Angular.Config;
+using Vlad2020.Mods.Automation.Base.Parts.NetCore.Config;
 
-namespace Makc2020.Mods.Automation.Base.Config
+namespace Vlad2020.Mods.Automation.Base.Config
 {
     /// <summary>
     /// Мод "Automation". Основа. Конфигурация. Настройки.

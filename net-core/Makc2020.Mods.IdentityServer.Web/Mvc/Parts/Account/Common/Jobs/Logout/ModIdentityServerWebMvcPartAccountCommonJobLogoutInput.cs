@@ -4,7 +4,7 @@ using IdentityServer4.Services;
 using System.Collections.Generic;
 using System.Security.Claims;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Common.Jobs.Logout
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Common.Jobs.Logout
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "Account". Общее. Выход из системы. Ввод.

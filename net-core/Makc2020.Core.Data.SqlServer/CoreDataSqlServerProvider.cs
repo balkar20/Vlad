@@ -1,7 +1,7 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Data;
-using Makc2020.Core.Data.SqlServer.Enums;
+using Vlad2020.Core.Base.Data;
+using Vlad2020.Core.Data.SqlServer.Enums;
 using Microsoft.Win32.SafeHandles;
 using System;
 using System.Data;
@@ -9,7 +9,7 @@ using System.Data.Common;
 using System.Data.SqlClient;
 using System.Runtime.InteropServices;
 
-namespace Makc2020.Core.Data.SqlServer
+namespace Vlad2020.Core.Data.SqlServer
 {
     /// <summary>
     /// Ядро. Данные. SQL Server. Поставщик.

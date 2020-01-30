@@ -1,17 +1,17 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base;
-using Makc2020.Core.Base.Common;
-using Makc2020.Mods.Auth.Base.Resources.Errors;
-using Makc2020.Mods.IdentityServer.Base;
-using Makc2020.Mods.IdentityServer.Base.Resources.Successes;
-using Makc2020.Mods.IdentityServer.Base.Resources.Titles;
-using Makc2020.Root.Base;
+using Vlad2020.Core.Base;
+using Vlad2020.Core.Base.Common;
+using Vlad2020.Mods.Auth.Base.Resources.Errors;
+using Vlad2020.Mods.IdentityServer.Base;
+using Vlad2020.Mods.IdentityServer.Base.Resources.Successes;
+using Vlad2020.Mods.IdentityServer.Base.Resources.Titles;
+using Vlad2020.Root.Base;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 
-namespace Makc2020.Root.Apps.IdentityServer.Base
+namespace Vlad2020.Root.Apps.IdentityServer.Base
 {
     /// <summary>
     /// Корень. Приложение "IdentityServer". Основа. Модули.

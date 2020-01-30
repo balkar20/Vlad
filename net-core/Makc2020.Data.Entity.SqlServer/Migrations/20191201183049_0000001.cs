@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Makc2020.Data.Entity.SqlServer.Migrations
+namespace Vlad2020.Data.Entity.SqlServer.Migrations
 {
     public partial class _0000001 : Migration
     {

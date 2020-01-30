@@ -2,7 +2,7 @@
 
 using Microsoft.Extensions.Localization;
 
-namespace Makc2020.Mods.DummyMain.Base.Resources.Successes
+namespace Vlad2020.Mods.DummyMain.Base.Resources.Successes
 {
     /// <summary>
     /// Мод "DummyMain". Основа. Ресурсы. Успехи.

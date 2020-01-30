@@ -1,16 +1,16 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Resources.Errors;
-using Makc2020.Core.Caching;
-using Makc2020.Core.Caching.Common.Client.Config;
-using Makc2020.Core.Caching.Clients;
-using Makc2020.Core.Caching.Resources.Errors;
-using Makc2020.Data.Base;
-using Makc2020.Mods.DummyMain.Base.Jobs.Item.Get;
+using Vlad2020.Core.Base.Resources.Errors;
+using Vlad2020.Core.Caching;
+using Vlad2020.Core.Caching.Common.Client.Config;
+using Vlad2020.Core.Caching.Clients;
+using Vlad2020.Core.Caching.Resources.Errors;
+using Vlad2020.Data.Base;
+using Vlad2020.Mods.DummyMain.Base.Jobs.Item.Get;
 using System;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.DummyMain.Caching.Jobs.Item.Get
+namespace Vlad2020.Mods.DummyMain.Caching.Jobs.Item.Get
 {
     /// <summary>
     /// Мод "DummyMain". Кэширование. Задания. Элемент. Получение. Сервис.

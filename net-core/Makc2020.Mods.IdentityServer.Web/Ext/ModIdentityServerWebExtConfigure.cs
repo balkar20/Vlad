@@ -1,16 +1,16 @@
 ﻿//Author Maxim Kuzmin//makc//
 
 using IdentityServer4.Models;
-using Makc2020.Data.Entity.Objects;
-using Makc2020.Mods.IdentityServer.Base.Config;
-using Makc2020.Mods.IdentityServer.Base.Config.Enums;
-using Makc2020.Mods.IdentityServer.Base.Config.Settings;
-using Makc2020.Mods.IdentityServer.Base.Parts.Profile;
+using Vlad2020.Data.Entity.Objects;
+using Vlad2020.Mods.IdentityServer.Base.Config;
+using Vlad2020.Mods.IdentityServer.Base.Config.Enums;
+using Vlad2020.Mods.IdentityServer.Base.Config.Settings;
+using Vlad2020.Mods.IdentityServer.Base.Parts.Profile;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 
-namespace Makc2020.Mods.IdentityServer.Web.Ext
+namespace Vlad2020.Mods.IdentityServer.Web.Ext
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. Расширение. Настроить.

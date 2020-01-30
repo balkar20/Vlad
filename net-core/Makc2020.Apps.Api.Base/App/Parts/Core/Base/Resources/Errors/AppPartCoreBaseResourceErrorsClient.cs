@@ -1,11 +1,11 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Apps.Api.Base.App.Common;
-using Makc2020.Core.Base.Resources.Errors;
+using Vlad2020.Apps.Api.Base.App.Common;
+using Vlad2020.Core.Base.Resources.Errors;
 using Microsoft.Extensions.Logging;
 using System.Globalization;
 
-namespace Makc2020.Apps.Api.Base.App.Parts.Core.Base.Resources.Errors
+namespace Vlad2020.Apps.Api.Base.App.Parts.Core.Base.Resources.Errors
 {
     /// <summary>
     /// Приложение. Часть "Core". Ядро. Основа. Ресурсы. Ошибки. Клиент.

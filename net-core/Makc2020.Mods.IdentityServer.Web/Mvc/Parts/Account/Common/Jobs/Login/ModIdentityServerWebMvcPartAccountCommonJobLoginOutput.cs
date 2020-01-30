@@ -1,13 +1,13 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Mods.IdentityServer.Base.Enums;
-using Makc2020.Mods.IdentityServer.Base.Resources.Titles;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Views.Login;
+using Vlad2020.Mods.IdentityServer.Base.Enums;
+using Vlad2020.Mods.IdentityServer.Base.Resources.Titles;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Views.Login;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Common.Jobs.Login
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Common.Jobs.Login
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "Account". Общее. Вход в систему. Вывод.

@@ -2,7 +2,7 @@
 
 using System.Collections.Generic;
 
-namespace Makc2020.Host.Base.Parts.Ldap.Config
+namespace Vlad2020.Host.Base.Parts.Ldap.Config
 {
     /// <summary>
     /// Хост. Основа. Часть "LDAP". Конфигурация. Настройки.

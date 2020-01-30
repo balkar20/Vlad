@@ -1,14 +1,14 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Data.Db;
-using Makc2020.Core.Base.Ext;
-using Makc2020.Data.Base.Loaders;
-using Makc2020.Data.Base.Objects;
+using Vlad2020.Core.Base.Data.Db;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Data.Base.Loaders;
+using Vlad2020.Data.Base.Objects;
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Threading.Tasks;
 
-namespace Makc2020.Data.Db.Loaders
+namespace Vlad2020.Data.Db.Loaders
 {
     /// <summary>
     /// Данные. База данных. Загрузчики. Сущность "Role".

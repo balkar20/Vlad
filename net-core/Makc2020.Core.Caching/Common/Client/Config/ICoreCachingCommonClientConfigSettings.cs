@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Core.Caching.Common.Client.Config
+namespace Vlad2020.Core.Caching.Common.Client.Config
 {
     /// <summary>
     /// Ядро. Кэширование. Общее. Клиент. Конфигурация. Настройки. Интерфейс.

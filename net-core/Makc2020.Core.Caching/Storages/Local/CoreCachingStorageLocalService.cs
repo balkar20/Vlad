@@ -1,12 +1,12 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Ext;
+using Vlad2020.Core.Base.Ext;
 using Microsoft.Extensions.Caching.Memory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Makc2020.Core.Caching.Storages.Local
+namespace Vlad2020.Core.Caching.Storages.Local
 {
     /// <summary>
     /// Ядро. Кэширование. Хранилища. Локальное. Сервис.

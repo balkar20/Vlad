@@ -3,8 +3,8 @@
 
 
 using IdentityServer4.Services;
-using Makc2020.Apps.IdentityServer.Web.Models;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Security.Headers;
+using Vlad2020.Apps.IdentityServer.Web.Models;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Security.Headers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -12,7 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 
-namespace Makc2020.Apps.IdentityServer.Web.Controllers
+namespace Vlad2020.Apps.IdentityServer.Web.Controllers
 {
     [ModIdentityServerWebMvcSecurityHeaders]
     [AllowAnonymous]

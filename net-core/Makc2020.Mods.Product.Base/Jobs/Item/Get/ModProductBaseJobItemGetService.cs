@@ -1,14 +1,14 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Execution.Exceptions;
-using Makc2020.Core.Base.Executable.Services.Async;
-using Makc2020.Core.Base.Resources.Errors;
+using Vlad2020.Core.Base.Execution.Exceptions;
+using Vlad2020.Core.Base.Executable.Services.Async;
+using Vlad2020.Core.Base.Resources.Errors;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.Product.Base.Jobs.Item.Get
+namespace Vlad2020.Mods.Product.Base.Jobs.Item.Get
 {
     /// <summary>
     /// Мод "Product". Основа. Задания. Элемент. Получение. Сервис.

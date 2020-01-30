@@ -1,12 +1,12 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Ext;
+using Vlad2020.Core.Base.Ext;
 using System;
 using System.Data;
 using System.Data.Common;
 using System.Threading.Tasks;
 
-namespace Makc2020.Core.Base.Data
+namespace Vlad2020.Core.Base.Data
 {
     /// <summary>
     /// Ядро. Основа. Данные. Помощник.

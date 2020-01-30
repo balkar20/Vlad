@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Mods.IdentityServer.Base.Config.Enums;
+using Vlad2020.Mods.IdentityServer.Base.Config.Enums;
 using System.Collections.Generic;
 
-namespace Makc2020.Mods.IdentityServer.Base.Config.Settings
+namespace Vlad2020.Mods.IdentityServer.Base.Config.Settings
 {
     /// <summary>
     /// Мод "IdentityServer". Основа. Конфигурация. Настройки. Клиент.

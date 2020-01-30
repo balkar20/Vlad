@@ -1,16 +1,16 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Executable.Services.Async;
-using Makc2020.Core.Base.Execution.Exceptions;
-using Makc2020.Core.Base.Resources.Errors;
-using Makc2020.Mods.Auth.Base.Resources.Errors;
-using Makc2020.Mods.IdentityServer.Base.Exceptions;
+using Vlad2020.Core.Base.Executable.Services.Async;
+using Vlad2020.Core.Base.Execution.Exceptions;
+using Vlad2020.Core.Base.Resources.Errors;
+using Vlad2020.Mods.Auth.Base.Resources.Errors;
+using Vlad2020.Mods.IdentityServer.Base.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Challenge.Get
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "External". Задания. Вызов. Получение. Сервис.

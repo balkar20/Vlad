@@ -1,11 +1,11 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Executable.Services.Async;
-using Makc2020.Core.Base.Resources.Errors;
+using Vlad2020.Core.Base.Executable.Services.Async;
+using Vlad2020.Core.Base.Resources.Errors;
 using System;
 using System.Threading.Tasks;
 
-namespace Makc2020.Data.Entity.Jobs.Database.Migrate
+namespace Vlad2020.Data.Entity.Jobs.Database.Migrate
 {
     /// <summary>
     /// Данные. Entity Framework. Задания. База данных. Миграция. Сервис.

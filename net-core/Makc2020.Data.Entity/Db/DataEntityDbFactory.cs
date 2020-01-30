@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Data.Base;
+using Vlad2020.Data.Base;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace Makc2020.Data.Entity.Db
+namespace Vlad2020.Data.Entity.Db
 {
     /// <summary>
     /// Данные. Entity Framework. База данных. Фабрика.

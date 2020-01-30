@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Root.Apps.Api.Base;
+using Vlad2020.Root.Apps.Api.Base;
 using Microsoft.Extensions.Logging;
 
-namespace Makc2020.Apps.Api.Base.App
+namespace Vlad2020.Apps.Api.Base.App
 {
     /// <summary>
     /// Приложение. Контекст.

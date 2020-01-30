@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base;
-using Makc2020.Data.Base;
+using Vlad2020.Core.Base;
+using Vlad2020.Data.Base;
 
-namespace Makc2020.Data.Entity.SqlServer
+namespace Vlad2020.Data.Entity.SqlServer
 {
     /// <summary>
     /// Данные. Entity Framework. SQL Server. Внешнее.

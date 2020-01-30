@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Mods.IdentityServer.Base;
-using Makc2020.Root.Base;
+using Vlad2020.Mods.IdentityServer.Base;
+using Vlad2020.Root.Base;
 using Microsoft.Extensions.Logging;
 
-namespace Makc2020.Root.Apps.IdentityServer.Base
+namespace Vlad2020.Root.Apps.IdentityServer.Base
 {
     /// <summary>
     /// Корень. Приложение "IdentityServer". Основа. Контекст.

@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Makc2020.Core.Caching
+namespace Vlad2020.Core.Caching
 {
     /// <summary>
     /// Ядро. Кэширование. Ключ. 

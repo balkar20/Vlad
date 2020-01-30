@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Mods.DummyMain.Base.Config
+namespace Vlad2020.Mods.DummyMain.Base.Config
 {
     /// <summary>
     /// Мод "DummyMain". Основа. Конфигурация. Настройки. Интерфейс.

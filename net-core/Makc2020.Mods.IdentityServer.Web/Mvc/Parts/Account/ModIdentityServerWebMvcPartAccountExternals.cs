@@ -1,11 +1,11 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Resources.Errors;
-using Makc2020.Mods.Auth.Base.Resources.Errors;
-using Makc2020.Mods.IdentityServer.Base.Resources.Successes;
-using Makc2020.Mods.IdentityServer.Base.Resources.Titles;
+using Vlad2020.Core.Base.Resources.Errors;
+using Vlad2020.Mods.Auth.Base.Resources.Errors;
+using Vlad2020.Mods.IdentityServer.Base.Resources.Successes;
+using Vlad2020.Mods.IdentityServer.Base.Resources.Titles;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "Account". Внешнее.

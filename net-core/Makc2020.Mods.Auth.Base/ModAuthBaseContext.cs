@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Auth.Types.Jwt;
+using Vlad2020.Core.Base.Auth.Types.Jwt;
 
-namespace Makc2020.Mods.Auth.Base
+namespace Vlad2020.Mods.Auth.Base
 {
     /// <summary>
     /// Мод "Auth". Основа. Контекст.

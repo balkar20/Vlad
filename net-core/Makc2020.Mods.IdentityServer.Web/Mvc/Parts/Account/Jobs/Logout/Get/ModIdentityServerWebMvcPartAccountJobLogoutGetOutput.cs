@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Views.Logout;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Views.Logout;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Logout.Get
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Logout.Get
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "Account". Задания. Выход из системы. Получение. Вывод.

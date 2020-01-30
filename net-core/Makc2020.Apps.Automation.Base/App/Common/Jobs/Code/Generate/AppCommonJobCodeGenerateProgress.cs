@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Mods.Automation.Base.Common.Code.Generate;
+using Vlad2020.Mods.Automation.Base.Common.Code.Generate;
 using System;
 
-namespace Makc2020.Apps.Automation.Base.App.Common.Jobs.Code.Generate
+namespace Vlad2020.Apps.Automation.Base.App.Common.Jobs.Code.Generate
 {
     /// <summary>
     /// Приложение. Общее. Задания. Код. Генерация. Прогресс.

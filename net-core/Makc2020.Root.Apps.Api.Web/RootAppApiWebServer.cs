@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Root.Web;
+using Vlad2020.Root.Web;
 
-namespace Makc2020.Root.Apps.Api.Web
+namespace Vlad2020.Root.Apps.Api.Web
 {
     /// <summary>
     /// Корень. Приложение "API". Веб. Сервер.

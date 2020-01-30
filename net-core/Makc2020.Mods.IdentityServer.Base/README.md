@@ -1,11 +1,11 @@
-# Библиотека классов Makc2020.Mods.IdentityServer.Base
+# Библиотека классов Vlad2020.Mods.IdentityServer.Base
 
 Библиотека классов, предназначенная для реализации основной функциональности мода "IdentityServer" -
 сервера идентичности с помощью библиотеки [IdentityServer4](http://docs.identityserver.io/en/latest/index.html).
 
 ## Настройка
 
-1. Открыть файл **Makc2020.Mods.IdentityServer.Base/ConfigFiles/Mod.IdentityServer.Base.config.json**.
+1. Открыть файл **Vlad2020.Mods.IdentityServer.Base/ConfigFiles/Mod.IdentityServer.Base.config.json**.
 
 2. В разделе **ApiResources** указать список аутентифицируемых ресурсов API.
 
@@ -18,8 +18,8 @@
     {
       "ApiResources": [
         {
-          "DisplayName": "Makc2020 web API",
-          "Name": "Makc2020WebApi"
+          "DisplayName": "Vlad2020 web API",
+          "Name": "Vlad2020WebApi"
         }
       ],
       "Clients": [
@@ -32,10 +32,10 @@
           "AllowedScopes": [
             "offline_access",
             "openid",
-            "Makc2020WebApi"
+            "Vlad2020WebApi"
           ],
-          "ClientId": "Makc2020WebClient",
-          "ClientName": "Makc2020 web client",
+          "ClientId": "Vlad2020WebClient",
+          "ClientName": "Vlad2020 web client",
           "ClientUri": "http://localhost:4201",
           "RequireClientSecret": false,
           "RequireConsent": false,

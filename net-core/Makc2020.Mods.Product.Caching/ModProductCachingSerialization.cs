@@ -1,11 +1,11 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Mods.Product.Base.Common.Jobs.Option.Item.Get;
-using Makc2020.Mods.Product.Base.Common.Jobs.Option.List.Get;
-using Makc2020.Mods.Product.Base.Jobs.Item.Get;
-using Makc2020.Mods.Product.Base.Jobs.List.Get;
+using Vlad2020.Mods.Product.Base.Common.Jobs.Option.Item.Get;
+using Vlad2020.Mods.Product.Base.Common.Jobs.Option.List.Get;
+using Vlad2020.Mods.Product.Base.Jobs.Item.Get;
+using Vlad2020.Mods.Product.Base.Jobs.List.Get;
 
-namespace Makc2020.Mods.Product.Caching
+namespace Vlad2020.Mods.Product.Caching
 {
     /// <summary>
     /// Мод "Product". Кэширование. Сериализация кэшируемых моделей.

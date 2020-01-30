@@ -2,23 +2,23 @@
 
 x-server-environment:
   &server-environment
-  - ConnectionString=Server=mssql;Initial Catalog=Makc2020;User Id=sa;Password=${DB_PW}
+  - ConnectionString=Server=mssql;Initial Catalog=Vlad2020;User Id=sa;Password=${DB_PW}
   - ASPNETCORE_ENVIRONMENT=Development
 
 services:
-  makc2020.apps.api.base:
+  Vlad2020.apps.api.base:
     environment: *server-environment
 
-  makc2020.apps.api.web:
+  Vlad2020.apps.api.web:
     environment: *server-environment
     ports:
       - "5002:80"
 
-  makc2020.apps.identityserver.web:
+  Vlad2020.apps.identityserver.web:
     environment: *server-environment
     ports:
       - "6002:80"
 
-  makc2020-angular-redux:    
+  Vlad2020-angular-redux:    
     ports:
       - "4201:80"

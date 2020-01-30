@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Resources.Converting;
-using Makc2020.Core.Base.Resources.Errors;
+using Vlad2020.Core.Base.Resources.Converting;
+using Vlad2020.Core.Base.Resources.Errors;
 using Microsoft.Extensions.Localization;
 
-namespace Makc2020.Core.Base
+namespace Vlad2020.Core.Base
 {
     /// <summary>
     /// Ядро. Основа. Ресурсы.

@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Resources.Errors;
-using Makc2020.Mods.Auth.Base.Resources.Errors;
+using Vlad2020.Core.Base.Resources.Errors;
+using Vlad2020.Mods.Auth.Base.Resources.Errors;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "External". Внешнее.

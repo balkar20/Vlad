@@ -1,4 +1,4 @@
-﻿namespace Makc2020.Core.Base.Auth.Enums
+﻿namespace Vlad2020.Core.Base.Auth.Enums
 {
     /// <summary>
     /// Ядро. Основа. Аутентификация. Перечисления. Типы.

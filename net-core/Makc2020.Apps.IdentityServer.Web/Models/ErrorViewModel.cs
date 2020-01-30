@@ -4,7 +4,7 @@
 
 using IdentityServer4.Models;
 
-namespace Makc2020.Apps.IdentityServer.Web.Models
+namespace Vlad2020.Apps.IdentityServer.Web.Models
 {
     public class ErrorViewModel
     {

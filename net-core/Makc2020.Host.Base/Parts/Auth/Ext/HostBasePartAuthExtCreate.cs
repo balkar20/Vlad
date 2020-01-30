@@ -1,7 +1,7 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Ext;
-using Makc2020.Data.Entity.Objects;
+using Vlad2020.Core.Base.Ext;
+using Vlad2020.Data.Entity.Objects;
 using Microsoft.AspNetCore.Identity;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Security.Claims;
 using System.Security.Principal;
 using System.Threading.Tasks;
 
-namespace Makc2020.Host.Base.Parts.Auth.Ext
+namespace Vlad2020.Host.Base.Parts.Auth.Ext
 {
     /// <summary>
     /// Хост. Основа. Часть "Auth". Расширение. Создать.

@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Mods.Product.Caching
+namespace Vlad2020.Mods.Product.Caching
 {
     /// <summary>
     /// Мод "Product". Кэширование. Контекст.

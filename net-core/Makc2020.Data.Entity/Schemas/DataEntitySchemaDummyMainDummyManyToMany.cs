@@ -1,14 +1,14 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Data.Base;
-using Makc2020.Data.Entity.Objects;
+using Vlad2020.Data.Base;
+using Vlad2020.Data.Entity.Objects;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Makc2020.Data.Entity.Schema
+namespace Vlad2020.Data.Entity.Schema
 {
     /// <summary>
     /// Данные. Entity Framework. Схемы. Сущность "DummyMainDummyManyToMany".

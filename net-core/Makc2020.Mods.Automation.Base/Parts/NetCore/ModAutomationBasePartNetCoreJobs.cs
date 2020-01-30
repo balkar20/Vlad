@@ -1,12 +1,12 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Resources.Errors;
-using Makc2020.Mods.Automation.Base.Parts.NetCore.Config;
-using Makc2020.Mods.Automation.Base.Parts.NetCore.Jobs.Code.Generate;
-using Makc2020.Mods.Automation.Base.Resources.Errors;
-using Makc2020.Mods.Automation.Base.Resources.Successes;
+using Vlad2020.Core.Base.Resources.Errors;
+using Vlad2020.Mods.Automation.Base.Parts.NetCore.Config;
+using Vlad2020.Mods.Automation.Base.Parts.NetCore.Jobs.Code.Generate;
+using Vlad2020.Mods.Automation.Base.Resources.Errors;
+using Vlad2020.Mods.Automation.Base.Resources.Successes;
 
-namespace Makc2020.Mods.Automation.Base.Parts.NetCore
+namespace Vlad2020.Mods.Automation.Base.Parts.NetCore
 {
     /// <summary>
     /// Мод "Automation". Основа. Часть "NetCore". Задания.

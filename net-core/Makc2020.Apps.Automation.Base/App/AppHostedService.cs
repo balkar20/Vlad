@@ -1,15 +1,15 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Apps.Automation.Base.App.Common;
-using Makc2020.Apps.Automation.Base.App.Parts.Angular.Jobs.Code.Generate;
-using Makc2020.Apps.Automation.Base.App.Parts.NetCore.Jobs.Code.Generate;
+using Vlad2020.Apps.Automation.Base.App.Common;
+using Vlad2020.Apps.Automation.Base.App.Parts.Angular.Jobs.Code.Generate;
+using Vlad2020.Apps.Automation.Base.App.Parts.NetCore.Jobs.Code.Generate;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Makc2020.Apps.Automation.Base.App
+namespace Vlad2020.Apps.Automation.Base.App
 {
     /// <summary>
     /// Приложение. Хостируемый сервис.

@@ -2,7 +2,7 @@
 
 using System;
 
-namespace Makc2020.Core.Base
+namespace Vlad2020.Core.Base
 {
     /// <summary>
     /// Ядро. Основа. Исключение.

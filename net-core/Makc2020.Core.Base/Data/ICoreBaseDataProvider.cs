@@ -3,7 +3,7 @@
 using System;
 using System.Data.Common;
 
-namespace Makc2020.Core.Base.Data
+namespace Vlad2020.Core.Base.Data
 {
     /// <summary>
     /// Ядро. Основа. Данные. Поставщик. Интерфейс.

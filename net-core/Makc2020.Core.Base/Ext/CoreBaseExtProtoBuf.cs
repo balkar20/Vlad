@@ -3,7 +3,7 @@
 using System;
 using System.IO;
 
-namespace Makc2020.Core.Base.Ext
+namespace Vlad2020.Core.Base.Ext
 {
     /// <summary>
     /// Ядро. Основа. Расширение. ProtoBuf.

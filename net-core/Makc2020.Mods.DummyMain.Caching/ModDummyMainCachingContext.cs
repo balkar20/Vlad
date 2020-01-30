@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Mods.DummyMain.Caching
+namespace Vlad2020.Mods.DummyMain.Caching
 {
     /// <summary>
     /// Мод "DummyMain". Кэширование. Контекст.

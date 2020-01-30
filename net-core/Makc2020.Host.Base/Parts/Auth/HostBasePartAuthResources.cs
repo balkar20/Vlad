@@ -1,10 +1,10 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Host.Base.Parts.Auth.Resources.Errors;
-using Makc2020.Host.Base.Parts.Auth.Resources.Successes;
+using Vlad2020.Host.Base.Parts.Auth.Resources.Errors;
+using Vlad2020.Host.Base.Parts.Auth.Resources.Successes;
 using Microsoft.Extensions.Localization;
 
-namespace Makc2020.Host.Base.Parts.Auth
+namespace Vlad2020.Host.Base.Parts.Auth
 {
     /// <summary>
     /// Мод "Auth". Основа. Ресурсы.

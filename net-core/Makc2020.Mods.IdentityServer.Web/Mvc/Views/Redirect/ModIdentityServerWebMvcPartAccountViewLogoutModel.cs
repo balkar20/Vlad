@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Views.Redirect
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Views.Redirect
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Виды. Перенаправление. Модель.

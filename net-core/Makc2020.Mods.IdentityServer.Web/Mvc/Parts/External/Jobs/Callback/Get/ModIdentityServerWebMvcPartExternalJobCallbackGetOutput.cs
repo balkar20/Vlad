@@ -1,6 +1,6 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Callback.Get
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.External.Jobs.Callback.Get
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "External". Задания. Обратный вызов. Получение. Вывод.

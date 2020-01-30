@@ -1,8 +1,8 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Data;
+using Vlad2020.Core.Base.Data;
 
-namespace Makc2020.Core.Data.SqlServer
+namespace Vlad2020.Core.Data.SqlServer
 {
     /// <summary>
     /// Ядро. Данные. SQL Server. Контекст.

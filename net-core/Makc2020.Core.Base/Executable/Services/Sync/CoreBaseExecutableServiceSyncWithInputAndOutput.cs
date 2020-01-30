@@ -1,9 +1,9 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Resources.Errors;
+using Vlad2020.Core.Base.Resources.Errors;
 using System;
 
-namespace Makc2020.Core.Base.Executable.Services.Sync
+namespace Vlad2020.Core.Base.Executable.Services.Sync
 {
     /// <summary>
     /// Ядро. Основа. Выполняемое. Сервис синхронный с вводом и выводом.

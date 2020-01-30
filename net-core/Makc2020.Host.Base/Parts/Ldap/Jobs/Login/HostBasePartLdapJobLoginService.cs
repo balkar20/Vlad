@@ -1,15 +1,15 @@
 ﻿//Author Maxim Kuzmin//makc//
 
-using Makc2020.Core.Base.Executable.Services.Sync;
-using Makc2020.Core.Base.Execution.Exceptions;
-using Makc2020.Core.Base.Resources.Errors;
-using Makc2020.Host.Base.Parts.Ldap.Resources.Errors;
-using Makc2020.Host.Base.Parts.Ldap.Resources.Successes;
+using Vlad2020.Core.Base.Executable.Services.Sync;
+using Vlad2020.Core.Base.Execution.Exceptions;
+using Vlad2020.Core.Base.Resources.Errors;
+using Vlad2020.Host.Base.Parts.Ldap.Resources.Errors;
+using Vlad2020.Host.Base.Parts.Ldap.Resources.Successes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Makc2020.Host.Base.Parts.Ldap.Jobs.Login
+namespace Vlad2020.Host.Base.Parts.Ldap.Jobs.Login
 {
     /// <summary>
     /// Хост. Основа. Часть "LDAP". Задания. Вход в систему. Сервис.

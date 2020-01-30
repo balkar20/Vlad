@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Data.Common;
 using System.Threading.Tasks;
 
-namespace Makc2020.Core.Base.Data.Db
+namespace Vlad2020.Core.Base.Data.Db
 {
     /// <summary>
     /// Ядро. Основа. Данные. База данных. Загрузчик. Интерфейс.

@@ -2,13 +2,13 @@
 
 using IdentityServer4.Services;
 using IdentityServer4.Stores;
-using Makc2020.Core.Web.Mvc;
-using Makc2020.Data.Entity.Objects;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Common.Jobs.Login;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Login.Get;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Login.Post;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Logout.Get;
-using Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Logout.Post;
+using Vlad2020.Core.Web.Mvc;
+using Vlad2020.Data.Entity.Objects;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Common.Jobs.Login;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Login.Get;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Login.Post;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Logout.Get;
+using Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Jobs.Logout.Post;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.ViewEngines;
@@ -16,7 +16,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace Makc2020.Mods.IdentityServer.Web.Mvc.Parts.Account
+namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account
 {
     /// <summary>
     /// Мод "IdentityServer". Веб. MVC. Часть "Account". Модель.

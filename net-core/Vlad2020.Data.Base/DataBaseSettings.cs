@@ -120,9 +120,12 @@ namespace Vlad2020.Data.Base
             DummyManyToMany = new DataBaseSettingDummyManyToMany();
             DummyOneToMany = new DataBaseSettingDummyOneToMany();
             DummyTree = new DataBaseSettingDummyTree();
+
             Product = new DataBaseSettingProduct();
             ProductCategory = new DataBaseSettingProductCategory();
             ProductFeature = new DataBaseSettingProductFeature();
+            ProductProductFeature = new DataBaseSettingProductProductFeature();
+
             Role = new DataBaseSettingRole();
             RoleClaim = new DataBaseSettingRoleClaim();
             User = new DataBaseSettingUser();

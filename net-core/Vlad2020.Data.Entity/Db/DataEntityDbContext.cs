@@ -67,6 +67,11 @@ namespace Vlad2020.Data.Entity.Db
         /// </summary>
         public DbSet<DataEntityObjectProductFeature> ProductFeature { get; set; }
 
+        /// <summary>
+        /// Данные сущности "ProductProductFeature".
+        /// </summary>
+        public DbSet<DataEntityObjectProductProductFeature> ProductProductFeature { get; set; }
+
         #endregion Properties
 
         #region Constructors
@@ -106,6 +111,11 @@ namespace Vlad2020.Data.Entity.Db
             modelBuilder.ApplyConfiguration(new DataEntitySchemaDummyOneToMany(DataBaseSettings));
             modelBuilder.ApplyConfiguration(new DataEntitySchemaDummyTree(DataBaseSettings));
 
+            modelBuilder.ApplyConfiguration(new DataEntitySchemaProduct(DataBaseSettings));
+            modelBuilder.ApplyConfiguration(new DataEntitySchemaProductCategory(DataBaseSettings));
+            modelBuilder.ApplyConfiguration(new DataEntitySchemaProductFeature(DataBaseSettings));
+            modelBuilder.ApplyConfiguration(new DataEntitySchemaProductProductFeature(DataBaseSettings));
+
             modelBuilder.ApplyConfiguration(new DataEntitySchemaRole(DataBaseSettings));
             modelBuilder.ApplyConfiguration(new DataEntitySchemaRoleClaim(DataBaseSettings));
             modelBuilder.ApplyConfiguration(new DataEntitySchemaUser(DataBaseSettings));
@@ -119,6 +129,11 @@ namespace Vlad2020.Data.Entity.Db
             DataEntitySchemaDummyMain.SeedTestData(modelBuilder);
             DataEntitySchemaDummyManyToMany.SeedTestData(modelBuilder);
             DataEntitySchemaDummyMainDummyManyToMany.SeedTestData(modelBuilder);
+
+            DataEntitySchemaProductCategory.SeedTestData(modelBuilder);
+            DataEntitySchemaProduct.SeedTestData(modelBuilder);
+            DataEntitySchemaProductFeature.SeedTestData(modelBuilder);
+            DataEntitySchemaProductProductFeature.SeedTestData(modelBuilder);
 #endif
         }
 

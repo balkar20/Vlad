@@ -54,7 +54,7 @@ namespace Vlad2020.Data.Entity.Schema
 
             //builder.Property(x => x.ObjectDummyOneToManyId)
             //    .IsRequired()
-            //    .HasColumnName(setting.DbColumnForDummyOneToManyId);
+            //    .HasColumnName(setting.DbColumnForProductCategoryId);
 
             //builder.HasIndex(x => x.Name)
             //    .IsUnique()
@@ -63,7 +63,7 @@ namespace Vlad2020.Data.Entity.Schema
             //builder.HasOne(x => x.ObjectDummyOneToMany)
             //    .WithMany(x => x.ObjectsProduct)
             //    .HasForeignKey(x => x.ObjectDummyOneToManyId)
-            //    .HasConstraintName(setting.DbForeignKeyToDummyOneToMany);
+            //    .HasConstraintName(setting.DbForeignKeyToProductCategory);
         }
 
         /// <summary>

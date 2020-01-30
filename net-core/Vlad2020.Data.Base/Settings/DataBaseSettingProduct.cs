@@ -43,12 +43,12 @@ namespace Vlad2020.Data.Base.Settings
         /// <summary>
         /// Внешний ключ в базе данных к сущности "DummyOneToMany".
         /// </summary>
-        public string DbForeignKeyToDummyOneToMany => CreateNameOfForeignKey(DbTable, DataBaseSettingDummyOneToMany.DB_TABLE);
+        public string DbForeignKeyToProductCategory => CreateNameOfForeignKey(DbTable, DataBaseSettingProductCategory.DB_TABLE);
 
         /// <summary>
         /// Колонка в базе данных для поля идентификатора сущности "DummyOneToMany".
         /// </summary>
-        public string DbColumnForDummyOneToManyId => CreateNameOfColumn(DataBaseSettingDummyOneToMany.DB_TABLE, nameof(DataBaseObjectDummyOneToMany.Id));
+        public string DbColumnForProductCategoryId => CreateNameOfColumn(DataBaseSettingProductCategory.DB_TABLE, nameof(DataBaseObjectProductCategory.Id));
 
         /// <summary>
         /// Наименование уникального индекса в базе данных для поля "Name".

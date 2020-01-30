@@ -12,6 +12,9 @@ using Vlad2020.Root.Base;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
+using Vlad2020.Mods.Product.Base;
+using Vlad2020.Mods.Product.Base.Resources.Errors;
+using Vlad2020.Mods.Product.Base.Resources.Successes;
 
 namespace Vlad2020.Root.Apps.Api.Base
 {
@@ -31,6 +34,11 @@ namespace Vlad2020.Root.Apps.Api.Base
         /// Мод "DummyMain". Основа.
         /// </summary>
         public ModDummyMainBaseModule ModDummyMainBase { get; set; }
+
+        /// <summary>
+        /// Мод "Product". Основа.
+        /// </summary>
+        public ModProductBaseModule ModProductBase { get; set; }
 
         #endregion Properties
 
@@ -56,6 +64,7 @@ namespace Vlad2020.Root.Apps.Api.Base
 
             ModAuthBase?.ConfigureServices(services);
             ModDummyMainBase?.ConfigureServices(services);
+            ModProductBase?.ConfigureServices(services);
         }
 
         /// <inheritdoc/>
@@ -65,6 +74,7 @@ namespace Vlad2020.Root.Apps.Api.Base
 
             ModAuthBase?.InitConfig(environment);
             ModDummyMainBase?.InitConfig(environment);
+            ModProductBase?.InitConfig(environment);
         }
 
         /// <inheritdoc/>
@@ -88,6 +98,16 @@ namespace Vlad2020.Root.Apps.Api.Base
                 ResourceErrorsLocalizer = GetLocalizer<ModDummyMainBaseResourceErrors>(serviceProvider),
                 ResourceSuccessesLocalizer = GetLocalizer<ModDummyMainBaseResourceSuccesses>(serviceProvider)
             });
+
+            ModProductBase?.InitContext(new ModProductBaseExternals
+            {
+                CoreBaseResourceErrors = CoreBase?.Context.Resources.Errors,
+                CoreBaseDataProvider = CoreDataSqlServer?.Context.Provider,
+                DataBaseSettings = DataBase?.Context.Settings,
+                DataEntityDbFactory = DataEntitySqlServer?.Context.DbFactory,
+                ResourceErrorsLocalizer = GetLocalizer<ModProductBaseResourceErrors>(serviceProvider),
+                ResourceSuccessesLocalizer = GetLocalizer<ModProductBaseResourceSuccesses>(serviceProvider)
+            });
         }
 
         #endregion Public methods
@@ -101,6 +121,7 @@ namespace Vlad2020.Root.Apps.Api.Base
 
             if (TrySet<ModAuthBaseModule>(x => ModAuthBase = x, commonModule)) return true;
             if (TrySet<ModDummyMainBaseModule>(x => ModDummyMainBase = x, commonModule)) return true;            
+            if (TrySet<ModProductBaseModule>(x => ModProductBase = x, commonModule)) return true;            
 
             return false;
         }

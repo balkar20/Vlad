@@ -4,6 +4,7 @@ using Vlad2020.Mods.Auth.Base;
 using Vlad2020.Mods.DummyMain.Base;
 using Vlad2020.Root.Base;
 using Microsoft.Extensions.Logging;
+using Vlad2020.Mods.Product.Base;
 
 namespace Vlad2020.Root.Apps.Api.Base
 {
@@ -25,6 +26,11 @@ namespace Vlad2020.Root.Apps.Api.Base
         /// Мод "DummyMain". Основа.
         /// </summary>
         public ModDummyMainBaseContext ModDummyMainBase => Modules.ModDummyMainBase.Context;
+
+        /// <summary>
+        /// Мод "Product". Основа.
+        /// </summary>
+        public ModProductBaseContext ModProductBase => Modules.ModProductBase.Context;
 
         #endregion Properties
 

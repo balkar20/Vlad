@@ -43,7 +43,7 @@ namespace Vlad2020.Data.Base.Settings
         /// <summary>
         /// Внешний ключ в базе данных к сущности "DummyMain".
         /// </summary>
-        public string DbForeignKeyToDummyMain => CreateNameOfForeignKey(DbTable, DataBaseSettingDummyMain.DB_TABLE);
+        public string DbForeignKeyToProduct => CreateNameOfForeignKey(DbTable, DataBaseSettingProduct.DB_TABLE);
 
         /// <summary>
         /// Внешний ключ в базе данных к сущности "ProductFeature".
@@ -53,7 +53,7 @@ namespace Vlad2020.Data.Base.Settings
         /// <summary>
         /// Колонка в базе данных для поля идентификатора сущности "DummyMain".
         /// </summary>
-        public string DbColumnForDummyMainId => CreateNameOfColumn(DataBaseSettingDummyMain.DB_TABLE, nameof(DataBaseObjectDummyMain.Id));
+        public string DbColumnForProductId => CreateNameOfColumn(DataBaseSettingProduct.DB_TABLE, nameof(DataBaseObjectProduct.Id));
 
         /// <summary>
         /// Колонка в базе данных для поля идентификатора сущности "ProductFeature".

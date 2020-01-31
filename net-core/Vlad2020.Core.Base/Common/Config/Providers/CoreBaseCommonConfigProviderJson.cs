@@ -49,11 +49,16 @@ namespace Vlad2020.Core.Base.Common.Config.Providers
         {
             var configurationBuilder = new ConfigurationBuilder();
 
+            Environment = new CoreBaseEnvironment()
+            {
+                BasePath = System.AppContext.BaseDirectory,
+                Name = "j"
+            };
+
             var isAbsolutePath = FilePath.StartsWith(
                 Environment.BasePath,
                 StringComparison.InvariantCultureIgnoreCase
                 );
-
             var absolutePathToFile = isAbsolutePath
                 ? FilePath
                 : Path.Combine(Environment.BasePath, FilePath);

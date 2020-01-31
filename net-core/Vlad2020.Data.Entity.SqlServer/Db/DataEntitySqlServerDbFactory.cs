@@ -26,6 +26,10 @@ namespace Vlad2020.Data.Entity.SqlServer.Db
         public DataEntitySqlServerDbFactory()
             : base()
         {
+            Environment = new CoreBaseEnvironment()
+            {
+                BasePath = System.AppContext.BaseDirectory,
+            };
         }
 
         /// <inheritdoc/>

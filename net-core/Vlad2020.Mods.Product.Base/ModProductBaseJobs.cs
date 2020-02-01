@@ -49,12 +49,12 @@ namespace Vlad2020.Mods.Product.Base
         /// <summary>
         /// Задание на получение вариантов выбора сущности "DummyManyToMany".
         /// </summary>
-        public ModProductBaseJobOptionDummyManyToManyGetListService JobOptionsDummyManyToManyGet { get; private set; }
+        public ModProductBaseJobOptionProductFeatureGetListService JobOptionsDummyManyToManyGet { get; private set; }
 
         /// <summary>
         /// Задание на получение вариантов выбора сущности "DummyOneToMany".
         /// </summary>
-        public ModProductBaseJobOptionDummyOneToManyListGetService JobOptionsDummyOneToManyGet { get; private set; }
+        public ModProductBaseJobOptionProductCategoryListGetService JobOptionsDummyOneToManyGet { get; private set; }
 
         #endregion Properties
 
@@ -108,12 +108,12 @@ namespace Vlad2020.Mods.Product.Base
                 coreBaseResourceErrors
                 );
 
-            JobOptionsDummyManyToManyGet = new ModProductBaseJobOptionDummyManyToManyGetListService(
+            JobOptionsDummyManyToManyGet = new ModProductBaseJobOptionProductFeatureGetListService(
                 service.GetOptionsProductFeature,
                 coreBaseResourceErrors
                 );
 
-            JobOptionsDummyOneToManyGet = new ModProductBaseJobOptionDummyOneToManyListGetService(
+            JobOptionsDummyOneToManyGet = new ModProductBaseJobOptionProductCategoryListGetService(
                 service.GetOptionsProductCategory,
                 coreBaseResourceErrors
                 );

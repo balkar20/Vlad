@@ -6,6 +6,7 @@ using Vlad2020.Apps.Api.Base.App.Parts.Mods.DummyMain.Base.Jobs.List.Get;
 using Vlad2020.Apps.Api.Base.App.Parts.Mods.Product.Base.Jobs.Item.Get;
 using Vlad2020.Root.Apps.Api.Base;
 using Microsoft.Extensions.DependencyInjection;
+using Vlad2020.Apps.Api.Base.App.Parts.Mods.Product.Base.Jobs.List.Get;
 
 namespace Vlad2020.Apps.Api.Base.App
 {
@@ -27,6 +28,7 @@ namespace Vlad2020.Apps.Api.Base.App
             services.AddTransient<AppPartModDummyMainBaseJobItemGetClient>();
             services.AddTransient<AppPartModDummyMainBaseJobListGetClient>();
             services.AddTransient<AppPartModProductBaseJobItemGetClient>();
+            services.AddTransient<AppPartModProductBaseJobListGetClient>();
 
             services.AddHostedService<AppHostedService>();            
         }

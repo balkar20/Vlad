@@ -6,12 +6,13 @@ using Vlad2020.Mods.Product.Base.Common.Jobs.Option.List.Get;
 using System;
 using System.Threading.Tasks;
 
-namespace Vlad2020.Mods.Product.Base.Jobs.Option.DummyOneToMany.List.Get
+namespace Vlad2020.Mods.Product.Base.Jobs.Option.DummyManyToMany.List.Get
 {
     /// <summary>
     /// Мод "Product". Задания. Вариант выбора. Сущность "DummyManyToMany". Список. Получение. Сервис.
     /// </summary>
-    public class ModProductBaseJobOptionDummyOneToManyListGetService : CoreBaseExecutableServiceAsyncWithOutput
+    /// 
+    public class ModProductBaseJobOptionProductFeatureGetListService : CoreBaseExecutableServiceAsyncWithOutput
         <
             ModProductBaseCommonJobOptionListGetOutput
         >
@@ -23,7 +24,7 @@ namespace Vlad2020.Mods.Product.Base.Jobs.Option.DummyOneToMany.List.Get
         /// </summary>
         /// <param name="executable">Выполняемое.</param>
         /// <param name="coreBaseResourceErrors">Ядро. Основа. Ресурсы. Ошибки.</param>
-        public ModProductBaseJobOptionDummyOneToManyListGetService(
+        public ModProductBaseJobOptionProductFeatureGetListService(
             Func<Task<ModProductBaseCommonJobOptionListGetOutput>> executable,
             CoreBaseResourceErrors coreBaseResourceErrors
             ) : base(executable, coreBaseResourceErrors)

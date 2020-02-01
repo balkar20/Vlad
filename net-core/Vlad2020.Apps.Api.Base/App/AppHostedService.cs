@@ -10,6 +10,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using Vlad2020.Apps.Api.Base.App.Parts.Mods.Product.Base.Jobs.Item.Get;
+using Vlad2020.Apps.Api.Base.App.Parts.Mods.Product.Base.Jobs.List.Get;
 
 namespace Vlad2020.Apps.Api.Base.App
 {
@@ -52,7 +53,8 @@ namespace Vlad2020.Apps.Api.Base.App
                 GetService<AppPartCoreBaseResourceErrorsClient>(),
                 GetService<AppPartModDummyMainBaseJobItemGetClient>(),
                 GetService<AppPartModDummyMainBaseJobListGetClient>(),
-                GetService<AppPartModProductBaseJobItemGetClient>()
+                GetService<AppPartModProductBaseJobItemGetClient>(),
+                GetService<AppPartModProductBaseJobListGetClient>()
             };
 
             foreach (var client in clients)

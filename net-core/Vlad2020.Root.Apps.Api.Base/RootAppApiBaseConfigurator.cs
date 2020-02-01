@@ -6,6 +6,7 @@ using Vlad2020.Mods.DummyMain.Base;
 using Vlad2020.Root.Base;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
+using Vlad2020.Mods.Product.Base;
 
 namespace Vlad2020.Root.Apps.Api.Base
 {
@@ -27,6 +28,7 @@ namespace Vlad2020.Root.Apps.Api.Base
 
             services.AddTransient(x => GetContext(x).ModAuthBase);
             services.AddTransient(x => GetContext(x).ModDummyMainBase);
+            services.AddTransient(x => GetContext(x).ModProductBase);
         }
 
         /// <inheritdoc/>
@@ -37,7 +39,8 @@ namespace Vlad2020.Root.Apps.Api.Base
             var modules = new ICoreBaseCommonModule[]
             {
                 new ModAuthBaseModule(),
-                new ModDummyMainBaseModule()
+                new ModDummyMainBaseModule(),
+                new ModProductBaseModule(),
             };
 
             result.AddRange(modules);

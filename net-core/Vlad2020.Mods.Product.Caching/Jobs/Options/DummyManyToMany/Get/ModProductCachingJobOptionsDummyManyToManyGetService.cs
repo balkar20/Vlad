@@ -17,7 +17,7 @@ namespace Vlad2020.Mods.Product.Caching.Jobs.Options.DummyManyToMany.Get
     /// Мод "Product". Задания. Варианты выбора. Сущность "DummyManyToMany". Получение. Сервис.
     /// </summary>
     public class ModProductCachingJobOptionsDummyManyToManyGetService :
-        ModProductBaseJobOptionDummyManyToManyGetListService
+        ModProductBaseJobOptionProductFeatureGetListService
     {
         #region Constructors
 

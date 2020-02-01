@@ -10,4 +10,10 @@
     <ProjectReference Include="..\Vlad2020.Data.Entity\Vlad2020.Data.Entity.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="ConfigFiles\Mod.Product.Base.config.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Vlad2020.Data.Entity.Db;
 
-namespace Makc2020.Data.Entity.SqlServer.Migrations
+namespace Vlad2020.Data.Entity.SqlServer.Migrations
 {
     [DbContext(typeof(DataEntityDbContext))]
-    partial class DataEntityDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200201100323_0000002")]
+    partial class _0000002
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

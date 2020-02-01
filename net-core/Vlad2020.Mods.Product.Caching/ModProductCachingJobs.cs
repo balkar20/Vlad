@@ -137,7 +137,7 @@ namespace Vlad2020.Mods.Product.Caching
                 );
 
             JobOptionsDummyManyToManyGet = new ModProductCachingJobOptionsDummyManyToManyGetService(
-                service.GetOptionsDummyManyToMany,
+                service.GetOptionsProductFeature,
                 coreBaseResourceErrors,
                 dataBaseSettings,
                 cacheSettings,
@@ -146,7 +146,7 @@ namespace Vlad2020.Mods.Product.Caching
                 );
 
             JobOptionsDummyOneToManyGet = new ModProductCachingJobOptionsDummyOneToManyGetService(
-                service.GetOptionsDummyOneToMany,
+                service.GetOptionsProductCategory,
                 coreBaseResourceErrors,
                 dataBaseSettings,
                 cacheSettings,

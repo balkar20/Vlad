@@ -109,12 +109,12 @@ namespace Vlad2020.Mods.Product.Base
                 );
 
             JobOptionsDummyManyToManyGet = new ModProductBaseJobOptionDummyManyToManyGetListService(
-                service.GetOptionsDummyManyToMany,
+                service.GetOptionsProductFeature,
                 coreBaseResourceErrors
                 );
 
             JobOptionsDummyOneToManyGet = new ModProductBaseJobOptionDummyOneToManyListGetService(
-                service.GetOptionsDummyOneToMany,
+                service.GetOptionsProductCategory,
                 coreBaseResourceErrors
                 );
         }

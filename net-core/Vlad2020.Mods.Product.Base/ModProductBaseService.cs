@@ -73,7 +73,7 @@ namespace Vlad2020.Mods.Product.Base
             {
                 var entityProduct = await source.Product
                     .Include(x => x.ObjectProductCategory)
-                    .Include(x => x.ObjectsProductFeature)
+                    .Include(x => x.ObjectsProductProductFeature)
                     .ModProductBaseExtApplyFiltering(input)
                     .FirstOrDefaultAsync()
                     .CoreBaseExtTaskWithCurrentCulture(false);
@@ -84,14 +84,14 @@ namespace Vlad2020.Mods.Product.Base
 
                     if (result.ObjectsProductProductFeature != null)
                     {
-                        var idsOfDummyManyToMany = result.ObjectsProductProductFeature
+                        var idsOfProductFeature = result.ObjectsProductProductFeature
                             .Select(x => x.ObjectProductFeatureId)
                             .ToArray();
 
-                        if (idsOfDummyManyToMany.Any())
+                        if (idsOfProductFeature.Any())
                         {
                             var enities = await source.ProductFeature
-                                .Where(x => idsOfDummyManyToMany.Contains(x.Id))
+                                .Where(x => idsOfProductFeature.Contains(x.Id))
                                 .ToArrayAsync()
                                 .CoreBaseExtTaskWithCurrentCulture(false);
 
@@ -123,7 +123,7 @@ namespace Vlad2020.Mods.Product.Base
             {
                 var queryOfItems = source.Product
                     .Include(x => x.ObjectProductCategory)
-                    .Include(x => x.ObjectsProductFeature)
+                    .Include(x => x.ObjectsProductProductFeature)
                     .ModProductBaseExtApplyFiltering(input)
                     .ModProductBaseExtApplySorting(input)
                     .CoreBaseCommonModExtApplyPagination(input);
@@ -141,17 +141,17 @@ namespace Vlad2020.Mods.Product.Base
 
                 if (result.Items.Any())
                 {
-                    var idsDummyManyToMany = result.Items
+                    var idsProductFeature = result.Items
                         .Where(x => x.ObjectsProductProductFeature != null)
                         .SelectMany(x => x.ObjectsProductProductFeature)                        
                         .Select(x => x.ObjectProductFeatureId)
                         .Distinct()
                         .ToArray();
 
-                    if (idsDummyManyToMany.Any())
+                    if (idsProductFeature.Any())
                     {
                         var lookupOfProductFeature = await source.ProductFeature
-                            .Where(x => idsDummyManyToMany.Contains(x.Id))
+                            .Where(x => idsProductFeature.Contains(x.Id))
                             .ToDictionaryAsync(x => x.Id)
                             .CoreBaseExtTaskWithCurrentCulture(false);
 
@@ -173,36 +173,36 @@ namespace Vlad2020.Mods.Product.Base
         }
 
         /// <summary>
-        /// Получить варианты выбора сущности "DummyManyToMany".
+        /// Получить варианты выбора сущности "ProductFeature".
         /// </summary>
         /// <returns>Задача с полученными данными.</returns>
-        public async Task<ModProductBaseCommonJobOptionListGetOutput> GetOptionsDummyManyToMany()
+        public async Task<ModProductBaseCommonJobOptionListGetOutput> GetOptionsProductFeature()
         {
             var result = new ModProductBaseCommonJobOptionListGetOutput();
 
             using (var source = CreateDbContext())
             {
-                var entities = await source.DummyManyToMany.ToArrayAsync();
+                var entities = await source.ProductFeature.ToArrayAsync();
 
-                result.Items = entities.Select(x => CreateOptionDummyManyToMany(x)).ToArray();
+                result.Items = entities.Select(x => CreateOptionProductFeature(x)).ToArray();
             }
 
             return result;
         }
 
         /// <summary>
-        /// Получить варианты выбора сущности "DummyOneToMany".
+        /// Получить варианты выбора сущности "ProductFeature".
         /// </summary>
         /// <returns>Задача с полученными данными.</returns>
-        public async Task<ModProductBaseCommonJobOptionListGetOutput> GetOptionsDummyOneToMany()
+        public async Task<ModProductBaseCommonJobOptionListGetOutput> GetOptionsProductCategory()
         {
             var result = new ModProductBaseCommonJobOptionListGetOutput();
 
             using (var source = CreateDbContext())
             {
-                var entities = await source.DummyOneToMany.ToArrayAsync();
+                var entities = await source.ProductCategory.ToArrayAsync();
 
-                result.Items = entities.Select(x => CreateOptionDummyOneToMany(x)).ToArray();
+                result.Items = entities.Select(x => CreateOptionProductCategory(x)).ToArray();
             }
 
             return result;
@@ -221,21 +221,28 @@ namespace Vlad2020.Mods.Product.Base
             {
                 result.ObjectProduct = await SaveObjectProduct(
                     data.ObjectProduct
-                    ).CoreBaseExtTaskWithCurrentCulture(false);
+                ).CoreBaseExtTaskWithCurrentCulture(false);
             }
 
             if (data.ObjectProductCategory != null)
             {
                 result.ObjectProductCategory = await SaveObjectProductCategory(
                     data.ObjectProductCategory
-                    ).CoreBaseExtTaskWithCurrentCulture(false);
+                ).CoreBaseExtTaskWithCurrentCulture(false);
             }
 
-            if (data.ObjectsProductFeature != null && data.ObjectsProductFeature.Any())
+            if (data.ObjectsProductFeature!= null && data.ObjectsProductFeature.Any())
             {
-                result.ObjectsProductFeature = await SaveObjectsDummyManyToMany(
+                result.ObjectsProductFeature = await SaveObjectsProductFeature(
                     data.ObjectsProductFeature
-                    ).CoreBaseExtTaskWithCurrentCulture(false);
+                ).CoreBaseExtTaskWithCurrentCulture(false);
+            }
+
+            if (data.ObjectsProductProductFeature != null && data.ObjectsProductProductFeature.Any())
+            {
+                result.ObjectsProductProductFeature = await SaveObjectsProductProductFeature(
+                    data.ObjectsProductProductFeature
+                ).CoreBaseExtTaskWithCurrentCulture(false);
             }
 
             if (result.ObjectProduct.Id > 0)
@@ -279,15 +286,15 @@ namespace Vlad2020.Mods.Product.Base
             if (entity.ObjectsProductProductFeature.Any())
             {
                 result.ObjectsProductProductFeature = entity.ObjectsProductProductFeature.Select(
-                    x => x.CreateObjectProductDummyManyToMany()
+                    x => x.CreateObjectProductProductFeature()
                     ).ToArray();
             }
 
             return result;
         }
 
-        private ModProductBaseCommonJobOptionItemGetOutput  CreateOptionDummyManyToMany(
-            DataEntityObjectDummyManyToMany entity
+        private ModProductBaseCommonJobOptionItemGetOutput  CreateOptionProductFeature(
+            DataEntityObjectProductFeature entity
             )
         {
             return new ModProductBaseCommonJobOptionItemGetOutput 
@@ -297,8 +304,8 @@ namespace Vlad2020.Mods.Product.Base
             };
         }
 
-        private ModProductBaseCommonJobOptionItemGetOutput  CreateOptionDummyOneToMany(
-            DataEntityObjectDummyOneToMany entity
+        private ModProductBaseCommonJobOptionItemGetOutput  CreateOptionProductCategory(
+            DataEntityObjectProductCategory entity
             )
         {
             return new ModProductBaseCommonJobOptionItemGetOutput 
@@ -411,23 +418,23 @@ namespace Vlad2020.Mods.Product.Base
             return result;
         }
 
-        private async Task<DataBaseObjectProductFeature[]> SaveObjectsDummyManyToMany(
+        private async Task<DataBaseObjectProductFeature[]> SaveObjectsProductFeature(
             DataBaseObjectProductFeature[] objects
-            )
+        )
         {
             var result = new DataBaseObjectProductFeature[objects.Length];
 
             for (int i = 0; i < objects.Length; i++)
             {
-                result[i] = await SaveObjectDummyManyToMany(objects[i]).CoreBaseExtTaskWithCurrentCulture(false);
+                result[i] = await SaveObjectProductFeature(objects[i]).CoreBaseExtTaskWithCurrentCulture(false);
             }
 
             return result;
         }
 
-        private async Task<DataBaseObjectProductFeature> SaveObjectDummyManyToMany(
+        private async Task<DataBaseObjectProductFeature> SaveObjectProductFeature(
             DataBaseObjectProductFeature obj
-            )
+        )
         {
             DataBaseObjectProductFeature result = null;
 
@@ -448,6 +455,51 @@ namespace Vlad2020.Mods.Product.Base
                     var entity = DataEntityObjectProductFeature.Create(obj);
 
                     var entry = source.ProductFeature.Add(DataEntityObjectProductFeature.Create(obj));
+
+                    result = entry.Entity;
+                }
+
+                await source.SaveChangesAsync().CoreBaseExtTaskWithCurrentCulture(false);
+            }
+
+            return result;
+        }
+
+        private async Task<DataBaseObjectProductProductFeature[]> SaveObjectsProductProductFeature(
+            DataBaseObjectProductProductFeature[] objects
+            )
+        {
+            var result = new DataBaseObjectProductProductFeature[objects.Length];
+
+            for (int i = 0; i < objects.Length; i++)
+            {
+                result[i] = await SaveObjectProductProductFeature(objects[i]).CoreBaseExtTaskWithCurrentCulture(false);
+            }
+
+            return result;
+        }
+
+        private async Task<DataBaseObjectProductProductFeature> SaveObjectProductProductFeature(
+            DataBaseObjectProductProductFeature obj
+            )
+        {
+            DataBaseObjectProductProductFeature result = null;
+
+            using (var source = CreateDbContext())
+            {
+                result = await source.ProductProductFeature.FirstOrDefaultAsync(
+                        x =>
+                            x.ObjectProductId == obj.ObjectProductId
+                            &&
+                            x.ObjectProductFeatureId == obj.ObjectProductFeatureId
+                    )
+                    .CoreBaseExtTaskWithCurrentCulture(false);
+
+                if (result == null)
+                {
+                    var entity = DataEntityObjectProductProductFeature.Create(obj);
+
+                    var entry = source.ProductProductFeature.Add(entity);
 
                     result = entry.Entity;
                 }

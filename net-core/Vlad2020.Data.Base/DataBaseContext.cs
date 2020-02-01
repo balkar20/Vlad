@@ -10,7 +10,7 @@ namespace Vlad2020.Data.Base
         #region Properties
 
         /// <summary>
-        /// Настройки.
+        /// Настройки. 
         /// </summary>
         public DataBaseSettings Settings => DataBaseSettings.Instance;
 

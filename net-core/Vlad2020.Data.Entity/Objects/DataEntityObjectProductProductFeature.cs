@@ -6,7 +6,7 @@ using Vlad2020.Data.Base.Objects;
 namespace Vlad2020.Data.Entity.Objects
 {
     /// <summary>
-    /// Данные. Entity Framework. Объекты. Сущность "ProductDummyManyToMany".
+    /// Данные. Entity Framework. Объекты. Сущность "ProductProductFeature".
     /// </summary>
     public class DataEntityObjectProductProductFeature : DataBaseObjectProductProductFeature
     {
@@ -27,22 +27,22 @@ namespace Vlad2020.Data.Entity.Objects
         #region Public methods
 
         /// <summary>
-        /// Создать объект Entity Framework, где хранятся данные сущности "ProductDummyManyToMany".
+        /// Создать объект Entity Framework, где хранятся данные сущности "ProductProductFeature".
         /// </summary>
         /// <param name="source">Источник данных.</param>
-        /// <returns>Объект Entity Framework, где хранятся данные сущности "ProductDummyManyToMany".</returns>
+        /// <returns>Объект Entity Framework, где хранятся данные сущности "ProductProductFeature".</returns>
         public static DataEntityObjectProductProductFeature Create(DataBaseObjectProductProductFeature source)
         {
             var result = new DataEntityObjectProductProductFeature();
-            new DataBaseLoaderProductDummyManyToMany(result).LoadDataFrom(source);
+            new DataBaseLoaderProductProductFeature(result).LoadDataFrom(source);
             return result;
         }
 
         /// <summary>
-        /// Создать объект, где хранятся данные сущности "ProductDummyManyToMany".
+        /// Создать объект, где хранятся данные сущности "ProductProductFeature".
         /// </summary>
-        /// <returns>Объект, где хранятся данные сущности "ProductDummyManyToMany".</returns>
-        public DataBaseObjectProductProductFeature CreateObjectProductDummyManyToMany()
+        /// <returns>Объект, где хранятся данные сущности "ProductProductFeature".</returns>
+        public DataBaseObjectProductProductFeature CreateObjectProductProductFeature()
         {
             var loader = new DataBaseLoaderProductProductFeature();
             loader.LoadDataFrom(this);

@@ -11,6 +11,8 @@ using Vlad2020.Mods.DummyMain.Web.Api;
 using Vlad2020.Root.Apps.Api.Base;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
+using Vlad2020.Mods.Product.Caching;
+using Vlad2020.Mods.Product.Web.Api;
 
 namespace Vlad2020.Root.Apps.Api.Web
 {
@@ -46,6 +48,7 @@ namespace Vlad2020.Root.Apps.Api.Web
 
             services.AddTransient(x => GetContext(x).CoreCaching);
             services.AddTransient(x => GetContext(x).ModDummyMainCaching);
+            services.AddTransient(x => GetContext(x).ModProductCaching);
 
             if (ModAuthWebAuthenticationIsEnabled)
             {
@@ -64,7 +67,9 @@ namespace Vlad2020.Root.Apps.Api.Web
                 new HostWebApiPartAuthModule(),
                 new ModAuthWebApiModule(),
                 new ModDummyMainCachingModule(),
-                new ModDummyMainWebApiModule()
+                new ModDummyMainWebApiModule(),
+                new ModProductCachingModule(),
+                new ModProductWebApiModule()
             };
 
             result.AddRange(modules);

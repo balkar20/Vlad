@@ -10,6 +10,8 @@
     <ProjectReference Include="..\Vlad2020.Mods.Auth.Web\Vlad2020.Mods.Auth.Web.csproj" />
     <ProjectReference Include="..\Vlad2020.Mods.DummyMain.Caching\Vlad2020.Mods.DummyMain.Caching.csproj" />
     <ProjectReference Include="..\Vlad2020.Mods.DummyMain.Web\Vlad2020.Mods.DummyMain.Web.csproj" />
+    <ProjectReference Include="..\Vlad2020.Mods.Product.Caching\Vlad2020.Mods.Product.Caching.csproj" />
+    <ProjectReference Include="..\Vlad2020.Mods.Product.Web\Vlad2020.Mods.Product.Web.csproj" />
     <ProjectReference Include="..\Vlad2020.Root.Apps.Api.Base\Vlad2020.Root.Apps.Api.Base.csproj" />
     <ProjectReference Include="..\Vlad2020.Root.Web\Vlad2020.Root.Web.csproj" />
   </ItemGroup>

@@ -5,6 +5,7 @@ using Vlad2020.Core.Web;
 using Vlad2020.Mods.DummyMain.Caching;
 using Vlad2020.Root.Apps.Api.Base;
 using Microsoft.Extensions.Logging;
+using Vlad2020.Mods.Product.Caching;
 
 namespace Vlad2020.Root.Apps.Api.Web
 {
@@ -26,6 +27,11 @@ namespace Vlad2020.Root.Apps.Api.Web
         /// Мод "DummyMain". Кэширование.
         /// </summary>
         public ModDummyMainCachingContext ModDummyMainCaching => Modules.ModDummyMainCaching.Context;
+
+        /// <summary>
+        /// Мод "Product". Кэширование.
+        /// </summary>
+        public ModProductCachingContext ModProductCaching => Modules.ModProductCaching.Context;
 
         #endregion Properties
 

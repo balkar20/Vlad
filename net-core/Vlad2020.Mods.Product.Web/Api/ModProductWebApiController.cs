@@ -14,7 +14,7 @@ namespace Vlad2020.Mods.Product.Web.Api
     /// <summary>
     /// Мод "Product". Веб. API. Контроллер.
     /// </summary>
-    [ApiController, Route("api/dummy-main")]
+    [ApiController, Route("api/product")]
     public class ModProductWebApiController : ControllerBase
     {
         #region Properties

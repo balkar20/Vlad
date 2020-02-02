@@ -14,6 +14,8 @@ using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
+using Vlad2020.Mods.Product.Caching;
+using Vlad2020.Mods.Product.Web.Api;
 
 namespace Vlad2020.Root.Apps.Api.Web
 {
@@ -48,6 +50,15 @@ namespace Vlad2020.Root.Apps.Api.Web
         /// Мод "DummyMain". Веб. API.
         /// </summary>
         public ModDummyMainWebApiModule ModDummyMainWebApi { get; set; }
+        /// <summary>
+        /// Мод "Product". Кэширование.
+        /// </summary>
+        public ModProductCachingModule ModProductCaching { get; set; }
+
+        /// <summary>
+        /// Мод "Product". Веб. API.
+        /// </summary>
+        public ModProductWebApiModule ModProductWebApi { get; set; }
 
         #endregion Properties
 
@@ -76,6 +87,8 @@ namespace Vlad2020.Root.Apps.Api.Web
             ModAuthWebApi?.ConfigureServices(services);
             ModDummyMainCaching?.ConfigureServices(services);
             ModDummyMainWebApi?.ConfigureServices(services);
+            ModProductCaching?.ConfigureServices(services);
+            ModProductWebApi?.ConfigureServices(services);
         }
 
         /// <inheritdoc/>
@@ -85,6 +98,7 @@ namespace Vlad2020.Root.Apps.Api.Web
 
             CoreCaching?.InitConfig(environment);
             ModDummyMainCaching?.InitConfig(environment);
+            ModProductCaching?.InitConfig(environment);
         }
 
         /// <inheritdoc/>
@@ -108,6 +122,16 @@ namespace Vlad2020.Root.Apps.Api.Web
                 ResourceSuccesses = ModDummyMainBase.Context.Resources.Successes,
                 Service = ModDummyMainBase.Context.Service
             });
+            ModProductCaching?.InitContext(new ModProductCachingExternals
+            {
+                Cache = CoreCaching.Context.Cache,
+                CoreBaseResourceErrors = CoreBase.Context.Resources.Errors,
+                CoreCachingResourceErrors = CoreCaching.Context.Resources.Errors,
+                DataBaseSettings = DataBase.Context.Settings,
+                ResourceErrors = ModProductBase.Context.Resources.Errors,
+                ResourceSuccesses = ModProductBase.Context.Resources.Successes,
+                Service = ModProductBase.Context.Service
+            });
         }
 
         /// <inheritdoc/>
@@ -115,6 +139,7 @@ namespace Vlad2020.Root.Apps.Api.Web
         {
             DataCachingSerialization.Init();
             ModDummyMainCachingSerialization.Init();
+            ModProductCachingSerialization.Init();
         }
 
         #endregion Public methods
@@ -131,6 +156,8 @@ namespace Vlad2020.Root.Apps.Api.Web
             if (TrySet<ModAuthWebApiModule>(x => ModAuthWebApi = x, commonModule)) return true;
             if (TrySet<ModDummyMainCachingModule>(x => ModDummyMainCaching = x, commonModule)) return true;
             if (TrySet<ModDummyMainWebApiModule>(x => ModDummyMainWebApi = x, commonModule)) return true;
+            if (TrySet<ModProductCachingModule>(x => ModProductCaching = x, commonModule)) return true;
+            if (TrySet<ModProductWebApiModule>(x => ModProductWebApi = x, commonModule)) return true;
 
             return false;
         }

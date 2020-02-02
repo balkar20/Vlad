@@ -9,4 +9,10 @@
     <ProjectReference Include="..\Vlad2020.Mods.Product.Base\Vlad2020.Mods.Product.Base.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="ConfigFiles\Mod.Product.Caching.config.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

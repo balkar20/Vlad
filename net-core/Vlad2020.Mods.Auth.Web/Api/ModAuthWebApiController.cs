@@ -7,6 +7,7 @@ using Vlad2020.Mods.Auth.Base.Jobs.Refresh.Jwt;
 using Vlad2020.Mods.Auth.Base.Jobs.Register;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Vlad2020.Mods.Auth.Web.Api

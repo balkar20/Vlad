@@ -26,6 +26,7 @@ export class AppModDummyMainPresenter {
   /** Обработчик события после инициализации представления. */
   onAfterViewInit() {
     this.model.onAfterViewInit();
+    console.log("modDummyInniit");
   }
 
   /** Обработчик события уничтожения. */

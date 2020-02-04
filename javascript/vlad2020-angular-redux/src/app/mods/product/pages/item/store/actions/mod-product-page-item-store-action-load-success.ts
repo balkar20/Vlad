@@ -2,7 +2,7 @@
 
 import {Action} from '@ngrx/store';
 import {AppModProductJobItemGetResult} from '../../../../jobs/item/get/mod-product-job-item-get-result';
-import {AppModProductJobOptionsDummyManyToManyGetResult} from '../../../../jobs/options/dummy-many-to-many/get/mod-product-job-options-dummy-many-to-many-get-result';
+import {AppModProductJobOptionsProductFeatureGetResult} from '../../../../jobs/options/product-feature/get/mod-product-job-options-product-feature-get-result';
 import {AppModProductJobOptionsProductCategoryGetResult} from '../../../../jobs/options/product-category/get/mod-product-job-options-product-category-get-result';
 import {AppModProductPageItemEnumActions} from '../../enums/mod-product-page-item-enum-actions';
 
@@ -16,14 +16,14 @@ export class AppModProductPageItemStoreActionLoadSuccess implements Action {
    * Конструктор.
    * @param {AppModProductJobItemGetResult} jobItemGetResult
    * Результат выполнения задания на получение элемента.
-   * @param {AppModProductJobOptionsDummyManyToManyGetResult} jobOptionsDummyManyToManyGetResult
+   * @param {AppModProductJobOptionsProductFeatureGetResult} jobOptionsProductFeatureGetResult
    * Результат выполнения задания на получение вариантов выбора сущности "DummyManyToMany".
-   * @param {AppModProductJobOptionsProductCategoryGetResult} jobOptionsDummyOneToManyGetResult
-   * Результат выполнения задания на получение вариантов выбора сущности "DummyOneToMany".
+   * @param {AppModProductJobOptionsProductCategoryGetResult} jobOptionsProductCategoryGetResult
+   * Результат выполнения задания на получение вариантов выбора сущности "ProductCategory".
    */
   constructor(
     public jobItemGetResult: AppModProductJobItemGetResult,
-    public jobOptionsDummyManyToManyGetResult: AppModProductJobOptionsDummyManyToManyGetResult,
-    public jobOptionsDummyOneToManyGetResult: AppModProductJobOptionsProductCategoryGetResult
+    public jobOptionsProductFeatureGetResult: AppModProductJobOptionsProductFeatureGetResult,
+    public jobOptionsProductCategoryGetResult: AppModProductJobOptionsProductCategoryGetResult
   ) { }
 }

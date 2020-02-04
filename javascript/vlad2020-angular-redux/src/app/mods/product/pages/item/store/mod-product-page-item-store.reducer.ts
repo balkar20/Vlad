@@ -23,8 +23,8 @@ export function appModProductPageItemStoreReducer(
         ...state,
         action: action.type,
         jobItemGetResult: action.jobItemGetResult,
-        jobOptionsDummyManyToManyGetResult: action.jobOptionsDummyManyToManyGetResult,
-        jobOptionsDummyOneToManyGetResult: action.jobOptionsDummyOneToManyGetResult
+        jobOptionsProductFeatureGetResult: action.jobOptionsProductFeatureGetResult,
+        jobOptionsProductCategoryGetResult: action.jobOptionsProductCategoryGetResult
       };
     case AppModProductPageItemEnumActions.Save:
       return {

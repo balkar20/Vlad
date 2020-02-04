@@ -19,14 +19,14 @@ export class AppModProductPageItemResourceFields {
     placeholder: ''
   };
 
-  /** Поле объект сущности "DummyManyToMany". */
-  fieldObjectDummyManyToMany = {
+  /** Поле объект сущности "ProductFeature". */
+  fieldObjectProductFeature = {
     label: '',
     placeholder: ''
   };
 
-  /** Поле объект сущности "DummyOneToMany". */
-  fieldObjectDummyOneToMany = {
+  /** Поле объект сущности "ProductCategory". */
+  fieldObjectProductCategory = {
     label: '',
     placeholder: ''
   };
@@ -45,8 +45,8 @@ export class AppModProductPageItemResourceFields {
     const {
       fieldId,
       fieldName,
-      fieldObjectDummyManyToMany,
-      fieldObjectDummyOneToMany
+      fieldObjectProductFeature,
+      fieldObjectProductCategory
     } = settingFields;
 
     appLocalizer.createTranslator(
@@ -68,27 +68,27 @@ export class AppModProductPageItemResourceFields {
     });
 
     appLocalizer.createTranslator(
-      fieldObjectDummyManyToMany.labelResourceKey
+      fieldObjectProductFeature.labelResourceKey
     ).translate$().pipe(takeUntil(unsubscribe$)).subscribe(s => {
-      this.fieldObjectDummyManyToMany.label = s;
+      this.fieldObjectProductFeature.label = s;
     });
 
     appLocalizer.createTranslator(
-      fieldObjectDummyManyToMany.placeholderResourceKey
+      fieldObjectProductFeature.placeholderResourceKey
     ).translate$().pipe(takeUntil(unsubscribe$)).subscribe(s => {
-      this.fieldObjectDummyManyToMany.placeholder = s;
+      this.fieldObjectProductFeature.placeholder = s;
     });
 
     appLocalizer.createTranslator(
-      fieldObjectDummyOneToMany.labelResourceKey
+      fieldObjectProductCategory.labelResourceKey
     ).translate$().pipe(takeUntil(unsubscribe$)).subscribe(s => {
-      this.fieldObjectDummyOneToMany.label = s;
+      this.fieldObjectProductCategory.label = s;
     });
 
     appLocalizer.createTranslator(
-      fieldObjectDummyOneToMany.placeholderResourceKey
+      fieldObjectProductCategory.placeholderResourceKey
     ).translate$().pipe(takeUntil(unsubscribe$)).subscribe(s => {
-      this.fieldObjectDummyOneToMany.placeholder = s;
+      this.fieldObjectProductCategory.placeholder = s;
     });
   }
 }

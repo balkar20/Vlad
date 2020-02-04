@@ -25,16 +25,16 @@ export abstract class AppModProductPageItemView {
   formGroup: FormGroup;
 
   /**
-   * Варианты выбора сущности "DummyManyToMany".
+   * Варианты выбора сущности "ProductFeature".
    * @type {AppModProductCommonJobOptionsGetOutputList}
    */
-  optionsDummyManyToMany: AppModProductCommonJobOptionsGetOutputList;
+  optionsProductFeature: AppModProductCommonJobOptionsGetOutputList;
 
   /**
-   * Варианты выбора сущности "DummyOneToMany".
+   * Варианты выбора сущности "ProductCategory".
    * @type {AppModProductCommonJobOptionsGetOutputList}
    */
-  optionsDummyOneToMany: AppModProductCommonJobOptionsGetOutputList;
+  optionsProductCategory: AppModProductCommonJobOptionsGetOutputList;
 
   /**
    * Признак того, что данные загружены.
@@ -95,19 +95,19 @@ export abstract class AppModProductPageItemView {
   }
 
   /**
-   * Поле ввода объекта сущности "DummyOneToMany".
+   * Поле ввода объекта сущности "ProductCategory".
    * @type {AbstractControl}
    */
-  get fieldObjectDummyOneToMany(): AbstractControl {
-    return this.formGroup.get(this.settingFields.fieldObjectDummyOneToMany.name);
+  get fieldObjectProductCategory(): AbstractControl {
+    return this.formGroup.get(this.settingFields.fieldObjectProductCategory.name);
   }
 
   /**
-   * Признак того, что ошибка валидации обязательности ввода объекта сущности "DummyOneToMany" видима.
+   * Признак того, что ошибка валидации обязательности ввода объекта сущности "ProductCategory" видима.
    * @type {boolean}
    */
-  get fieldObjectDummyOneToManyErrorRequiredVisible() {
-    const control = this.fieldObjectDummyOneToMany;
+  get fieldObjectProductCategoryErrorRequiredVisible() {
+    const control = this.fieldObjectProductCategory;
 
     return control.dirty && control.hasError(this.settingErrors.errorRequired.code);
   }
@@ -121,8 +121,8 @@ export abstract class AppModProductPageItemView {
     private settingErrors: AppModProductPageItemSettingErrors,
     private settingFields: AppModProductPageItemSettingFields
   ) {
-    this.loadOptionsDummyManyToMany();
-    this.loadOptionsDummyOneToMany();
+    this.loadOptionsProductFeature();
+    this.loadOptionsProductCategory();
   }
 
   /**
@@ -183,21 +183,21 @@ export abstract class AppModProductPageItemView {
   }
 
   /**
-   * Загрузить варианты выбора сущности "DummyManyToMany".
+   * Загрузить варианты выбора сущности "ProductFeature".
    * @param {AppModProductCommonJobOptionsGetOutputList} data Данные.
    */
-  loadOptionsDummyManyToMany(data?: AppModProductCommonJobOptionsGetOutputList) {
-    this.optionsDummyManyToMany = data
+  loadOptionsProductFeature(data?: AppModProductCommonJobOptionsGetOutputList) {
+    this.optionsProductFeature = data
       ? data
       : appModProductCommonJobOptionsGetOutputListCreate();
   }
 
   /**
-   * Загрузить варианты выбора сущности "DummyOneToMany".
+   * Загрузить варианты выбора сущности "ProductCategory".
    * @param {AppModProductCommonJobOptionsGetOutputList} data Данные.
    */
-  loadOptionsDummyOneToMany(data?: AppModProductCommonJobOptionsGetOutputList) {
-    this.optionsDummyOneToMany = data
+  loadOptionsProductCategory(data?: AppModProductCommonJobOptionsGetOutputList) {
+    this.optionsProductCategory = data
       ? data
       : appModProductCommonJobOptionsGetOutputListCreate();
   }

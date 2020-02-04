@@ -3,3 +3,4 @@
 **/obj
 .idea
 node_modules
+/net-core/Vlad2020.Data.Entity.SqlServer/ConfigFiles/Data.Entity.SqlServer.config.json

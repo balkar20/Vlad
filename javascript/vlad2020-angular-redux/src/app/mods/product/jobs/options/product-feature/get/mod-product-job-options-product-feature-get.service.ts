@@ -8,7 +8,7 @@ import {AppCoreExecutionService} from '@app/core/execution/core-execution.servic
 import {AppCoreHttpService} from '@app/core/http/core-http.service';
 import {AppCoreLoggingService} from '@app/core/logging/core-logging.service';
 import {AppCoreNavigationService} from '@app/core/navigation/core-navigation.service';
-import {AppModProductJobOptionsProductFeatureGetResult} from './mod-product-job-options-dummy-many-to-many-get-result';
+import {AppModProductJobOptionsProductFeatureGetResult} from './mod-product-job-options-product-feature-get-result';
 
 /** Мод "Product". Задания. Варианты выбора. Сущность "ProductFeature". Получить. Сервис. */
 @Injectable({

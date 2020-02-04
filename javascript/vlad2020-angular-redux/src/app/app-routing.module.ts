@@ -2,7 +2,7 @@
 
 import {NgModule} from '@angular/core';
 import {PreloadAllModules, RouterModule, Routes} from '@angular/router';
-import {appModsConfigModAuthRoutePath, appModsConfigModDummyMainRoutePath, appModsConfigRoutePath} from '@app/mods/mods-config';
+import {appModsConfigModAuthRoutePath, appModsConfigModDummyMainRoutePath, appModsConfigModProductRoutePath, appModsConfigRoutePath} from '@app/mods/mods-config';
 
 const routes: Routes = [
   {
@@ -11,6 +11,10 @@ const routes: Routes = [
       {
         path: appModsConfigModDummyMainRoutePath,
         loadChildren: () => import('./mods/dummy-main/mod-dummy-main.module').then(m => m.AppModDummyMainModule)
+      },
+      {
+        path: appModsConfigModProductRoutePath,
+        loadChildren: () => import('./mods/product/mod-product.module').then(m => m.AppModProductModule)
       },
       {
         path: appModsConfigModAuthRoutePath,

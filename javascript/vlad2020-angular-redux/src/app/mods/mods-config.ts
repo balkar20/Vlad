@@ -15,8 +15,14 @@ export const appModsConfigModAuthPath = 'auth';
 /** Моды. Конфигурация. Мод "Auth". Маршрут. Маршрут. Путь. */
 export const appModsConfigModAuthRoutePath = appModsConfigModAuthPath;
 
+/** Моды. Конфигурация. Мод "Product". Маршрут. Путь. */
+export const appModsConfigModProductPath = 'product';
+
+/** Моды. Конфигурация. Мод "Product". Маршрут. Маршрут. Путь. */
+export const appModsConfigModProductRoutePath = appModsConfigModProductPath;
+
 /** Моды. Конфигурация. Мод "DummyMain". Маршрут. Путь. */
 export const appModsConfigModDummyMainPath = 'dummy-main';
 
 /** Моды. Конфигурация. Мод "DummyMain". Маршрут. Маршрут. Путь. */
-export const appModsConfigModDummyMainRoutePath = appModsConfigModDummyMainPath;
+export const appModsConfigModDummyMainRoutePath = appModsConfigModProductPath;

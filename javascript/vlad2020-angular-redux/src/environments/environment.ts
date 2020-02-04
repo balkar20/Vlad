@@ -5,7 +5,7 @@
 const hostPort = 57245;
 
 export const environment = {
-  apiServerUrl: `http://localhost:57245`,
+  apiServerUrl: `http://localhost:50902`,
   authTypeOidcIsEnabled: false,
   identityServerUrl: `http://localhost:4201`,
   hostPort: hostPort,

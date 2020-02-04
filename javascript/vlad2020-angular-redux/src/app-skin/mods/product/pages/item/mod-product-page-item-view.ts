@@ -25,10 +25,10 @@ export class AppSkinModProductPageItemView extends AppModProductPageItemView {
   private ctrlForm: NgForm;
 
   /**
-   * Вырианты выбора "DummyOneToMany".
+   * Вырианты выбора "ProductCategory".
    * @type {SelectItem[]}
    */
-  selectItemsDummyOneToMany: SelectItem[] = [];
+  selectItemsProductCategory: SelectItem[] = [];
 
   /**
    * Конструктор.
@@ -88,11 +88,11 @@ export class AppSkinModProductPageItemView extends AppModProductPageItemView {
    * @inheritDoc
    * @param {AppModProductCommonJobOptionsGetOutputList} data
    */
-  loadOptionsDummyOneToMany(data?: AppModProductCommonJobOptionsGetOutputList) {
-    super.loadOptionsDummyOneToMany(data);
+  loadOptionsProductCategory(data?: AppModProductCommonJobOptionsGetOutputList) {
+    super.loadOptionsProductCategory(data);
 
-    if (this.optionsDummyOneToMany) {
-      this.selectItemsDummyOneToMany = this.optionsDummyOneToMany.items.map(option => <SelectItem>{
+    if (this.optionsProductCategory) {
+      this.selectItemsProductCategory = this.optionsProductCategory.items.map(option => <SelectItem>{
         label: option.name,
         title: option.name,
         value: option.value

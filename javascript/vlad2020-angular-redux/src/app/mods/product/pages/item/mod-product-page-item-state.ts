@@ -5,7 +5,7 @@ import {AppModProductJobItemGetInput} from '../../jobs/item/get/mod-product-job-
 import {AppModProductJobItemGetOutput} from '../../jobs/item/get/mod-product-job-item-get-output';
 import {AppModProductJobItemGetResult} from '../../jobs/item/get/mod-product-job-item-get-result';
 import {AppModProductPageItemEnumActions} from './enums/mod-product-page-item-enum-actions';
-import {AppModProductJobOptionsDummyManyToManyGetResult} from '../../jobs/options/dummy-many-to-many/get/mod-product-job-options-dummy-many-to-many-get-result';
+import {AppModProductJobOptionsProductFeatureGetResult} from '../../jobs/options/product-feature/get/mod-product-job-options-product-feature-get-result';
 import {AppModProductJobOptionsProductCategoryGetResult} from '../../jobs/options/product-category/get/mod-product-job-options-product-category-get-result';
 
 /** Мод "Product". Страницы. Элемент. Состояние. */
@@ -30,14 +30,14 @@ export class AppModProductPageItemState extends AppCoreCommonState<AppModProduct
   jobItemGetResult: AppModProductJobItemGetResult;
 
   /**
-   * Результат выполнения задания на получение вариантов выбора сущности "DummyManyToMany".
-   * @type {AppModProductJobOptionsDummyManyToManyGetResult}
+   * Результат выполнения задания на получение вариантов выбора сущности "ProductFeature".
+   * @type {AppModProductJobOptionsProductFeatureGetResult}
    */
-  jobOptionsDummyManyToManyGetResult: AppModProductJobOptionsDummyManyToManyGetResult;
+  jobOptionsProductFeatureGetResult: AppModProductJobOptionsProductFeatureGetResult;
 
   /**
-   * Результат выполнения задания на получение вариантов выбора сущности "DummyOneToMany".
+   * Результат выполнения задания на получение вариантов выбора сущности "ProductCategory".
    * @type {AppModProductJobOptionsProductCategoryGetResult}
    */
-  jobOptionsDummyOneToManyGetResult: AppModProductJobOptionsProductCategoryGetResult;
+  jobOptionsProductCategoryGetResult: AppModProductJobOptionsProductCategoryGetResult;
 }

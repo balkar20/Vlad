@@ -114,7 +114,7 @@ export class AppModProductPageItemPresenter extends AppCoreCommonPagePresenter<A
 
     const {
       fieldName,
-      fieldObjectDummyOneToMany
+      fieldObjectProductCategory
     } = this.view;
 
     if (!data) {
@@ -130,7 +130,7 @@ export class AppModProductPageItemPresenter extends AppCoreCommonPagePresenter<A
     } = input;
 
     objectProduct.name = fieldName.value;
-    objectProduct.objectDummyOneToManyId = fieldObjectDummyOneToMany.value;
+    objectProduct.objectProductCategoryId = fieldObjectProductCategory.value;
 
     this.model.executeActionSave(input);
   }
@@ -148,13 +148,13 @@ export class AppModProductPageItemPresenter extends AppCoreCommonPagePresenter<A
     const {
       fieldId,
       fieldName,
-      fieldObjectDummyOneToMany
+      fieldObjectProductCategory
     } = this.model.getSettingFields();
 
     const formGroup = extFormBuilder.group({
       [fieldId.name]: [{value: '', disabled: true}, Validators.required],
       [fieldName.name]: [{value: '', disabled: true}, Validators.required],
-      [fieldObjectDummyOneToMany.name]: [{value: '', disabled: true}, Validators.required]
+      [fieldObjectProductCategory.name]: [{value: '', disabled: true}, Validators.required]
     });
 
     this.view.build(formGroup);
@@ -184,13 +184,13 @@ export class AppModProductPageItemPresenter extends AppCoreCommonPagePresenter<A
       const {
         fieldId,
         fieldName,
-        fieldObjectDummyOneToMany
+        fieldObjectProductCategory
       } = this.view;
 
       if (objectProduct) {
         fieldId.setValue(objectProduct.id, {emitEvent: false});
         fieldName.setValue(objectProduct.name, {emitEvent: false});
-        fieldObjectDummyOneToMany.setValue(objectProduct.objectDummyOneToManyId, {emitEvent: false});
+        fieldObjectProductCategory.setValue(objectProduct.objectProductCategoryId, {emitEvent: false});
       }
     } else {
       this.view.data = appModProductJobItemGetOutputCreate();
@@ -234,9 +234,9 @@ export class AppModProductPageItemPresenter extends AppCoreCommonPagePresenter<A
     return false;
   }
 
-  private loadJobOptionsDummyManyToManyGetResult() {
+  private loadJobOptionsProductFeatureGetResult() {
     const {
-      jobOptionsDummyManyToManyGetResult: result
+      jobOptionsProductFeatureGetResult: result
     } = this.model.getState();
 
     if (result) {
@@ -249,13 +249,13 @@ export class AppModProductPageItemPresenter extends AppCoreCommonPagePresenter<A
       this.view.loadResponseErrorMessages(errorMessages);
       this.view.loadResponseSuccessMessages(successMessages);
 
-      this.view.loadOptionsDummyManyToMany(data);
+      this.view.loadOptionsProductFeature(data);
     }
   }
 
-  private loadJobOptionsDummyOneToManyGetResult() {
+  private loadJobOptionsProductCategoryGetResult() {
     const {
-      jobOptionsDummyOneToManyGetResult: result
+      jobOptionsProductCategoryGetResult: result
     } = this.model.getState();
 
     if (result) {
@@ -268,7 +268,7 @@ export class AppModProductPageItemPresenter extends AppCoreCommonPagePresenter<A
       this.view.loadResponseErrorMessages(errorMessages);
       this.view.loadResponseSuccessMessages(successMessages);
 
-      this.view.loadOptionsDummyOneToMany(data);
+      this.view.loadOptionsProductCategory(data);
     }
   }
 
@@ -304,8 +304,8 @@ export class AppModProductPageItemPresenter extends AppCoreCommonPagePresenter<A
 
   private onDataChangedByLoadSuccess() {
     this.loadJobItemGetResult();
-    this.loadJobOptionsDummyManyToManyGetResult();
-    this.loadJobOptionsDummyOneToManyGetResult();
+    this.loadJobOptionsProductFeatureGetResult();
+    this.loadJobOptionsProductCategoryGetResult();
   }
 
   private onDataChangedBySaveSuccess() {
@@ -332,7 +332,7 @@ export class AppModProductPageItemPresenter extends AppCoreCommonPagePresenter<A
 
     if (this.view.isDataChangeAllowed) {
       this.view.fieldName.enable();
-      this.view.fieldObjectDummyOneToMany.enable();
+      this.view.fieldObjectProductCategory.enable();
     }
   }
 

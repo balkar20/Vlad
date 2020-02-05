@@ -54,6 +54,11 @@ namespace Vlad2020.Data.Base.Loaders
             {
                 Data.Description = source.Description ?? string.Empty;
             }
+
+            if (props.Contains(nameof(Data.Price)))
+            {
+                Data.Price = source.Price;
+            }
         }
 
         #endregion Public methods

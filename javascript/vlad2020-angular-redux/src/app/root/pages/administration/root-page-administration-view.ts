@@ -4,8 +4,9 @@
 export class AppRootPageAdministrationView {
 
   /**
-   * Ссылка маршрутизатора на страницу "ModDummyMainPageIndex".
+   * Ссылка маршрутизатора на страницы "ModDummyMainPageIndex", "ModProductPageIndex".
    * @type {any[]}
    */
   routerLinkToModDummyMainPageIndex: any[];
+  routerLinkToModProductPageIndex: any[];
 }

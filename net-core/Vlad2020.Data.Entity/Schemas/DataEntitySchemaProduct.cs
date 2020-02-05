@@ -36,21 +36,9 @@ namespace Vlad2020.Data.Entity.Schema
             builder.HasKey(x => x.Id).HasName(setting.DbPrimaryKey);
 
             builder.Property(x => x.Id).ValueGeneratedOnAdd();
-            builder.Property(x => x.Name).IsRequired().IsUnicode().HasMaxLength(50);
-            builder.Property(x => x.PropBoolean).IsRequired();
-            builder.Property(x => x.PropBooleanNullable);
-            builder.Property(x => x.PropDate).IsRequired();
-            builder.Property(x => x.PropDateNullable);
-            builder.Property(x => x.PropDateTimeOffset).IsRequired();
-            builder.Property(x => x.PropDateTimeOffsetNullable);
-            builder.Property(x => x.PropDecimal).IsRequired();
-            builder.Property(x => x.PropDecimalNullable);
-            builder.Property(x => x.PropInt32).IsRequired();
-            builder.Property(x => x.PropInt32Nullable);
-            builder.Property(x => x.PropInt64).IsRequired();
-            builder.Property(x => x.PropInt64Nullable);
-            builder.Property(x => x.PropString).IsRequired().IsUnicode();
-            builder.Property(x => x.PropStringNullable).IsUnicode();
+            builder.Property(x => x.Name).IsRequired().IsUnicode().HasColumnType("nvarchar(255)");
+            builder.Property(x => x.Price).IsRequired();
+            builder.Property(x => x.Description).IsRequired().IsUnicode();
 
             builder.Property(x => x.ObjectProductCategoryId)
                 .IsRequired()
@@ -99,20 +87,8 @@ namespace Vlad2020.Data.Entity.Schema
                 Id = id,
                 Name = $"Name-{id}",
                 ObjectProductCategoryId = new Random(Guid.NewGuid().GetHashCode()).Next(1, 10),
-                PropBoolean = isEven,
-                PropBooleanNullable = isEven ? new bool?(!isEven) : null,
-                PropDate = new DateTime(2018, 01, day),
-                PropDateNullable = isEven ? new DateTime?(new DateTime(2018, 02, day)) : null,
-                PropDateTimeOffset = dateAndOffsetLocal,
-                PropDateTimeOffsetNullable = isEven ? new DateTimeOffset?(dateAndOffsetLocal) : null,
-                PropDecimal = 1000M + id + (id / 100M),
-                PropDecimalNullable = isEven ? new decimal?(2000M + id + (id / 200M)) : null,
-                PropInt32 = 1000 + (int)id,
-                PropInt32Nullable = isEven ? new int?(1000 + (int)id) : null,
-                PropInt64 = 3000 + id,
-                PropInt64Nullable = isEven ? new long?(3000 + id) : null,
-                PropString = $"PropString-{id}",
-                PropStringNullable = isEven ? $"PropStringNullable-{id}" : null
+                Price = 1000M + id + (id / 100M),
+                Description = $"Description-{id}",
             };
         }
 

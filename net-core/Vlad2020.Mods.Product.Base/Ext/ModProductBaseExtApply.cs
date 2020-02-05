@@ -115,7 +115,7 @@ namespace Vlad2020.Mods.Product.Base.Ext
                             break;
                     }
                     break;
-                case "objectdummyonetomany":
+                case "objectproductcategory":
                     switch (sortDirection)
                     {
                         case "asc":
@@ -123,28 +123,6 @@ namespace Vlad2020.Mods.Product.Base.Ext
                             break;
                         case "desc":
                             query = query.OrderByDescending(x => x.ObjectProductCategory.Name);
-                            break;
-                    }
-                    break;
-                case "propdate":
-                    switch (sortDirection)
-                    {
-                        case "asc":
-                            query = query.OrderBy(x => x.PropDate);
-                            break;
-                        case "desc":
-                            query = query.OrderByDescending(x => x.PropDate);
-                            break;
-                    }
-                    break;
-                case "propboolean":
-                    switch (sortDirection)
-                    {
-                        case "asc":
-                            query = query.OrderBy(x => x.PropBoolean);
-                            break;
-                        case "desc":
-                            query = query.OrderByDescending(x => x.PropBoolean);
                             break;
                     }
                     break;

@@ -50,74 +50,9 @@ namespace Vlad2020.Data.Base.Loaders
                 Data.ObjectProductCategoryId = source.ObjectProductCategoryId;
             }
 
-            if (props.Contains(nameof(Data.PropBoolean)))
+            if (props.Contains(nameof(Data.Description)))
             {
-                Data.PropBoolean = source.PropBoolean;
-            }
-
-            if (props.Contains(nameof(Data.PropBooleanNullable)))
-            {
-                Data.PropBooleanNullable = source.PropBooleanNullable;
-            }
-
-            if (props.Contains(nameof(Data.PropDate)))
-            {
-                Data.PropDate = source.PropDate;
-            }
-
-            if (props.Contains(nameof(Data.PropDateNullable)))
-            {
-                Data.PropDateNullable = source.PropDateNullable;
-            }
-
-            if (props.Contains(nameof(Data.PropDateTimeOffset)))
-            {
-                Data.PropDateTimeOffset = source.PropDateTimeOffset;
-            }
-
-            if (props.Contains(nameof(Data.PropDateTimeOffsetNullable)))
-            {
-                Data.PropDateTimeOffsetNullable = source.PropDateTimeOffsetNullable;
-            }
-
-            if (props.Contains(nameof(Data.PropDecimal)))
-            {
-                Data.PropDecimal = source.PropDecimal;
-            }
-
-            if (props.Contains(nameof(Data.PropDecimalNullable)))
-            {
-                Data.PropDecimalNullable = source.PropDecimalNullable;
-            }
-
-            if (props.Contains(nameof(Data.PropInt32)))
-            {
-                Data.PropInt32 = source.PropInt32;
-            }
-
-            if (props.Contains(nameof(Data.PropInt32Nullable)))
-            {
-                Data.PropInt32Nullable = source.PropInt32Nullable;
-            }
-
-            if (props.Contains(nameof(Data.PropInt64)))
-            {
-                Data.PropInt64 = source.PropInt64;
-            }
-
-            if (props.Contains(nameof(Data.PropInt64Nullable)))
-            {
-                Data.PropInt64Nullable = source.PropInt64Nullable;
-            }
-
-            if (props.Contains(nameof(Data.PropString)))
-            {
-                Data.PropString = source.PropString ?? string.Empty;
-            }
-
-            if (props.Contains(nameof(Data.PropStringNullable)))
-            {
-                Data.PropStringNullable = source.PropStringNullable;
+                Data.Description = source.Description ?? string.Empty;
             }
         }
 
@@ -133,20 +68,8 @@ namespace Vlad2020.Data.Base.Loaders
                 nameof(Data.Id),
                 nameof(Data.Name),
                 nameof(Data.ObjectProductCategoryId),
-                nameof(Data.PropBoolean),
-                nameof(Data.PropBooleanNullable),
-                nameof(Data.PropDate),
-                nameof(Data.PropDateNullable),
-                nameof(Data.PropDateTimeOffset),
-                nameof(Data.PropDateTimeOffsetNullable),
-                nameof(Data.PropDecimal),
-                nameof(Data.PropDecimalNullable),
-                nameof(Data.PropInt32),
-                nameof(Data.PropInt32Nullable),
-                nameof(Data.PropInt64),
-                nameof(Data.PropInt64Nullable),
-                nameof(Data.PropString),
-                nameof(Data.PropStringNullable)
+                nameof(Data.Price),
+                nameof(Data.Description)
             };
         }
 

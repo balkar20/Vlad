@@ -57,74 +57,14 @@ namespace Vlad2020.Data.Db.Loaders
                 Data.ObjectProductCategoryId = await source.GetFieldValueAsync<long>(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
             }
 
-            if (props.Contains(nameof(Data.PropBoolean)))
+            if (props.Contains(nameof(Data.Price)))
             {
-                Data.PropBoolean = await source.GetFieldValueAsync<bool>(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
+                Data.Price = await source.GetFieldValueAsync<decimal>(ordinal++).CoreBaseExtTaskWithCurrentCulture(false); 
             }
 
-            if (props.Contains(nameof(Data.PropBooleanNullable)))
+            if (props.Contains(nameof(Data.Description)))
             {
-                Data.PropBooleanNullable = await source.CoreBaseExtDbDataReadBooleanNullableAsync(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
-            }
-
-            if (props.Contains(nameof(Data.PropDate)))
-            {
-                Data.PropDate = await source.GetFieldValueAsync<DateTime>(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
-            }
-
-            if (props.Contains(nameof(Data.PropDateNullable)))
-            {
-                Data.PropDateNullable = await source.CoreBaseExtDbDataReadDateTimeNullableAsync(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
-            }
-
-            if (props.Contains(nameof(Data.PropDateTimeOffset)))
-            {
-                Data.PropDateTimeOffset = await source.GetFieldValueAsync<DateTimeOffset>(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
-            }
-
-            if (props.Contains(nameof(Data.PropDateTimeOffsetNullable)))
-            {
-                Data.PropDateTimeOffsetNullable = await source.CoreBaseExtDbDataReadDateTimeOffsetNullableAsync(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
-            }
-
-            if (props.Contains(nameof(Data.PropDecimal)))
-            {
-                Data.PropDecimal = await source.GetFieldValueAsync<decimal>(ordinal++).CoreBaseExtTaskWithCurrentCulture(false); 
-            }
-
-            if (props.Contains(nameof(Data.PropDecimalNullable)))
-            {
-                Data.PropDecimalNullable = await source.CoreBaseExtDbDataReadDecimalNullableAsync(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
-            }
-
-            if (props.Contains(nameof(Data.PropInt32)))
-            {
-                Data.PropInt32 = await source.GetFieldValueAsync<int>(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
-            }
-
-            if (props.Contains(nameof(Data.PropInt32Nullable)))
-            {
-                Data.PropInt32Nullable = await source.CoreBaseExtDbDataReadInt32NullableAsync(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
-            }
-
-            if (props.Contains(nameof(Data.PropInt64)))
-            {
-                Data.PropInt64 = await source.GetFieldValueAsync<long>(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
-            }
-
-            if (props.Contains(nameof(Data.PropInt64Nullable)))
-            {
-                Data.PropInt64Nullable = await source.CoreBaseExtDbDataReadInt64NullableAsync(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
-            }
-
-            if (props.Contains(nameof(Data.PropString)))
-            {
-                Data.PropString = await source.GetFieldValueAsync<string>(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
-            }
-
-            if (props.Contains(nameof(Data.PropStringNullable)))
-            {
-                Data.PropStringNullable = await source.CoreBaseExtDbDataReadStringNullableAsync(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
+                Data.Description = await source.GetFieldValueAsync<string>(ordinal++).CoreBaseExtTaskWithCurrentCulture(false);
             }
 
             return ordinal;

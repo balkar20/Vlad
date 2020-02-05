@@ -36,7 +36,7 @@ namespace Vlad2020.Data.Entity.Schema
             builder.HasKey(x => x.Id).HasName(setting.DbPrimaryKey);
 
             builder.Property(x => x.Id).ValueGeneratedOnAdd();
-            builder.Property(x => x.Name).IsRequired().IsUnicode().HasColumnType("nvarchar(255)");
+            builder.Property(x => x.Name).IsRequired().IsUnicode().HasMaxLength(255);
             builder.Property(x => x.Price).IsRequired();
             builder.Property(x => x.Description).IsRequired().IsUnicode();
 

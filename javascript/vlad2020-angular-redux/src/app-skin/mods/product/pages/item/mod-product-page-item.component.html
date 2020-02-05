@@ -49,9 +49,9 @@
               <label for="skin--id--mod--dummy--main--page--item--object-dummy-one-to-many"
                      class="input-label"
                      [ngClass]="{'input-label__required': myView.isDataChangeAllowed}">
-                {{myPresenter.resources.fields.fieldObjectDummyOneToMany.label}}
+                {{myPresenter.resources.fields.fieldObjectProductCategory.label}}
               </label>
-              <span *ngIf="myView.fieldObjectDummyOneToManyErrorRequiredVisible"
+              <span *ngIf="myView.fieldObjectProductCategoryErrorRequiredVisible"
                     class="skin--css--core--form--error--message">
                     <span class="skin--css--core--content--asterisk"></span>
                 </span>
@@ -59,9 +59,9 @@
             <p-dropdown [style]="{'width':'100%'}"
                         required
                         id="skin--id--mod--dummy--main--page--item--object-dummy-one-to-many"
-                        [placeholder]="myPresenter.resources.fields.fieldObjectDummyOneToMany.placeholder"
-                        [formControl]="myView.fieldObjectDummyOneToMany"
-                        [options]="myView.selectItemsDummyOneToMany"></p-dropdown>
+                        [placeholder]="myPresenter.resources.fields.fieldObjectProductCategory.placeholder"
+                        [formControl]="myView.fieldObjectProductCategory"
+                        [options]="myView.selectItemsProductCategory"></p-dropdown>
           </div>
         </div>
       </div>

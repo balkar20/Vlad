@@ -31,6 +31,7 @@ export class AppSkinModDummyMainComponent implements AfterViewInit, OnDestroy {
   constructor(
     private model: AppModDummyMainModel
   ) {
+    console.log("constructor AppSkinModDummyMainComponent!!!!!!!!!!!! ")
     this.myPresenter = new AppModDummyMainPresenter(
       model
     );

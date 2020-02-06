@@ -91,15 +91,15 @@ namespace Vlad2020.Mods.Product.Web.Api
         }
 
         /// <summary>
-        /// Получить варианты выбора сущности "DummyManyToMany".
+        /// Получить варианты выбора сущности "ProductFeature".
         /// </summary>
         /// <returns>Результат выполнения с вариантами выбора.</returns>
-        [Route("options/dummy-many-to-many"), HttpGet]
-        public async Task<IActionResult> GetOptionsDummyManyToMany()
+        [Route("options/product-feature"), HttpGet]
+        public async Task<IActionResult> GetOptionsProductFeature()
         {
             var result = new ModProductBaseCommonJobOptionListGetResult();
 
-            var (execute, onSuccess, onError) = MyModel.BuildActionOptionDummyManyToManyListGet();
+            var (execute, onSuccess, onError) = MyModel.BuildActionOptionProductFeatureListGet();
 
             try
             {
@@ -116,15 +116,15 @@ namespace Vlad2020.Mods.Product.Web.Api
         }
 
         /// <summary>
-        /// Получить варианты выбора сущности "DummyOneToMany".
+        /// Получить варианты выбора сущности "ProductCategory".
         /// </summary>
         /// <returns>Результат выполнения с вариантами выбора.</returns>
-        [Route("options/dummy-one-to-many"), HttpGet]
-        public async Task<IActionResult> GetOptionsDummyOneToMany()
+        [Route("options/product-category"), HttpGet]
+        public async Task<IActionResult> GetOptionsProductCategory()
         {
             var result = new ModProductBaseCommonJobOptionListGetResult();
 
-            var (execute, onSuccess, onError) = MyModel.BuildActionOptionDummyOneToManyListGet();
+            var (execute, onSuccess, onError) = MyModel.BuildActionOptionProductCategoryListGet();
 
             try
             {

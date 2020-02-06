@@ -7,5 +7,5 @@ export class AppModProductSettings {
    * Заголовок.
    * @type {string}
    */
-  titleResourceKey = 'Сущность';
+  titleResourceKey = 'Продукт';
 }

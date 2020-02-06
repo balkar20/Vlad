@@ -25,4 +25,4 @@ export const appModsConfigModProductRoutePath = appModsConfigModProductPath;
 export const appModsConfigModDummyMainPath = 'dummy-main';
 
 /** Моды. Конфигурация. Мод "DummyMain". Маршрут. Маршрут. Путь. */
-export const appModsConfigModDummyMainRoutePath = appModsConfigModProductPath;
+export const appModsConfigModDummyMainRoutePath = appModsConfigModDummyMainPath;

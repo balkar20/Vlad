@@ -6,10 +6,10 @@ using Vlad2020.Mods.Product.Base.Common.Jobs.Option.List.Get;
 using System;
 using System.Threading.Tasks;
 
-namespace Vlad2020.Mods.Product.Base.Jobs.Option.DummyOneToMany.List.Get
+namespace Vlad2020.Mods.Product.Base.Jobs.Option.ProductCategory.List.Get
 {
     /// <summary>
-    /// Мод "Product". Задания. Вариант выбора. Сущность "DummyManyToMany". Список. Получение. Сервис.
+    /// Мод "Product". Задания. Вариант выбора. Сущность "ProductCategory". Список. Получение. Сервис.
     /// </summary>
     public class ModProductBaseJobOptionProductCategoryListGetService : CoreBaseExecutableServiceAsyncWithOutput
         <

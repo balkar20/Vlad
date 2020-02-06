@@ -10,8 +10,8 @@ using Vlad2020.Mods.Product.Caching.Jobs.Item.Get;
 using Vlad2020.Mods.Product.Caching.Jobs.Item.Insert;
 using Vlad2020.Mods.Product.Caching.Jobs.Item.Update;
 using Vlad2020.Mods.Product.Caching.Jobs.List.Get;
-using Vlad2020.Mods.Product.Caching.Jobs.Options.DummyManyToMany.Get;
-using Vlad2020.Mods.Product.Caching.Jobs.Options.DummyOneToMany.Get;
+using Vlad2020.Mods.Product.Caching.Jobs.Options.ProductFeature.Get;
+using Vlad2020.Mods.Product.Caching.Jobs.Options.ProductCategory.Get;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
@@ -35,9 +35,9 @@ namespace Vlad2020.Mods.Product.Web.Api
 
         private ModProductCachingJobListGetService AppJobListGet { get; set; }
 
-        private ModProductCachingJobOptionsDummyManyToManyGetService AppJobOptionDummyManyToManyListGet { get; set; }
+        private ModProductCachingJobOptionsProductFeatureGetService AppJobOptionProductFeatureListGet { get; set; }
 
-        private ModProductCachingJobOptionsDummyOneToManyGetService AppJobOptionDummyOneToManyListGet { get; set; }
+        private ModProductCachingJobOptionsProductCategoryGetService AppJobOptionProductCategoryListGet { get; set; }
 
         #endregion Properties
 
@@ -51,11 +51,11 @@ namespace Vlad2020.Mods.Product.Web.Api
         /// <param name="appJobItemInsert">Задание на вставку элемента.</param>
         /// <param name="appJobItemUpdate">Задание на обновление элемента.</param>
         /// <param name="appJobListGet">Задание на получение списка.</param>
-        /// <param name="appJobOptionDummyManyToManyListGet">
-        /// Задание на получение вариантов выбора сущности "DummyManyToMany".
+        /// <param name="appJobOptionProductFeatureListGet">
+        /// Задание на получение вариантов выбора сущности "ProductFeature".
         /// </param>
-        /// <param name="appJobOptionDummyOneToManyListGet">
-        /// Задание на получение вариантов выбора сущности "DummyOneToMany".
+        /// <param name="appJobOptionProductCategoryListGet">
+        /// Задание на получение вариантов выбора сущности "ProductCategory".
         /// </param>
         /// <param name="extLogger">Регистратор.</param>
         public ModProductWebApiModel(
@@ -64,8 +64,8 @@ namespace Vlad2020.Mods.Product.Web.Api
             ModProductCachingJobItemInsertService appJobItemInsert,
             ModProductCachingJobItemUpdateService appJobItemUpdate,
             ModProductCachingJobListGetService appJobListGet,
-            ModProductCachingJobOptionsDummyManyToManyGetService appJobOptionDummyManyToManyListGet,
-            ModProductCachingJobOptionsDummyOneToManyGetService appJobOptionDummyOneToManyListGet,
+            ModProductCachingJobOptionsProductFeatureGetService appJobOptionProductFeatureListGet,
+            ModProductCachingJobOptionsProductCategoryGetService appJobOptionProductCategoryListGet,
             ILogger<ModProductWebApiController> extLogger
             )
             : base(extLogger)
@@ -75,8 +75,8 @@ namespace Vlad2020.Mods.Product.Web.Api
             AppJobItemInsert = appJobItemInsert;
             AppJobItemUpdate = appJobItemUpdate;
             AppJobListGet = appJobListGet;
-            AppJobOptionDummyManyToManyListGet = appJobOptionDummyManyToManyListGet;
-            AppJobOptionDummyOneToManyListGet = appJobOptionDummyOneToManyListGet;
+            AppJobOptionProductFeatureListGet = appJobOptionProductFeatureListGet;
+            AppJobOptionProductCategoryListGet = appJobOptionProductCategoryListGet;
         }
 
         #endregion Constructors
@@ -140,7 +140,7 @@ namespace Vlad2020.Mods.Product.Web.Api
         }
 
         /// <summary>
-        /// Построить действие "Вариант выбора. Сущность "DummyManyToMany". Список. Получение".
+        /// Построить действие "Вариант выбора. Сущность "ProductFeature". Список. Получение".
         /// </summary>
         /// <param name="input">Ввод.</param>
         /// <returns>Функции действия.</returns>
@@ -148,9 +148,9 @@ namespace Vlad2020.Mods.Product.Web.Api
             Func<Task<ModProductBaseCommonJobOptionListGetOutput>> execute,
             Action<ModProductBaseCommonJobOptionListGetResult> onSuccess,
             Action<Exception, ModProductBaseCommonJobOptionListGetResult> onError
-            ) BuildActionOptionDummyManyToManyListGet()
+            ) BuildActionOptionProductFeatureListGet()
         {
-            var job = AppJobOptionDummyManyToManyListGet;
+            var job = AppJobOptionProductFeatureListGet;
 
             Task<ModProductBaseCommonJobOptionListGetOutput> execute() => job.Execute();
 
@@ -168,7 +168,7 @@ namespace Vlad2020.Mods.Product.Web.Api
         }
 
         /// <summary>
-        /// Построить действие "Вариант выбора. Сущность "DummyOneToMany". Список. Получение".
+        /// Построить действие "Вариант выбора. Сущность "ProductCategory". Список. Получение".
         /// </summary>
         /// <param name="input">Ввод.</param>
         /// <returns>Функции действия.</returns>
@@ -176,9 +176,9 @@ namespace Vlad2020.Mods.Product.Web.Api
             Func<Task<ModProductBaseCommonJobOptionListGetOutput>> execute,
             Action<ModProductBaseCommonJobOptionListGetResult> onSuccess,
             Action<Exception, ModProductBaseCommonJobOptionListGetResult> onError
-            ) BuildActionOptionDummyOneToManyListGet()
+            ) BuildActionOptionProductCategoryListGet()
         {
-            var job = AppJobOptionDummyOneToManyListGet;
+            var job = AppJobOptionProductCategoryListGet;
 
             Task<ModProductBaseCommonJobOptionListGetOutput> execute() => job.Execute();
 

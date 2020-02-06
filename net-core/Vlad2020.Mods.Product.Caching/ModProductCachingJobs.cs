@@ -13,8 +13,8 @@ using Vlad2020.Mods.Product.Caching.Jobs.Item.Get;
 using Vlad2020.Mods.Product.Caching.Jobs.Item.Insert;
 using Vlad2020.Mods.Product.Caching.Jobs.Item.Update;
 using Vlad2020.Mods.Product.Caching.Jobs.List.Get;
-using Vlad2020.Mods.Product.Caching.Jobs.Options.DummyManyToMany.Get;
-using Vlad2020.Mods.Product.Caching.Jobs.Options.DummyOneToMany.Get;
+using Vlad2020.Mods.Product.Caching.Jobs.Options.ProductFeature.Get;
+using Vlad2020.Mods.Product.Caching.Jobs.Options.ProductCategory.Get;
 
 namespace Vlad2020.Mods.Product.Caching
 {
@@ -51,14 +51,14 @@ namespace Vlad2020.Mods.Product.Caching
         public ModProductCachingJobListGetService JobListGet { get; private set; }
 
         /// <summary>
-        /// Задание на получение вариантов выбора сущности "DummyManyToMany".
+        /// Задание на получение вариантов выбора сущности "ProductFeature".
         /// </summary>
-        public ModProductCachingJobOptionsDummyManyToManyGetService JobOptionsDummyManyToManyGet { get; private set; }
+        public ModProductCachingJobOptionsProductFeatureGetService JobOptionsProductFeatureGet { get; private set; }
 
         /// <summary>
-        /// Задание на получение вариантов выбора сущности "DummyOneToMany".
+        /// Задание на получение вариантов выбора сущности "ProductCategory".
         /// </summary>
-        public ModProductCachingJobOptionsDummyOneToManyGetService JobOptionsDummyOneToManyGet { get; private set; }
+        public ModProductCachingJobOptionsProductCategoryGetService JobOptionsProductCategoryGet { get; private set; }
 
         #endregion Properties
 
@@ -136,7 +136,7 @@ namespace Vlad2020.Mods.Product.Caching
                 coreCachingResourceErrors
                 );
 
-            JobOptionsDummyManyToManyGet = new ModProductCachingJobOptionsDummyManyToManyGetService(
+            JobOptionsProductFeatureGet = new ModProductCachingJobOptionsProductFeatureGetService(
                 service.GetOptionsProductFeature,
                 coreBaseResourceErrors,
                 dataBaseSettings,
@@ -145,7 +145,7 @@ namespace Vlad2020.Mods.Product.Caching
                 coreCachingResourceErrors
                 );
 
-            JobOptionsDummyOneToManyGet = new ModProductCachingJobOptionsDummyOneToManyGetService(
+            JobOptionsProductCategoryGet = new ModProductCachingJobOptionsProductCategoryGetService(
                 service.GetOptionsProductCategory,
                 coreBaseResourceErrors,
                 dataBaseSettings,

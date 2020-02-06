@@ -14,96 +14,25 @@ export interface AppDataObjectProduct {
      * @type {string}
      */
     name: string;
+
+    /**
+     * Описание.
+     * @type {string}
+     */
+    description: string;
   
+    /**
+     * Описание.
+     * @type {string}
+     */
+    price: number;
+
     /**
      * Идентификатор объекта, где хранятся данные сущности "DummyOneToMany".
      * @type {number}
      */
     objectProductCategoryId: number;
-  
-    /**
-     * Свойство, содержащее логическое значение.
-     * @type {boolean}
-     */
-    propBoolean: boolean;
-  
-    /**
-     * Свойство, содержащее логическое значение или NULL.
-     * @type {?boolean}
-     */
-    propBooleanNullable?: boolean;
-  
-    /**
-     * Свойство, содержащее дату.
-     * @type {Date}
-     */
-    propDate: Date;
-  
-    /**
-     * Свойство, содержащее дату или NULL.
-     * @type {?Date}
-     */
-    propDateNullable?: Date;
-  
-    /**
-     * Свойство, содержащее дату и время с часовым поясом.
-     * @type {Date}
-     */
-    propDateTimeOffset: Date;
-  
-    /**
-     * Свойство, содержащее дату и время с часовым поясом или NULL.
-     * @type {?Date}
-     */
-    propDateTimeOffsetNullable?: Date;
-  
-    /**
-     * Свойство, содержащее десятичную дробь.
-     * @type {number}
-     */
-    propDecimal: number;
-  
-    /**
-     * Свойство, содержащее десятичную дробь или NULL.
-     * @type {?number}
-     */
-    propDecimalNullable?: number;
-  
-    /**
-     * Свойство, содержащее целое 32-разрядное число.
-     * @type {number}
-     */
-    propInt32: number;
-  
-    /**
-     * Свойство, содержащее целое 32-разрядное число или NULL.
-     * @type {?number}
-     */
-    propInt32Nullable?: number;
-  
-    /**
-     * Свойство, содержащее целое 64-разрядное число.
-     * @type {number}
-     */
-    propInt64: number;
-  
-    /**
-     * Свойство, содержащее целое 64-разрядное число или NULL.
-     * @type {?number}
-     */
-    propInt64Nullable?: number;
-  
-    /**
-     * Свойство, содержащее строку.
-     * @type {string}
-     */
-    propString: string;
-  
-    /**
-     * Свойство, содержащее строку или NULL.
-     * @type {?string}
-     */
-    propStringNullable?: string;
+
   }
   
   /** Данные. Объекты. Сущность "Product". Создать. */

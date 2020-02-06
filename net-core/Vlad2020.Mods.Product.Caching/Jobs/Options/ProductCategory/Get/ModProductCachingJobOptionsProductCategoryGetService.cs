@@ -7,17 +7,17 @@ using Vlad2020.Core.Caching.Common.Client.Config;
 using Vlad2020.Core.Caching.Resources.Errors;
 using Vlad2020.Data.Base;
 using Vlad2020.Mods.Product.Base.Common.Jobs.Option.List.Get;
-using Vlad2020.Mods.Product.Base.Jobs.Option.DummyManyToMany.List.Get;
+using Vlad2020.Mods.Product.Base.Jobs.Option.ProductCategory.List.Get;
 using System;
 using System.Threading.Tasks;
 
-namespace Vlad2020.Mods.Product.Caching.Jobs.Options.DummyManyToMany.Get
+namespace Vlad2020.Mods.Product.Caching.Jobs.Options.ProductCategory.Get
 {
     /// <summary>
-    /// Мод "Product". Задания. Варианты выбора. Сущность "DummyManyToMany". Получение. Сервис.
+    /// Мод "Product". Задания. Варианты выбора. Сущность "ProductCategory". Получение. Сервис.
     /// </summary>
-    public class ModProductCachingJobOptionsDummyManyToManyGetService :
-        ModProductBaseJobOptionProductFeatureGetListService
+    public class ModProductCachingJobOptionsProductCategoryGetService :
+        ModProductBaseJobOptionProductCategoryListGetService
     {
         #region Constructors
 
@@ -30,7 +30,7 @@ namespace Vlad2020.Mods.Product.Caching.Jobs.Options.DummyManyToMany.Get
         /// <param name="cacheSettings">Настройки кэширования.</param>        
         /// <param name="cache">Кэш.</param>      
         /// <param name="coreCachingResourceErrors">Ресурсы ошибок ядра кэширования.</param>
-        public ModProductCachingJobOptionsDummyManyToManyGetService(
+        public ModProductCachingJobOptionsProductCategoryGetService(
             Func<Task<ModProductBaseCommonJobOptionListGetOutput>> executable,
             CoreBaseResourceErrors coreBaseResourceErrors,
             DataBaseSettings dataBaseSettings,
@@ -42,7 +42,7 @@ namespace Vlad2020.Mods.Product.Caching.Jobs.Options.DummyManyToMany.Get
             if (cacheSettings.IsCachingEnabled)
             {
                 var client = new CoreCachingClientWithChangeAndRead<ModProductBaseCommonJobOptionListGetOutput>(
-                    "Options.DummyManyToMany.Get",
+                    "Options.ProductCategory.Get",
                     cacheSettings,
                     cache,
                     coreCachingResourceErrors
@@ -50,7 +50,7 @@ namespace Vlad2020.Mods.Product.Caching.Jobs.Options.DummyManyToMany.Get
 
                 var tags = new[]
                 {
-                    dataBaseSettings.DummyManyToMany.DbTableWithSchema
+                    dataBaseSettings.ProductCategory.DbTableWithSchema
                 };
 
                 Executable = () =>

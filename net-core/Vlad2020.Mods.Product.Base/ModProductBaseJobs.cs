@@ -7,8 +7,8 @@ using Vlad2020.Mods.Product.Base.Jobs.Item.Get;
 using Vlad2020.Mods.Product.Base.Jobs.Item.Insert;
 using Vlad2020.Mods.Product.Base.Jobs.Item.Update;
 using Vlad2020.Mods.Product.Base.Jobs.List.Get;
-using Vlad2020.Mods.Product.Base.Jobs.Option.DummyManyToMany.List.Get;
-using Vlad2020.Mods.Product.Base.Jobs.Option.DummyOneToMany.List.Get;
+using Vlad2020.Mods.Product.Base.Jobs.Option.ProductFeature.List.Get;
+using Vlad2020.Mods.Product.Base.Jobs.Option.ProductCategory.List.Get;
 using Vlad2020.Mods.Product.Base.Resources.Errors;
 using Vlad2020.Mods.Product.Base.Resources.Successes;
 

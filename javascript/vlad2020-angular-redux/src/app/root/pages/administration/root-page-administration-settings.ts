@@ -18,6 +18,12 @@ export class AppRootPageAdministrationSettings {
   titleOfModDummyMainPageIndexResourceKey = 'Сущность';
 
   /**
+   * Заголовок страницы "ModProductPageIndex".
+   * @type {string}
+   */
+  titleOfModProductPageIndexResourceKey = 'Продукт';
+
+  /**
    * Ключ.
    * @type {string}
    */

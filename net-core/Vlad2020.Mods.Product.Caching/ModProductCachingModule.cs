@@ -41,8 +41,8 @@ namespace Vlad2020.Mods.Product.Caching
             services.AddTransient(x => GetContext(x).Jobs.JobItemInsert);
             services.AddTransient(x => GetContext(x).Jobs.JobItemUpdate);
             services.AddTransient(x => GetContext(x).Jobs.JobListGet);
-            services.AddTransient(x => GetContext(x).Jobs.JobOptionsDummyManyToManyGet);
-            services.AddTransient(x => GetContext(x).Jobs.JobOptionsDummyOneToManyGet);
+            services.AddTransient(x => GetContext(x).Jobs.JobOptionsProductFeatureGet);
+            services.AddTransient(x => GetContext(x).Jobs.JobOptionsProductCategoryGet);
         }
 
         /// <summary>

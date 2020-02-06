@@ -15,4 +15,4 @@ export const appModProductPageIndexConfigFullPath = appModProductConfigFullPath;
 export const appModProductPageIndexConfigKey = 'ModProductPageIndex';
 
 /** Мод "Product". Страницы. Начало. Конфигурация. Заголовок. Ресурс. Ключ. */
-export const appModProductPageIndexConfigTitleResourceKey = 'Сущность';
+export const appModProductPageIndexConfigTitleResourceKey = 'Продукт';

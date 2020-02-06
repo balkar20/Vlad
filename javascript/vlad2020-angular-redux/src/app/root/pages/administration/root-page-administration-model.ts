@@ -9,6 +9,7 @@ import {AppCoreTitleService} from '@app/core/title/core-title.service';
 import {AppHostPartMenuService} from '@app/host/parts/menu/host-part-menu.service';
 import {AppHostPartRouteService} from '@app/host/parts/route/host-part-route.service';
 import {AppModDummyMainPageIndexService} from '@app/mods/dummy-main/pages/index/mod-dummy-main-page-index.service';
+import {AppModProductPageIndexService} from '@app/mods/product/pages/index/mod-product-page-index.service';
 import {AppRootPageAdministrationResources} from './root-page-administration-resources';
 import {AppRootPageAdministrationService} from './root-page-administration.service';
 import {AppRootPageAdministrationState} from './root-page-administration-state';
@@ -40,6 +41,7 @@ export class AppRootPageAdministrationModel extends AppCoreCommonPageModel {
     appLoggerStore: AppCoreLoggingStore,
     private appMenu: AppHostPartMenuService,
     private appModDummyMainPageIndex: AppModDummyMainPageIndexService,
+    private appModProductPageIndex: AppModProductPageIndexService,
     private appRootPageAdministration: AppRootPageAdministrationService,
     appRoute: AppHostPartRouteService,
     private appStore: AppRootPageAdministrationStore,
@@ -66,6 +68,14 @@ export class AppRootPageAdministrationModel extends AppCoreCommonPageModel {
    */
   createRouterLinkToModDummyMainPageIndex(): any[] {
     return [this.appModDummyMainPageIndex.settings.path];
+  }
+
+  /**
+   * Создать ссылку маршрутизатора на страницу "ModProductPageIndex".
+   * @returns {any[]} Ссылка маршрутизатора.
+   */
+  createRouterLinkToModProductPageIndex(): any[] {
+    return [this.appModProductPageIndex.settings.path];
   }
 
   /**

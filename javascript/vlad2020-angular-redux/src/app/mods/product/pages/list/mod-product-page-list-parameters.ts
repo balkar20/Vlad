@@ -45,28 +45,41 @@ export class AppModProductPageListParameters extends AppCoreCommonPageParameters
   paramSortDirection = new AppCoreCommonPageParameter<string>('sd', this.index);
 
   /**
-   * Параметр "Имя объекта, где хранятся данные сущности "DummyOneToMany".
+   * Параметр "Имя объекта, где хранятся данные сущности "ProductCategory".
    * @type {AppCoreCommonPageParameter<string>}
    */
-  paramObjectDummyOneToManyName = new AppCoreCommonPageParameter<string>('obj-dummy-one-to-many-name', this.index);
+  paramObjectProductCategoryName = new AppCoreCommonPageParameter<string>('obj-product-category-name', this.index);
 
   /**
-   * Параметр "Идентификатор объекта, где хранятся данные сущности "DummyOneToMany".
+   * Параметр "Идентификатор объекта, где хранятся данные сущности "ProductCategory".
    * @type {AppCoreCommonPageParameter<number>}
    */
-  paramObjectDummyOneToManyId = new AppCoreCommonPageParameter<number>('obj-dummy-one-to-many-id', this.index);
+  paramObjectProductCategoryId = new AppCoreCommonPageParameter<number>('obj-product-category-id', this.index);
 
   /**
-   * Параметр "Строка идентификаторов объектов, где хранятся данные сущности "DummyOneToMany".
+   * Параметр "Строка идентификаторов объектов, где хранятся данные сущности "ProductCategory".
    * @type {AppCoreCommonPageParameter<string>}
    */
-  paramObjectDummyOneToManyIdsString = new AppCoreCommonPageParameter<string>('obj-dummy-one-to-many-ids', this.index);
+  paramObjectProductCategoryIdsString = new AppCoreCommonPageParameter<string>('obj-product-category-ids', this.index);
 
   /**
    * Параметр "Имя".
    * @type {AppCoreCommonPageParameter<string>}
    */
   paramName = new AppCoreCommonPageParameter<string>('name', this.index);
+
+  /**
+   * Параметр "Цена".
+   * @type {AppCoreCommonPageParameter<number>}
+   */
+  paramPrice = new AppCoreCommonPageParameter<number>('price', this.index);
+
+  
+  /**
+   * Параметр "Описание".
+   * @type {AppCoreCommonPageParameter<string>}
+   */
+  paramDescription = new AppCoreCommonPageParameter<string>('description', this.index);
 
   /**
    * Параметр "Строка идентификаторов".
@@ -105,11 +118,13 @@ export class AppModProductPageListParameters extends AppCoreCommonPageParameters
       this.paramPageSize.value,
       this.paramSortField.value,
       this.paramSortDirection.value,
-      this.paramObjectDummyOneToManyName.value,
-      this.paramObjectDummyOneToManyId.value,
-      this.paramObjectDummyOneToManyIdsString.value,
+      this.paramObjectProductCategoryName.value,
+      this.paramObjectProductCategoryId.value,
+      this.paramObjectProductCategoryIdsString.value,
       this.paramName.value,
-      this.paramIdsString.value
+      this.paramIdsString.value,
+      this.paramPrice.value,
+      this.paramDescription.value
     );
   }
 }

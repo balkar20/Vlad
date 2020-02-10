@@ -22,4 +22,18 @@ export class AppModProductPageListSettingColumns {
     labelResourceKey: 'Имя',
     placeholderResourceKey: 'Введите имя'
   };
+
+  /** Столбец "Имя". */
+  columnPrice = {
+    name: 'price',
+    labelResourceKey: 'Цена',
+    placeholderResourceKey: 'Введите Цену'
+  };
+
+  /** Столбец "Описание". */
+  columnDescription = {
+    name: 'description',
+    labelResourceKey: 'Описание',
+    placeholderResourceKey: 'Введите Описание'
+  };
 }

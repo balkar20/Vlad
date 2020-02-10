@@ -64,12 +64,16 @@ export class AppSkinModProductPageListView extends AppModProductPageListView {
 
     const {
       columnId: columnIdResource,
-      columnName: columnNameResource
+      columnName: columnNameResource,
+      columnPrice: columnPriceResource,
+      columnDescription: columnDescriptionResource,
     } = resourceColumns;
 
     const {
       columnId: columnIdSetting,
-      columnName: columnNameSetting
+      columnName: columnNameSetting,
+      columnPrice: columnPriceSetting,
+      columnDescription: columnDescriptionSetting,
     } = settingColumns;
 
     this.dataKey = columnIdSetting.name;
@@ -85,6 +89,18 @@ export class AppSkinModProductPageListView extends AppModProductPageListView {
         field: columnNameSetting.name,
         get header(): string {
           return columnNameResource.label;
+        }
+      },
+      {
+        field: columnPriceSetting.name,
+        get header(): string {
+          return columnPriceResource.label;
+        }
+      },
+      {
+        field: columnDescriptionSetting.name,
+        get header(): string {
+          return columnDescriptionResource.label;
         }
       }
     ];

@@ -178,6 +178,7 @@ export class AppModProductPageListModel extends AppCoreCommonPageModel {
    * @param {AppModProductPageListParameters} parameters Параметры.
    */
   executeActionRefresh(parameters: AppModProductPageListParameters) {
+    console.log("executeActionRefresh");
     if (parameters) {
       const location = this.appModProductPageList.getLocation();
 
@@ -207,6 +208,7 @@ export class AppModProductPageListModel extends AppCoreCommonPageModel {
     if (commands) {
       this.extRouter.navigate(commands).catch();
     }
+    console.log("/executeActionRefresh");
   }
 
   getIsDataRefreshed$(): Observable<boolean> {
@@ -258,6 +260,10 @@ export class AppModProductPageListModel extends AppCoreCommonPageModel {
    * @returns {number} Направление сортировки.
    */
   getRealSortDirection(value?: string): string {
+    console.log("getRealSortDirection: ");
+    console.log(value);
+    console.log(this.parameters.paramSortDirection.value);
+    console.log("getRealSortDirection: /");
     return value ? value : this.parameters.paramSortDirection.value;
   }
 
@@ -267,6 +273,12 @@ export class AppModProductPageListModel extends AppCoreCommonPageModel {
    * @returns {number} Поле сортировки.
    */
   getRealSortField(value?: string): string {
+    console.log("getRealSortField: ");
+    console.log(value);
+    console.log(this.parameters.paramSortField.value);
+    console.log("returning: " );
+    console.log(value ? value : this.parameters.paramSortField.value);
+    console.log("getRealSortField: /");
     return value ? value : this.parameters.paramSortField.value;
   }
 
@@ -341,6 +353,7 @@ export class AppModProductPageListModel extends AppCoreCommonPageModel {
 
   /** Обработчик события получения запроса на загрузку данных. */
   onReceiveEnsureLoadDataRequest() {
+    console.log("onReceiveEnsureLoadDataRequest");
     this.jobListGetInput = null;
   }
 
@@ -470,16 +483,16 @@ export class AppModProductPageListModel extends AppCoreCommonPageModel {
 
   private onRouteParamMapSwitchMapToJobListGetInput(paramMap: ParamMap): Observable<AppModProductJobListGetInput> {
     const parameters = this.createParameters();
-
+    console.log("onRouteParamMapSwitchMapToJobListGetInput");
     const {
       paramPageNumber,
       paramPageSize,
       paramSelectedItemId,
       paramSortDirection,
       paramSortField,
-      paramObjectDummyOneToManyName,
-      paramObjectDummyOneToManyId,
-      paramObjectDummyOneToManyIdsString,
+      paramObjectProductCategoryName,
+      paramObjectProductCategoryId,
+      paramObjectProductCategoryIdsString,
       paramName,
       paramIdsString,
       paramIsDataRefreshed
@@ -492,9 +505,9 @@ export class AppModProductPageListModel extends AppCoreCommonPageModel {
     paramSelectedItemId.value = this.getRealSelectedItemId(+paramMap.get(paramSelectedItemId.name));
     paramSortField.value = this.getRealSortField(paramMap.get(paramSortField.name));
     paramSortDirection.value = this.getRealSortDirection(paramMap.get(paramSortDirection.name));
-    paramObjectDummyOneToManyName.value = paramMap.get(paramObjectDummyOneToManyName.name);
-    paramObjectDummyOneToManyId.value = +paramMap.get(paramObjectDummyOneToManyId.name);
-    paramObjectDummyOneToManyIdsString.value = paramMap.get(paramObjectDummyOneToManyIdsString.name);
+    paramObjectProductCategoryName.value = paramMap.get(paramObjectProductCategoryName.name);
+    paramObjectProductCategoryId.value = +paramMap.get(paramObjectProductCategoryId.name);
+    paramObjectProductCategoryIdsString.value = paramMap.get(paramObjectProductCategoryIdsString.name);
 
     this.isDataRefreshed$.next(paramMap.get(paramIsDataRefreshed.name) === 'true');
 
@@ -514,7 +527,8 @@ export class AppModProductPageListModel extends AppCoreCommonPageModel {
     } else {
       this.jobListGetInput = input;
     }
-
+    console.log("/onRouteParamMapSwitchMapToJobListGetInput");
+    console.log(input);
     return of(input);
   }
 }

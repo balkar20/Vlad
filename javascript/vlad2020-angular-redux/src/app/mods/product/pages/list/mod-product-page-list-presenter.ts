@@ -141,6 +141,7 @@ export class AppModProductPageListPresenter extends AppCoreCommonPagePresenter<A
 
   /** @param {AppModProductJobListGetOutput} data */
   private loadData(data: AppModProductJobListGetOutput) {
+    console.log("loadData");
     const {
       jobListGetInput
     } = this.model.getState();
@@ -163,11 +164,13 @@ export class AppModProductPageListPresenter extends AppCoreCommonPagePresenter<A
 
     if (data) {
       totalCount = data.totalCount;
-
+      console.log(data.items);
       items = data.items.map(
         x => new AppModProductPageListDataItem(
           x.objectProduct.id,
-          x.objectProduct.name
+          x.objectProduct.name,
+          x.objectProduct.price,
+          x.objectProduct.description
         )
       );
     }
@@ -177,8 +180,11 @@ export class AppModProductPageListPresenter extends AppCoreCommonPagePresenter<A
     }
 
     this.view.totalCount = totalCount;
-
+    console.log("loadData params:");
+    console.log(items);
+    console.log(this.model.getParameters());
     this.view.loadData(items, this.model.getParameters());
+    console.log("/loadData");
   }
 
   private onActionsDataChanging() {
@@ -248,10 +254,11 @@ export class AppModProductPageListPresenter extends AppCoreCommonPagePresenter<A
 
   /** @returns {boolean} */
   private onDataChangedByLoadSuccess(): boolean {
+    console.log("onDataChangedByLoadSuccess");
     const {
       jobListGetResult: result
     } = this.model.getState();
-
+    console.log(result);
     if (result) {
       const {
         data,
@@ -262,6 +269,9 @@ export class AppModProductPageListPresenter extends AppCoreCommonPagePresenter<A
       this.view.responseErrorMessages = errorMessages;
       this.view.responseSuccessMessages = successMessages;
 
+      
+      console.log(data);
+      console.log("/onDataChangedByLoadSuccess");
       this.loadData(data);
     }
 
@@ -273,6 +283,7 @@ export class AppModProductPageListPresenter extends AppCoreCommonPagePresenter<A
   }
 
   private onFilterChange() {
+    console.log("onFilterChange");
     if (this.view.getPageNumber() > 1) {
       this.view.setPageNumber(1);
     }
@@ -318,12 +329,14 @@ export class AppModProductPageListPresenter extends AppCoreCommonPagePresenter<A
   }
 
   private onSortChange() {
+    console.log("onSortChange");
     if (this.view.getPageNumber() > 1) {
       this.view.setPageNumber(1);
     }
   }
 
   private onSortOrPageChange() {
+    console.log("onSortOrPageChange");
     this.model.onReceiveEnsureLoadDataRequest();
 
     this.refresh();
@@ -331,7 +344,7 @@ export class AppModProductPageListPresenter extends AppCoreCommonPagePresenter<A
 
   private refresh() {
     const parameters = this.model.createParameters();
-
+    console.log("refresh");
     const {
       paramIsDataRefreshed,
       paramName,
@@ -348,8 +361,10 @@ export class AppModProductPageListPresenter extends AppCoreCommonPagePresenter<A
     paramPageSize.value = this.view.getPageSize();
     paramSelectedItemId.value = this.view.getSelectedItemId();
     paramSortField.value = this.view.getSortField();
+    console.log(paramSortField.value);
     paramSortDirection.value = this.view.getSortDirection();
 
     this.model.executeActionRefresh(parameters);
+    console.log("end refresh");
   }
 }

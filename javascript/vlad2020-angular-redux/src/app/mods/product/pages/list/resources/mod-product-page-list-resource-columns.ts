@@ -25,6 +25,18 @@ export class AppModProductPageListResourceColumns {
     placeholder: ''
   };
 
+  /** Столбец "Цена". */
+  columnPrice = {
+    label: '',
+    placeholder: ''
+  };
+
+  /** Столбец "Описание". */
+  columnDescription = {
+    label: '',
+    placeholder: ''
+  };
+
   /**
    * Конструктор.
    * @param {AppCoreLocalizationService} appLocalizer Локализатор.
@@ -39,7 +51,9 @@ export class AppModProductPageListResourceColumns {
     const {
       columnAction,
       columnId,
-      columnName
+      columnName,
+      columnPrice, 
+      columnDescription
     } = settingColumns;
 
     appLocalizer.createTranslator(
@@ -70,6 +84,30 @@ export class AppModProductPageListResourceColumns {
       columnName.placeholderResourceKey
     ).translate$().pipe(takeUntil(unsubscribe$)).subscribe(s => {
       this.columnName.placeholder = s;
+    });
+
+    appLocalizer.createTranslator(
+      columnPrice.labelResourceKey
+    ).translate$().pipe(takeUntil(unsubscribe$)).subscribe(s => {
+      this.columnPrice.label = s;
+    });
+
+    appLocalizer.createTranslator(
+      columnPrice.placeholderResourceKey
+    ).translate$().pipe(takeUntil(unsubscribe$)).subscribe(s => {
+      this.columnPrice.placeholder = s;
+    });
+    
+    appLocalizer.createTranslator(
+      columnDescription.labelResourceKey
+    ).translate$().pipe(takeUntil(unsubscribe$)).subscribe(s => {
+      this.columnDescription.label = s;
+    });
+
+    appLocalizer.createTranslator(
+      columnDescription.placeholderResourceKey
+    ).translate$().pipe(takeUntil(unsubscribe$)).subscribe(s => {
+      this.columnDescription.placeholder = s;
     });
   }
 }

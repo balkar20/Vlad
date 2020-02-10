@@ -36,6 +36,18 @@ export class AppModProductJobListGetInput extends AppCoreCommonModJobListGetInpu
   dataIdsString?: string;
 
   /**
+   * Цена.
+   * @type {?number}
+   */
+  dataPrice?: number;
+
+  /**
+   * Строка описания.
+   * @type {?string}
+   */
+  dataDescription?: string;
+
+  /**
    * Конструктор.
    * @param {?number} dataPageNumber Номер страницы данных.
    * @param {?number} dataPageSize Размер страницы данных.
@@ -46,6 +58,8 @@ export class AppModProductJobListGetInput extends AppCoreCommonModJobListGetInpu
    * @param {?string} dataObjectProductCategoryIdsString Строка идентификаторов объектов, где хранятся данные сущности "ProductCategory".
    * @param {?string} dataName Имя данных.
    * @param {?string} dataIdsString Строка идентификаторов данных.
+   * @param {?number} dataPrice Цена данных.
+   * @param {?string} dataDescription Строка описания данных.
    */
   constructor(
     dataPageNumber?: number,
@@ -56,7 +70,9 @@ export class AppModProductJobListGetInput extends AppCoreCommonModJobListGetInpu
     dataObjectProductCategoryId?: number,
     dataObjectProductCategoryIdsString?: string,
     dataName?: string,
-    dataIdsString?: string
+    dataIdsString?: string,
+    dataPrice?: number,
+    dataDescription?: string
   ) {
     super(
       dataPageNumber,
@@ -84,6 +100,14 @@ export class AppModProductJobListGetInput extends AppCoreCommonModJobListGetInpu
     if (dataIdsString) {
       this.dataIdsString = dataIdsString;
     }
+
+    if (dataPrice) {
+      this.dataPrice = dataPrice;
+    }
+
+    if (dataDescription) {
+      this.dataDescription = dataDescription;
+    }
   }
 
   /**
@@ -95,6 +119,8 @@ export class AppModProductJobListGetInput extends AppCoreCommonModJobListGetInpu
     return other
       && this.dataIdsString === other.dataIdsString
       && this.dataName === other.dataName
+      && this.dataPrice === other.dataPrice 
+      && this.dataDescription === other.dataDescription 
       && this.dataObjectProductCategoryId === other.dataObjectProductCategoryId
       && this.dataObjectProductCategoryIdsString === other.dataObjectProductCategoryIdsString
       && this.dataObjectProductCategoryName === other.dataObjectProductCategoryName

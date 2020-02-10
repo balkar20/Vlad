@@ -42,10 +42,7 @@ export class AppModProductModule {
   constructor(
     @Optional() @SkipSelf() parentModule: AppModProductModule
   ) {
-    console.log("One ");
-    
     if (parentModule) {
-      console.log("Two");
       throw new Error(`${AppModProductModule.name} is already loaded.`);
     }
   }

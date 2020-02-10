@@ -115,6 +115,29 @@ namespace Vlad2020.Mods.Product.Base.Ext
                             break;
                     }
                     break;
+
+                case "price":
+                    switch (sortDirection)
+                    {
+                        case "asc":
+                            query = query.OrderBy(x => x.Price);
+                            break;
+                        case "desc":
+                            query = query.OrderByDescending(x => x.Price);
+                            break;
+                    }
+                    break;
+                case "description":
+                    switch (sortDirection)
+                    {
+                        case "asc":
+                            query = query.OrderBy(x => x.Description);
+                            break;
+                        case "desc":
+                            query = query.OrderByDescending(x => x.Description);
+                            break;
+                    }
+                    break;
                 case "objectproductcategory":
                     switch (sortDirection)
                     {

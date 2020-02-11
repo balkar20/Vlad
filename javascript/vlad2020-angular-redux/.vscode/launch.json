@@ -11,12 +11,5 @@
             "url": "http://localhost:4201",
             "webRoot": "${workspaceFolder}"
         },
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Launch Chrome against ",
-            "url": "http://localhost:57245/",
-            "webRoot": "${workspaceFolder}"
-        }
     ]
 }

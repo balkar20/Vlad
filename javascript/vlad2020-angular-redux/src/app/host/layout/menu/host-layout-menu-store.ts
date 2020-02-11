@@ -74,7 +74,12 @@ export class AppHostLayoutMenuStore {
    */
   private onStateMap(state: AppHostLayoutMenuState): AppHostLayoutMenuState {
     this.state = state;
-
+    if (this.state) {
+      if (this.state.jobNodesFindInput.dataKey != "RootPageAdministration") {
+        console.log(state);
+      }
+    }
+    
     return this.state;
   }
 }

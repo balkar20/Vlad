@@ -39,7 +39,8 @@ export class AppHostLayoutMenuPresenter {
     selectedNode: AppHostPartMenuDataNode
   ): AppHostLayoutMenuDataItem {
     let nodeKey = node.key;
-
+    console.log("createDataItem");
+    console.log(nodeKey);
     if (!selectedNode) {
       selectedNode = node;
 
@@ -71,12 +72,13 @@ export class AppHostLayoutMenuPresenter {
     const {
       jobNodesFindResult: result
     } = this.model.getState();
-
+    
     if (result) {
       const {
         data
       } = result;
-
+      console.log("onActionLoadSuccess");
+      console.log(data);
       let items: AppHostLayoutMenuDataItem[];
 
       const parentNodeLevel = this.view.menuLevel - 1;
@@ -98,7 +100,7 @@ export class AppHostLayoutMenuPresenter {
       }
 
       this.view.data = items;
-
+      
       this.model.localizeItems(this.view.data);
 
       this.view.isDataLoaded = true;

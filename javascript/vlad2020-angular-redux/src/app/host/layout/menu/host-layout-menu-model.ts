@@ -79,11 +79,18 @@ export class AppHostLayoutMenuModel extends AppCoreCommonUnsubscribable {
 
   /** @param {AppHostPartMenuJobNodeFindInput} input */
   private executeActionLoad(input: AppHostPartMenuJobNodesFindInput) {
+    if(input.dataKey != "RootPageAdministration" && input.dataKey != "ModAuthPageLogon"  && input){
+      console.log(input);
+    }
     this.appStore.runActionLoad(input);
   }
 
   /** @param {AppHostPartMenuDataItem} item */
   private localizeItem(item: AppHostPartMenuDataItem) {
+    if(item.titleResourceKey != ""){
+      console.log(item);
+    }
+    
     this.appLocalizer.createTranslator(
       item.titleResourceKey
     ).translate$().pipe(takeUntil(this.unsubscribe$)).subscribe(s => {

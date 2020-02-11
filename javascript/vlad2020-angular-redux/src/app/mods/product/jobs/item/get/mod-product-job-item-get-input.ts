@@ -12,23 +12,48 @@ export class AppModProductJobItemGetInput extends AppCoreCommonModJobItemGetInpu
   dataName?: string;
 
   /**
+   * Цена.
+   * @type {?number}
+   */
+  dataPrice?: number;
+
+  /**
+   * Описание.
+   * @type {?string}
+   */
+  dataDescription?: string;
+
+  /**
    * Признак предназначенности обновления.
    * @type {boolean}
    */
   get isForUpdate(): boolean {
-    return !!(this.dataId > 0 || this.dataName);
+    return !!(this.dataId > 0 || this.dataName
+      ||this.dataPrice > 0 || this.dataDescription);
   }
 
   /**
    * Конструктор.
    * @param {?number} dataId Идентификатор данных.
    * @param {?string} dataName Имя данных.
+   * @param {?number} dataPrice Идентификатор данных.
+   * @param {?string} dataDescription Имя данных.
    */
-  constructor(dataId?: number, dataName?: string) {
+  constructor(dataId?: number, dataName?: string, dataPrice?: number, dataDescription?: string) {
     super(dataId);
-
+    console.log("AppModProductJobItemGetInput constructor");
+    console.log("AppModProductJobItemGetInput id:" + dataId);
+    console.log("AppModProductJobItemGetInput price:" + dataPrice);
     if (dataName) {
       this.dataName = dataName;
+    }
+
+    if (dataPrice) {
+      this.dataPrice = dataPrice;
+    }
+
+    if (dataDescription) {
+      this.dataDescription = dataDescription;
     }
   }
 
@@ -40,6 +65,8 @@ export class AppModProductJobItemGetInput extends AppCoreCommonModJobItemGetInpu
   equals(other: AppModProductJobItemGetInput): boolean {
     return other
       && this.dataId === other.dataId
-      && this.dataName === other.dataName;
+      && this.dataName === other.dataName
+      && this.dataPrice === other.dataPrice
+      && this.dataDescription === other.dataDescription;
   }
 }

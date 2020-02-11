@@ -44,11 +44,12 @@ export class AppModProductPageItemParameters extends AppCoreCommonPageParameters
    * @returns {AppModProductJobItemGetInput} Ввод.
    */
   createJobItemGetInput(): AppModProductJobItemGetInput {
+    console.log("createJobItemGetInput");
     return new AppModProductJobItemGetInput(
       this.paramId.value,
       this.paramName.value,
-      // this.paramPrice.value,
-      // this.paramDescription.value
+      this.paramPrice.value,
+      this.paramDescription.value
     );
   }
 }

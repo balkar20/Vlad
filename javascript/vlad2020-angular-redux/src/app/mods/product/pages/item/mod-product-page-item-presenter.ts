@@ -132,7 +132,8 @@ export class AppModProductPageItemPresenter extends AppCoreCommonPagePresenter<A
     } = input;
 
     objectProduct.name = fieldName.value;
-    objectProduct.price = fieldPrice.value;
+    //convert forms string value price to number
+    objectProduct.price = +fieldPrice.value;
     objectProduct.description = fieldDescription.value;
     objectProduct.objectProductCategoryId = fieldObjectProductCategory.value;
 

@@ -16,6 +16,20 @@ export class AppModProductPageItemSettingFields {
     placeholderResourceKey: 'Введите имя'
   };
 
+  /** Поле "Цена". */
+  fieldPrice = {
+    name: 'price',
+    labelResourceKey: 'Цена',
+    placeholderResourceKey: 'Введите Цену'
+  };
+
+  /** Поле "Описание". */
+  fieldDescription = {
+    name: 'description',
+    labelResourceKey: 'Описание',
+    placeholderResourceKey: 'Введите Описание'
+  };
+
   /** Поле объект сущности "ProductFeature". */
   fieldObjectProductFeature = {
     name: 'objectProductFeature',

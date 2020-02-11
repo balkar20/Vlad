@@ -19,6 +19,18 @@ export class AppModProductPageItemResourceFields {
     placeholder: ''
   };
 
+  /** Поле "Цена". */
+  fieldPrice = {
+    label: '',
+    placeholder: ''
+  };
+
+  /** Поле "Описание". */
+  fieldDescription = {
+    label: '',
+    placeholder: ''
+  };
+
   /** Поле объект сущности "ProductFeature". */
   fieldObjectProductFeature = {
     label: '',
@@ -45,6 +57,8 @@ export class AppModProductPageItemResourceFields {
     const {
       fieldId,
       fieldName,
+      fieldPrice,
+      fieldDescription,
       fieldObjectProductFeature,
       fieldObjectProductCategory
     } = settingFields;
@@ -65,6 +79,30 @@ export class AppModProductPageItemResourceFields {
       fieldName.placeholderResourceKey
     ).translate$().pipe(takeUntil(unsubscribe$)).subscribe(s => {
       this.fieldName.placeholder = s;
+    });
+
+    appLocalizer.createTranslator(
+      fieldPrice.labelResourceKey
+    ).translate$().pipe(takeUntil(unsubscribe$)).subscribe(s => {
+      this.fieldPrice.label = s;
+    });
+
+    appLocalizer.createTranslator(
+      fieldPrice.placeholderResourceKey
+    ).translate$().pipe(takeUntil(unsubscribe$)).subscribe(s => {
+      this.fieldPrice.placeholder = s;
+    });
+
+    appLocalizer.createTranslator(
+      fieldDescription.labelResourceKey
+    ).translate$().pipe(takeUntil(unsubscribe$)).subscribe(s => {
+      this.fieldDescription.label = s;
+    });
+
+    appLocalizer.createTranslator(
+      fieldDescription.placeholderResourceKey
+    ).translate$().pipe(takeUntil(unsubscribe$)).subscribe(s => {
+      this.fieldDescription.placeholder = s;
     });
 
     appLocalizer.createTranslator(

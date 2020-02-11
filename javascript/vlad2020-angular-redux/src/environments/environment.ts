@@ -2,12 +2,12 @@
 // `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-const hostPort = 4201;
+const hostPort = 4202;
 
 export const environment = {
   apiServerUrl: `http://localhost:57245`,
   authTypeOidcIsEnabled: false,
-  identityServerUrl: `http://localhost:4201`,
+  identityServerUrl: `http://localhost:4202`,
   hostPort: hostPort,
   hostUrl: `http://localhost:${hostPort}`,
   production: false

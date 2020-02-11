@@ -93,6 +93,42 @@ export abstract class AppModProductPageItemView {
 
     return control.dirty && control.hasError(this.settingErrors.errorRequired.code);
   }
+  
+  /**
+   * Поле ввода цены.
+   * @type {AbstractControl}
+   */
+  get fieldPrice(): AbstractControl {
+    return this.formGroup.get(this.settingFields.fieldPrice.name);
+  }
+
+  /**
+   * Признак того, что ошибка валидации обязательности ввода цены видима.
+   * @type {boolean}
+   */
+  get fieldPriceErrorRequiredVisible() {
+    const control = this.fieldPrice;
+
+    return control.dirty && control.hasError(this.settingErrors.errorRequired.code);
+  }
+  
+  /**
+   * Поле ввода описания.
+   * @type {AbstractControl}
+   */
+  get fieldDescription(): AbstractControl {
+    return this.formGroup.get(this.settingFields.fieldDescription.name);
+  }
+
+  /**
+   * Признак того, что ошибка валидации обязательности ввода описания видима.
+   * @type {boolean}
+   */
+  get fieldDescriptionErrorRequiredVisible() {
+    const control = this.fieldDescription;
+
+    return control.dirty && control.hasError(this.settingErrors.errorRequired.code);
+  }
 
   /**
    * Поле ввода объекта сущности "ProductCategory".

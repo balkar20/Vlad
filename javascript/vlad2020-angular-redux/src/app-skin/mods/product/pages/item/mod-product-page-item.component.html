@@ -46,6 +46,46 @@
         <div>
           <div>
             <div>
+              <label for="skin--id--mod--dummy--main--page--item--name">
+                {{myPresenter.resources.fields.fieldPrice.label}}
+              </label>
+              <span *ngIf="myView.fieldPriceErrorRequiredVisible"
+                    class="skin--css--core--form--error--message">
+                    <span class="skin--css--core--content--asterisk"></span>
+                </span>
+            </div>
+            <input pInputText
+                   required
+                   maxLength="255"
+                   type="text"
+                   id="skin--id--mod--dummy--main--page--item--name"
+                   [placeholder]="myPresenter.resources.fields.fieldPrice.placeholder"
+                   [formControl]="myView.fieldPrice">
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <label for="skin--id--mod--dummy--main--page--item--name">
+                {{myPresenter.resources.fields.fieldDescription.label}}
+              </label>
+              <span *ngIf="myView.fieldDescriptionErrorRequiredVisible"
+                    class="skin--css--core--form--error--message">
+                    <span class="skin--css--core--content--asterisk"></span>
+                </span>
+            </div>
+            <input pInputText
+                   required
+                   maxLength="255"
+                   type="text"
+                   id="skin--id--mod--dummy--main--page--item--name"
+                   [placeholder]="myPresenter.resources.fields.fieldDescription.placeholder"
+                   [formControl]="myView.fieldDescription">
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
               <label for="skin--id--mod--dummy--main--page--item--object-dummy-one-to-many"
                      class="input-label"
                      [ngClass]="{'input-label__required': myView.isDataChangeAllowed}">

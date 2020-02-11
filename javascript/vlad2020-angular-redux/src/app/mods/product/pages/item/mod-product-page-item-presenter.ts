@@ -114,6 +114,8 @@ export class AppModProductPageItemPresenter extends AppCoreCommonPagePresenter<A
 
     const {
       fieldName,
+      fieldPrice,
+      fieldDescription,
       fieldObjectProductCategory
     } = this.view;
 
@@ -130,6 +132,8 @@ export class AppModProductPageItemPresenter extends AppCoreCommonPagePresenter<A
     } = input;
 
     objectProduct.name = fieldName.value;
+    objectProduct.price = fieldPrice.value;
+    objectProduct.description = fieldDescription.value;
     objectProduct.objectProductCategoryId = fieldObjectProductCategory.value;
 
     this.model.executeActionSave(input);
@@ -148,12 +152,16 @@ export class AppModProductPageItemPresenter extends AppCoreCommonPagePresenter<A
     const {
       fieldId,
       fieldName,
+      fieldPrice,
+      fieldDescription,
       fieldObjectProductCategory
     } = this.model.getSettingFields();
 
     const formGroup = extFormBuilder.group({
       [fieldId.name]: [{value: '', disabled: true}, Validators.required],
       [fieldName.name]: [{value: '', disabled: true}, Validators.required],
+      [fieldPrice.name]: [{value: '', disabled: true}, Validators.required],
+      [fieldDescription.name]: [{value: '', disabled: true}, Validators.required],
       [fieldObjectProductCategory.name]: [{value: '', disabled: true}, Validators.required]
     });
 
@@ -184,12 +192,16 @@ export class AppModProductPageItemPresenter extends AppCoreCommonPagePresenter<A
       const {
         fieldId,
         fieldName,
+        fieldPrice,
+        fieldDescription,
         fieldObjectProductCategory
       } = this.view;
 
       if (objectProduct) {
         fieldId.setValue(objectProduct.id, {emitEvent: false});
         fieldName.setValue(objectProduct.name, {emitEvent: false});
+        fieldPrice.setValue(objectProduct.price, {emitEvent: false});
+        fieldDescription.setValue(objectProduct.description, {emitEvent: false});
         fieldObjectProductCategory.setValue(objectProduct.objectProductCategoryId, {emitEvent: false});
       }
     } else {
@@ -332,6 +344,8 @@ export class AppModProductPageItemPresenter extends AppCoreCommonPagePresenter<A
 
     if (this.view.isDataChangeAllowed) {
       this.view.fieldName.enable();
+      this.view.fieldPrice.enable();
+      this.view.fieldDescription.enable();
       this.view.fieldObjectProductCategory.enable();
     }
   }
@@ -363,7 +377,7 @@ export class AppModProductPageItemPresenter extends AppCoreCommonPagePresenter<A
     const parameters = this.model.createParameters();
 
     const {
-      paramId
+      paramId,
     } = parameters;
 
     paramId.value = this.view.fieldId.value;

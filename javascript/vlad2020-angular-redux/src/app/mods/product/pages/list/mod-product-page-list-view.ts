@@ -122,6 +122,12 @@ export abstract class AppModProductPageListView {
    */
   abstract setSelectedItemId(value: number);
 
+  /**
+   * Установить цену выбранного элемента.
+   * @param {number} value Значение.
+   */
+  abstract setSelectedItemPrice(value: number);
+
   /** Показать спиннер загрузки. */
   abstract showLoadingSpinner();
 

@@ -22,8 +22,8 @@ export interface AppDataObjectProduct {
     description: string;
   
     /**
-     * Описание.
-     * @type {string}
+     * Цена.
+     * @type {number}
      */
     price: number;
 

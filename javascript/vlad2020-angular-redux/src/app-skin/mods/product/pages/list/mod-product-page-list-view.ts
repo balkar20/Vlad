@@ -191,11 +191,13 @@ export class AppSkinModProductPageListView extends AppModProductPageListView {
       paramPageNumber,
       paramSelectedItemId,
       paramSortDirection,
-      paramSortField
+      paramSortField,
+      paramPrice
     } = parameters;
 
     this.setPageNumber(paramPageNumber.value);
     this.setSelectedItemId(paramSelectedItemId.value);
+    this.setSelectedItemPrice(paramPrice.value);
 
     this.ctrlTable.sortField = paramSortField.value;
     this.ctrlTable.sortOrder = paramSortDirection.value === 'asc' ? 1 : -1;
@@ -218,6 +220,16 @@ export class AppSkinModProductPageListView extends AppModProductPageListView {
   setSelectedItemId(value: number) {
     this.selectedItem = value > 0
       ? this.ctrlTable.value.find(item => item.id === value)
+      : null;
+  }
+
+  /**
+   * @inheritDoc
+   * @param {number} value
+   */
+  setSelectedItemPrice(value: number) {
+    this.selectedItem = value > 0
+      ? this.ctrlTable.value.find(item => item.price === value)
       : null;
   }
 

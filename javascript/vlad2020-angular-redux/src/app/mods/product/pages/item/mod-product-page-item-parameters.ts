@@ -20,6 +20,18 @@ export class AppModProductPageItemParameters extends AppCoreCommonPageParameters
   paramName = new AppCoreCommonPageParameter<string>('name', this.index);
 
   /**
+   * Параметр "Имя".
+   * @type {AppCoreCommonPageParameter<number>}
+   */
+  paramPrice = new AppCoreCommonPageParameter<number>('price', this.index);
+
+  /**
+   * Параметр "Имя".
+   * @type {AppCoreCommonPageParameter<string>}
+   */
+  paramDescription = new AppCoreCommonPageParameter<string>('description', this.index);
+
+  /**
    * Конструктор.
    * @param {number} index Индекс.
    */
@@ -34,7 +46,9 @@ export class AppModProductPageItemParameters extends AppCoreCommonPageParameters
   createJobItemGetInput(): AppModProductJobItemGetInput {
     return new AppModProductJobItemGetInput(
       this.paramId.value,
-      this.paramName.value
+      this.paramName.value,
+      // this.paramPrice.value,
+      // this.paramDescription.value
     );
   }
 }

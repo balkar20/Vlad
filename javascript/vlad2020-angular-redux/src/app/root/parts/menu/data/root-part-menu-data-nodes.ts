@@ -47,6 +47,27 @@ import {
   appModDummyMainPageListConfigTitleResourceKey
 } from '@app/mods/dummy-main/pages/list/mod-dummy-main-page-list-config';
 import {
+  appModProductPageIndexConfigFullPath,
+  appModProductPageIndexConfigKey,
+  appModProductPageIndexConfigTitleResourceKey
+} from '@app/mods/product/pages/index/mod-product-page-index-config';
+import {
+  appModProductPageItemCreateConfigFullPath,
+  appModProductPageItemCreateConfigKey,
+  appModProductPageItemCreateConfigTitleResourceKey,
+  appModProductPageItemEditConfigFullPath,
+  appModProductPageItemEditConfigKey,
+  appModProductPageItemEditConfigTitleResourceKey,
+  appModProductPageItemViewConfigFullPath,
+  appModProductPageItemViewConfigKey,
+  appModProductPageItemViewConfigTitleResourceKey
+} from '@app/mods/product/pages/item/mod-product-page-item-config';
+import {
+  appModProductPageListConfigFullPath,
+  appModProductPageListConfigKey,
+  appModProductPageListConfigTitleResourceKey
+} from '@app/mods/product/pages/list/mod-product-page-list-config';
+import {
   appRootPageAdministrationConfigFullPath,
   appRootPageAdministrationConfigKey,
   appRootPageAdministrationConfigTitleResourceKey
@@ -119,6 +140,36 @@ export class AppRootPartMenuDataNodes extends AppCoreTreeNodes<AppHostPartMenuDa
    * @type {AppHostPartMenuDataNode}
    */
   nodeModDummyMainPageList: AppHostPartMenuDataNode;
+
+  /**
+   * Элемент "ModProductPageIndex".
+   * @type {AppHostPartMenuDataNode}
+   */
+  nodeModProductPageIndex: AppHostPartMenuDataNode;
+
+  /**
+   * Элемент "ModProductPageItemCreate".
+   * @type {AppHostPartMenuDataNode}
+   */
+  nodeModProductPageItemCreate: AppHostPartMenuDataNode;
+
+  /**
+   * Элемент "ModProductPageItemEdit".
+   * @type {AppHostPartMenuDataNode}
+   */
+  nodeModProductPageItemEdit: AppHostPartMenuDataNode;
+
+  /**
+   * Элемент "ModProductPageItemView".
+   * @type {AppHostPartMenuDataNode}
+   */
+  nodeModProductPageItemView: AppHostPartMenuDataNode;
+
+  /**
+   * Элемент "ModProductPageList".
+   * @type {AppHostPartMenuDataNode}
+   */
+  nodeModProductPageList: AppHostPartMenuDataNode;
 
   /**
    * Элемент "RootPageAdministration".
@@ -223,6 +274,16 @@ export class AppRootPartMenuDataNodes extends AppCoreTreeNodes<AppHostPartMenuDa
       ''
     );
 
+    // Menu: 2: RootPageIndex / RootPageAdministration / ModProductPageIndex
+
+    this.nodeModProductPageIndex = this.createNode(
+      appModProductPageIndexConfigKey,
+      this.nodeRootPageAdministration,
+      appModProductPageIndexConfigTitleResourceKey,
+      this.createRouterLinkByFullPath(appModProductPageIndexConfigFullPath),
+      ''
+    );
+
     // Menu: 3: RootPageIndex / RootPageSite / ModAuthPageIndex / ModAuthPageRedirect
 
     this.nodeModAuthPageRedirect = this.createNode(
@@ -290,6 +351,46 @@ export class AppRootPartMenuDataNodes extends AppCoreTreeNodes<AppHostPartMenuDa
       this.nodeModDummyMainPageIndex,
       appModDummyMainPageItemViewConfigTitleResourceKey,
       this.createRouterLinkByFullPath(appModDummyMainPageItemViewConfigFullPath),
+      ''
+    );
+
+    // Menu: 3: RootPageIndex / RootPageAdministration / ModProductPageIndex / ModProductPageList
+
+    this.nodeModProductPageList = this.createNode(
+      appModProductPageListConfigKey,
+      this.nodeModProductPageIndex,
+      appModProductPageListConfigTitleResourceKey,
+      this.createRouterLinkByFullPath(appModProductPageListConfigFullPath),
+      ''
+    );
+
+    // Menu: 3: RootPageIndex / RootPageAdministration / ModProductPageIndex / ModProductPageItemCreate
+
+    this.nodeModProductPageItemCreate = this.createNode(
+      appModProductPageItemCreateConfigKey,
+      this.nodeModProductPageIndex,
+      appModProductPageItemCreateConfigTitleResourceKey,
+      this.createRouterLinkByFullPath(appModProductPageItemCreateConfigFullPath),
+      ''
+    );
+
+    // Menu: 3: RootPageIndex / RootPageAdministration / ModProductPageIndex / ModProductPageItemEdit
+
+    this.nodeModProductPageItemEdit = this.createNode(
+      appModProductPageItemEditConfigKey,
+      this.nodeModProductPageIndex,
+      appModProductPageItemEditConfigTitleResourceKey,
+      this.createRouterLinkByFullPath(appModProductPageItemEditConfigFullPath),
+      ''
+    );
+
+    // Menu: 3: RootPageIndex / RootPageAdministration / ModProductPageIndex / ModProductPageItemView
+
+    this.nodeModProductPageItemView = this.createNode(
+      appModProductPageItemViewConfigKey,
+      this.nodeModProductPageIndex,
+      appModProductPageItemViewConfigTitleResourceKey,
+      this.createRouterLinkByFullPath(appModProductPageItemViewConfigFullPath),
       ''
     );
   }

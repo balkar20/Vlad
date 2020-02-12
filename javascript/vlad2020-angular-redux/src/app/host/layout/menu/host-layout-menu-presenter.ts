@@ -39,8 +39,7 @@ export class AppHostLayoutMenuPresenter {
     selectedNode: AppHostPartMenuDataNode
   ): AppHostLayoutMenuDataItem {
     let nodeKey = node.key;
-    console.log("createDataItem");
-    console.log(nodeKey);
+
     if (!selectedNode) {
       selectedNode = node;
 
@@ -77,8 +76,7 @@ export class AppHostLayoutMenuPresenter {
       const {
         data
       } = result;
-      console.log("onActionLoadSuccess");
-      console.log(data);
+      
       let items: AppHostLayoutMenuDataItem[];
 
       const parentNodeLevel = this.view.menuLevel - 1;

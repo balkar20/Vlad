@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreTreeEnumAxisMany} from '@app/core/tree/enums/core-tree-enum-axis-many';
 import {AppHostPartMenuOption} from '@app/host/parts/menu/host-part-menu-option';

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreExecutableAsync} from '@app/core/executable/core-executable-async';
 import {AppHostLayoutFooterActions} from './host-layout-footer-actions';

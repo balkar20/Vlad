@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppHostLayoutFooterState} from '@app/host/layout/footer/host-layout-footer-state';
 import {AppHostLayoutMenuStoreState} from '@app/host/layout/menu/store/host-layout-menu-store.state';

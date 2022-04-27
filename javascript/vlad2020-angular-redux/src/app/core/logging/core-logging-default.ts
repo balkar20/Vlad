@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreLoggingEntryKindValue} from './core-logging-entry-kind';
 

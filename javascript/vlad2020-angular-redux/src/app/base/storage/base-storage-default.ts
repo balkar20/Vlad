@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreStorageDefault} from '@app/core/storage/core-storage-default';
 import {Inject} from '@angular/core';

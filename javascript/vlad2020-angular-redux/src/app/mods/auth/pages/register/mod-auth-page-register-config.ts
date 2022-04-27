@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {appModAuthConfigFullPath} from '@app/mods/auth/mod-auth-config';
 

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Мод "Product". Страницы. Элемент. Настройки. Действия. */
 export class AppModProductPageItemSettingActions {

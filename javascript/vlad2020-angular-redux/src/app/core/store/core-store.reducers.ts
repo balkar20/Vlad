@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {routerReducer} from '@ngrx/router-store';
 import {ActionReducerMap} from '@ngrx/store';

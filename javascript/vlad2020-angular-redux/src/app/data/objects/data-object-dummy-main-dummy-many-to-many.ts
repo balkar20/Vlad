@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Данные. Объекты. Сущность "DummyMainDummyManyToMany". */
 export interface AppDataObjectDummyMainDummyManyToMany {

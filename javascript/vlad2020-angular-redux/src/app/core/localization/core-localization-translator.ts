@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {TranslateService} from '@ngx-translate/core';
 import {Observable} from 'rxjs';

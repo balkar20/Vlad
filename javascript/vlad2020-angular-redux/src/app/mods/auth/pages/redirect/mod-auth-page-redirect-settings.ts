@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 // tslint:disable-next-line:max-line-length
 import {appModAuthPageRedirectConfigFullPath, appModAuthPageRedirectConfigKey} from '@app/mods/auth/pages/redirect/mod-auth-page-redirect-config';

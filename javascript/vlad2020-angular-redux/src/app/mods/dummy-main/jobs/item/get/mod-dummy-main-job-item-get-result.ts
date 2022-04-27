@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreExecutionResultWithData} from '@app/core/execution/core-execution-result-with-data';
 import {AppModDummyMainJobItemGetOutput} from './mod-dummy-main-job-item-get-output';

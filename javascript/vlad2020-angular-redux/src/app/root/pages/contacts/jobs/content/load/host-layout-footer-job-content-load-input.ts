@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Хост. Разметка. Подвал. Задания. Содержимое. Загрузка. Ввод. */
 export class AppRootPageContactsJobContentLoadInput {

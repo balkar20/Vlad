@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Мод "Product". Страницы. Начало. Действия. */
 export enum AppModProductPageIndexActions {

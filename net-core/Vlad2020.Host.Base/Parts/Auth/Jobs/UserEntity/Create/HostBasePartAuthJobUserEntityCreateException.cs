@@ -1,4 +1,4 @@
-﻿//Author Maxim Kuzmin//makc//
+﻿//Author Vlad Balkarov//vlad//
 
 using Microsoft.AspNetCore.Identity;
 using Vlad2020.Host.Base.Common.Identity;

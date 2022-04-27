@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreDialogAlertSettingButtons} from './settings/core-dialog-alert-setting-buttons';
 

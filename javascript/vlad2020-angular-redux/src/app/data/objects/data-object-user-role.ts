@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Данные. Объекты. Сущность "UserRole". */
 export interface AppDataObjectUserRole {

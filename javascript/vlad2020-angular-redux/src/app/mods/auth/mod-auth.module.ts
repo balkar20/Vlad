@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {CommonModule} from '@angular/common';
 import {NgModule, Optional, SkipSelf} from '@angular/core';

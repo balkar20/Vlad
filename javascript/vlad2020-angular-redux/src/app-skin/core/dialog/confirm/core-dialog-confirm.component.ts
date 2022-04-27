@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Component, OnDestroy} from '@angular/core';
 import {DynamicDialogConfig, DynamicDialogRef} from 'primeng/api';

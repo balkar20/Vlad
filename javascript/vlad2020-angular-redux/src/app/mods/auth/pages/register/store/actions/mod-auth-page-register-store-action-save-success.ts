@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import { Action } from '@ngrx/store';
 import { AppCoreExecutionResultWithData } from '@app/core/execution/core-execution-result-with-data';

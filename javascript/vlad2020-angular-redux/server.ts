@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 // These are important and needed before anything else
 import 'zone.js/dist/zone-node';
@@ -15,7 +15,7 @@ enableProdMode();
 // Express server
 const app = express();
 
-// //makc// const PORT = process.env.PORT;
+// //vlad// const PORT = process.env.PORT;
 const DIST_FOLDER = join(process.cwd(), 'dist');
 
 // * NOTE :: leave this as require() since this file is built Dynamically from webpack
@@ -26,10 +26,10 @@ import { ngExpressEngine } from '@nguniversal/express-engine';
 // Import module map for lazy loading
 import { provideModuleMap } from '@nguniversal/module-map-ngfactory-loader';
 
-// //makc//>//
+// //vlad//>//
 import {appBaseDiTokenLocalStorage, appBaseDiTokenSessionStorage, appBaseDiTokenWindow} from './src/app/base/base-di';
 import {appCoreSettings} from './src/app/core/core-settings';
-const PORT = appCoreSettings.hostPort; // //makc// process.env.PORT;
+const PORT = appCoreSettings.hostPort; // //vlad// process.env.PORT;
 const domino = require('domino');
 const sessionStorage = require('sessionstorage');
 const LocalStorage = require('node-localstorage').LocalStorage;
@@ -38,16 +38,16 @@ const fs = require('fs');
 const path = require('path');
 const template = fs.readFileSync(path.join('.', __dirname, 'dist', 'browser', 'index.html')).toString();
 const win = domino.createWindow(template);
-// //makc//<//
+// //vlad//<//
 
 app.engine('html', ngExpressEngine({
   bootstrap: AppServerModuleNgFactory,
   providers: [
-    // //makc//>//
+    // //vlad//>//
     {provide: appBaseDiTokenLocalStorage, useValue: localStorage},
     {provide: appBaseDiTokenSessionStorage, useValue: sessionStorage},
     {provide: appBaseDiTokenWindow, useValue: win},
-    // //makc//<//
+    // //vlad//<//
     provideModuleMap(LAZY_MODULE_MAP)
   ]
 }));

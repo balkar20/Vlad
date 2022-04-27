@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreTreeEnumAxisMany} from './enums/core-tree-enum-axis-many';
 import {AppCoreTreeEnumAxisOne} from './enums/core-tree-enum-axis-one';

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Ядро. Общее. Модуль. Задания. Список. Получить. Ввод. */
 export class AppCoreCommonModJobListGetInput {

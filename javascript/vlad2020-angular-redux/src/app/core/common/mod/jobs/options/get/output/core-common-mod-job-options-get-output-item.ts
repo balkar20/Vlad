@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Ядро. Общее. Мод. Задания. Список. Получить. Вывод. */
 export interface AppCoreCommonModJobOptionsGetOutputItem<TValue> {

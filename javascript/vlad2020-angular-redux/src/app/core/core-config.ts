@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {OAuthModuleConfig} from 'angular-oauth2-oidc';
 import {environment} from '../../environments/environment';

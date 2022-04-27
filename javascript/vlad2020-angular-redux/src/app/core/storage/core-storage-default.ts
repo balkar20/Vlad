@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Ядро. Хранилище. Умолчание. */
 export abstract class AppCoreStorageDefault {

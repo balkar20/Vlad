@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppHostLayoutMenuActions} from '../host-layout-menu-actions';
 import {AppHostLayoutMenuState} from '../host-layout-menu-state';

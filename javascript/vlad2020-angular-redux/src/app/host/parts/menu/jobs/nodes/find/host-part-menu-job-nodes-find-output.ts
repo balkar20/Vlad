@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppHostPartMenuDataNode} from '@app/host/parts/menu/data/host-part-menu-data-node';
 

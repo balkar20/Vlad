@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {FormControl} from '@angular/forms';
 import {AppModProductPageListDataItem} from './data/mod-product-page-list-data-item';

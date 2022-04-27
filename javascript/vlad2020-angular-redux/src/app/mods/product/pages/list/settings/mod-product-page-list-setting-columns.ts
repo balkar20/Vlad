@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Мод "Product". Страницы. Список. Настройки. Столбцы. */
 export class AppModProductPageListSettingColumns {

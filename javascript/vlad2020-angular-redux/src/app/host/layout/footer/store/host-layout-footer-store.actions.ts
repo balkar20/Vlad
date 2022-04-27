@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppHostLayoutFooterStoreActionClear} from './actions/host-layout-footer-store-action-clear';
 import {AppHostLayoutFooterStoreActionLoad} from './actions/host-layout-footer-store-action-load';

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Action} from '@ngrx/store';
 import {AppHostLayoutFooterActions} from '@app/host/layout/footer/host-layout-footer-actions';

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppModAuthPageRegisterEnumActions} from '../enums/mod-auth-page-register-enum-actions';
 import {AppModAuthPageRegisterState} from '../mod-auth-page-register-state';

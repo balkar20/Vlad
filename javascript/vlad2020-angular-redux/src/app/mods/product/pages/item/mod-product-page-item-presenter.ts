@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Validators} from '@angular/forms';
 import {Observable, of} from 'rxjs';

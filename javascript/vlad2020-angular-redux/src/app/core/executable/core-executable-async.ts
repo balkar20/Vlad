@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Ядро. Исполняемое. Асинхронно. */
 export class AppCoreExecutableAsync {

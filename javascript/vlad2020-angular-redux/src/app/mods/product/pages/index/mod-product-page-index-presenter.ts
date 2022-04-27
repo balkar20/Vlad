@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreCommonPagePresenter} from '@app/core/common/page/core-common-page-presenter';
 import {AppModProductPageIndexModel} from './mod-product-page-index-model';

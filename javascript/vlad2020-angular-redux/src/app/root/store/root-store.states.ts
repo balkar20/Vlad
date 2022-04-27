@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppRootPageContactsState} from '@app/root/pages/contacts/root-page-contacts-state';
 import {AppRootPageIndexState} from '@app/root/pages/index/root-page-index-state';

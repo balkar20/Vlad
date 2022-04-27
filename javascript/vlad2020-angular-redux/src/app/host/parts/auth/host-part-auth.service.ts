@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Router} from '@angular/router';
 import {Observable, of, Subject} from 'rxjs';

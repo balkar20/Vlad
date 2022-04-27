@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {inject, TestBed} from '@angular/core/testing';
 import {AppCoreLocalizationService} from './core-localization.service';

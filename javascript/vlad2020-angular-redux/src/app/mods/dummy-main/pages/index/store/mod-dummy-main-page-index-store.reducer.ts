@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppModDummyMainPageIndexEnumActions} from '../enums/mod-dummy-main-page-index-enum-actions';
 import {AppModDummyMainPageIndexState} from '../mod-dummy-main-page-index-state';

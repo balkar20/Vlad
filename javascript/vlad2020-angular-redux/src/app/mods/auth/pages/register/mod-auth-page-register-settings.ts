@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {appModAuthPageRegisterConfigFullPath, appModAuthPageRegisterConfigKey} from './mod-auth-page-register-config';
 import {AppModAuthPageRegisterSettingButtons} from './settings/mod-auth-page-register-setting-buttons';

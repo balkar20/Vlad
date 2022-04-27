@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreStoreState} from '@app/core/store/core-store.state';
 import {AppModProductStoreStates} from './mod-product-store.states';

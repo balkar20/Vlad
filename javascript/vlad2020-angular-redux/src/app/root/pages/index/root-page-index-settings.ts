@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {appRootPageIndexConfigFullPath, appRootPageIndexConfigKey} from './root-page-index-config';
 

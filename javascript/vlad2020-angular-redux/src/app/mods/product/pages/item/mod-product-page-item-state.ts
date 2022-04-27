@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreCommonState} from '@app/core/common/core-common-state';
 import {AppModProductJobItemGetInput} from '../../jobs/item/get/mod-product-job-item-get-input';

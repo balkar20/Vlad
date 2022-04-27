@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {NgModule} from '@angular/core';
 import {ServerModule} from '@angular/platform-server';

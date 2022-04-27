@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppModProductResources} from './mod-product-resources';
 import {AppModProductModel} from './mod-product-model';

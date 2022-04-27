@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppDataObjectDummyMain} from '@app/data/objects/data-object-dummy-main';
 import {AppDataObjectDummyMainDummyManyToMany} from '@app/data/objects/data-object-dummy-main-dummy-many-to-many';

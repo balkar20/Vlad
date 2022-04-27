@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppRootPageContactsEnumActions} from '../enums/root-page-contacts-enum-actions';
 import {AppRootPageContactsState} from '../root-page-contacts-state';

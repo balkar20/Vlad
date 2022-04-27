@@ -1,4 +1,4 @@
-﻿//Author Maxim Kuzmin//makc//
+﻿//Author Vlad Balkarov//vlad//
 
 namespace Vlad2020.Host.Web.Mvc.Parts.Auth
 {

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppModAuthPageIndexStoreActionClear} from './actions/mod-auth-page-index-store-action-clear';
 

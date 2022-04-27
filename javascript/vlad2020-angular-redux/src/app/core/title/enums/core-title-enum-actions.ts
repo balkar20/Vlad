@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Ядро. Заголовок. Перечисления. Действия. */
 export enum AppCoreTitleEnumActions {

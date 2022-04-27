@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Основа. Внедрение зависимостей. Токен. Локальное хранилище. */
 export const appBaseDiTokenLocalStorage = 'appBaseDiTokenLocalStorage';

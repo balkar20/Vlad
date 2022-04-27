@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {ActivatedRoute, ParamMap, Router} from '@angular/router';
 import {merge, Observable, of, Subject, Subscription} from 'rxjs';

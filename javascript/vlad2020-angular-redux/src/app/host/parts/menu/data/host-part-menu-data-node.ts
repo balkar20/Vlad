@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppHostPartMenuDataItem} from './host-part-menu-data-item';
 import {AppCoreTreeNode, appCoreTreeNodeCreate} from '@app/core/tree/core-tree-node';

@@ -1,4 +1,4 @@
-﻿//Author Maxim Kuzmin//makc//
+﻿//Author Vlad Balkarov//vlad//
 
 using Vlad2020.Core.Base.Executable.Services.Sync;
 using Vlad2020.Core.Base.Execution.Exceptions;

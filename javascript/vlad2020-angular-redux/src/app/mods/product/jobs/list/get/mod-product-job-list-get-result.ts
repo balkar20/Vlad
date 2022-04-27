@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreExecutionResultWithData} from '@app/core/execution/core-execution-result-with-data';
 import {AppModProductJobListGetOutput} from './mod-product-job-list-get-output';

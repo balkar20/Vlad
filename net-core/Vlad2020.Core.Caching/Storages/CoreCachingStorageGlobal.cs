@@ -1,4 +1,4 @@
-﻿//Author Maxim Kuzmin//makc//
+﻿//Author Vlad Balkarov//vlad//
 
 using Vlad2020.Core.Caching.Config;
 using Vlad2020.Core.Caching.Resources.Errors;

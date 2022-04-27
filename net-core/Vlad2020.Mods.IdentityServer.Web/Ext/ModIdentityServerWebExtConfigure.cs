@@ -1,4 +1,4 @@
-﻿//Author Maxim Kuzmin//makc//
+﻿//Author Vlad Balkarov//vlad//
 
 using IdentityServer4.Models;
 using Vlad2020.Data.Entity.Objects;

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Корень. Страницы. Контакты. Вид. */
 export class AppRootPageContactsView {

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppHostLayoutMenuStoreActionClear} from './actions/host-layout-menu-store-action-clear';
 import {AppHostLayoutMenuStoreActionLoad} from './actions/host-layout-menu-store-action-load';

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import { Action } from '@ngrx/store';
 import { AppModProductPageListEnumActions } from '../../enums/mod-product-page-list-enum-actions';

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {environment} from '../../environments/environment';
 import {appCoreConfigApiUrl, appCoreConfigPageSizeOptions} from './core-config';

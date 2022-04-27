@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppRootPageContactsStoreActionClear} from './actions/root-page-contacts-store-action-clear';
 import {AppRootPageContactsStoreActionLoad} from './actions/host-layout-footer-store-action-load';

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppModDummyMainPageItemStoreActionClear} from './actions/mod-dummy-main-page-item-store-action-clear';
 import {AppModDummyMainPageItemStoreActionLoad} from './actions/mod-dummy-main-page-item-store-action-load';

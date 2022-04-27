@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreCommonPageParameter} from '@app/core/common/page/core-common-page-parameter';
 

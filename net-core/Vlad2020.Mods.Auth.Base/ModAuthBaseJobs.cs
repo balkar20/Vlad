@@ -1,4 +1,4 @@
-﻿//Author Maxim Kuzmin//makc//
+﻿//Author Vlad Balkarov//vlad//
 
 using Vlad2020.Core.Base.Resources.Errors;
 using Vlad2020.Mods.Auth.Base.Jobs.Login.Jwt;

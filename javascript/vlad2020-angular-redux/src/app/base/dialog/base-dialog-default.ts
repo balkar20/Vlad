@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreDialogDefault} from '@app/core/dialog/core-dialog-default';
 import {Inject} from '@angular/core';

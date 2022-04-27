@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreExecutionResultWithData} from '@app/core/execution/core-execution-result-with-data';
 import {AppHostPartAuthUser} from '@app/host/parts/auth/host-part-auth-user';

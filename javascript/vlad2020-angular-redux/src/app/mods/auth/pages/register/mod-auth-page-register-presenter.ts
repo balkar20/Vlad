@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Validators} from '@angular/forms';
 import {AppCoreCommonPagePresenter} from '@app/core/common/page/core-common-page-presenter';

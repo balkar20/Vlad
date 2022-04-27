@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Ядро. Навигация. Умолчание. */
 export abstract class AppCoreNavigationDefault {

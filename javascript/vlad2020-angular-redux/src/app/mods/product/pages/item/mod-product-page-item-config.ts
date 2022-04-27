@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {appModProductConfigFullPath} from '@app/mods/product/mod-product-config';
 

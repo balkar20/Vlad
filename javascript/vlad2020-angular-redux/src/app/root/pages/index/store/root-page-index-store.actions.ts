@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppRootPageIndexStoreActionClear} from './actions/root-page-index-store-action-clear';
 

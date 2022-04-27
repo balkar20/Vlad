@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Action} from '@ngrx/store';
 import {AppHostLayoutMenuActions} from '@app/host/layout/menu/host-layout-menu-actions';

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Корень. Страницы. Сайт. Перечисления. Действия. */
 export enum AppRootPageSiteEnumActions {

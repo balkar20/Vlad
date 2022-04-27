@@ -1,4 +1,4 @@
-﻿//Author Maxim Kuzmin//makc//
+﻿//Author Vlad Balkarov//vlad//
 
 using Vlad2020.Apps.Automation.Base.App.Common.Jobs.Code.Generate;
 using Vlad2020.Core.Base.Execution;

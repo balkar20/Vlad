@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {appModDummyMainConfigFullPath} from '@app/mods/dummy-main/mod-dummy-main-config';
 

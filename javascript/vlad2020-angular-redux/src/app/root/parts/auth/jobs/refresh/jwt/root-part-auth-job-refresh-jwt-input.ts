@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Корень. Часть "Auth". Задания. Обновление. JWT. Ввод. */
 export class AppRootPartAuthJobRefreshJwtInput {

@@ -1,4 +1,4 @@
-﻿//Author Maxim Kuzmin//makc//
+﻿//Author Vlad Balkarov//vlad//
 
 using Vlad2020.Mods.Product.Base.Common.Jobs.Option.Item.Get;
 using Vlad2020.Mods.Product.Base.Common.Jobs.Option.List.Get;

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppModDummyMainPageListResourceColumns} from './resources/mod-dummy-main-page-list-resource-columns';
 import {AppCoreLocalizationService} from '@app/core/localization/core-localization.service';

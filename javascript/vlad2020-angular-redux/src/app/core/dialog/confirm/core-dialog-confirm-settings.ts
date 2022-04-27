@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreDialogConfirmSettingButtons} from './settings/core-dialog-confirm-setting-buttons';
 

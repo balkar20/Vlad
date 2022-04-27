@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Мод "Auth". Страницы. Вход в систему. Настройки. Ошибки. */
 export class AppModAuthPageLogonSettingErrors {

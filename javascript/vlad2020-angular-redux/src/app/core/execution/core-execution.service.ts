@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {HttpErrorResponse} from '@angular/common/http';
 import {Injectable} from '@angular/core';

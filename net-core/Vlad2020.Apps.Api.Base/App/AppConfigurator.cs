@@ -1,4 +1,4 @@
-﻿//Author Maxim Kuzmin//makc//
+﻿//Author Vlad Balkarov//vlad//
 
 using Vlad2020.Apps.Api.Base.App.Parts.Core.Base.Resources.Errors;
 using Vlad2020.Apps.Api.Base.App.Parts.Mods.DummyMain.Base.Jobs.Item.Get;

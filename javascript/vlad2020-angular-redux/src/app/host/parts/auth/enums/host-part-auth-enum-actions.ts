@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Хост. Часть "Auth". Перечисления. Действия. */
 export enum AppHostPartAuthEnumActions {

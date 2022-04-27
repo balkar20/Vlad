@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Paginator} from 'primeng/paginator';
 import {merge} from 'rxjs';

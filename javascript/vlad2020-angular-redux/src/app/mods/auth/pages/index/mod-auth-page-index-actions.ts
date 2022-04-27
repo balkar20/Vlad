@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Мод "Auth". Страницы. Начало. Действия. */
 export enum AppModAuthPageIndexActions {

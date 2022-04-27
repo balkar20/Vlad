@@ -1,4 +1,4 @@
-﻿//Author Maxim Kuzmin//makc//
+﻿//Author Vlad Balkarov//vlad//
 
 using Vlad2020.Core.Base.Auth.Enums;
 using Vlad2020.Mods.Auth.Base.Config.Settings;

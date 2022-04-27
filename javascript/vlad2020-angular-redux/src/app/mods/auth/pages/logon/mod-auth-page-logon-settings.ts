@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {appModAuthPageLogonConfigFullPath, appModAuthPageLogonConfigKey} from './mod-auth-page-logon-config';
 import {AppModAuthPageLogonSettingButtons} from './settings/mod-auth-page-logon-setting-buttons';

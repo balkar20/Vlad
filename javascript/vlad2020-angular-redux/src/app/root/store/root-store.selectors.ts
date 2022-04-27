@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {createFeatureSelector} from '@ngrx/store';
 import {AppRootStoreState} from './root-store.state';

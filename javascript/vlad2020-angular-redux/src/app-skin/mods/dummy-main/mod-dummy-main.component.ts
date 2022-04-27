@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AfterViewInit, Component, OnDestroy} from '@angular/core';
 import {AppCoreLoggingService} from '@app/core/logging/core-logging.service';

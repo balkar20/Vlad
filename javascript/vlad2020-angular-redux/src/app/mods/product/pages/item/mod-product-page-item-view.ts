@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AbstractControl, FormGroup} from '@angular/forms';
 import {AppModProductJobItemGetOutput} from '../../jobs/item/get/mod-product-job-item-get-output';

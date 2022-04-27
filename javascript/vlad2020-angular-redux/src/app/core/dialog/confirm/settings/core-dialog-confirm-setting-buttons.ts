@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Ядро. Диалог. Подтверждение. Настройки. Кнопки. */
 export class AppCoreDialogConfirmSettingButtons {

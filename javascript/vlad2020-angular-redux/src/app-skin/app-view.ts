@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppSkinHostLayoutMenuComponent} from '@app-skin/host/layout/menu/host-layout-menu.component';
 import {AppView} from '@app/app-view';

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreLocalizationService} from '../localization/core-localization.service';
 import {AppCoreNotificationView} from './core-notification-view';

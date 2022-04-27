@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Ядро. Диалог. Предупреждение. Настройки. Кнопки. */
 export class AppCoreDialogAlertSettingButtons {

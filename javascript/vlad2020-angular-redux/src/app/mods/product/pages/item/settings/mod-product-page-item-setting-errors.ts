@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Мод "Product". Страницы. Элемент. Настройки. Ошибки. */
 export class AppModProductPageItemSettingErrors {

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Хост. Часть "Route". Данные. Страница.  */
 export interface AppHostPartRouteDataPage {

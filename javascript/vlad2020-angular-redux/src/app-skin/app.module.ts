@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {NgModule} from '@angular/core';
 import {appCoreLoggingDiTokenLoggerName} from '@app/core/logging/core-logging-di';

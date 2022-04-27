@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppModDummyMainResources} from './mod-dummy-main-resources';
 import {AppModDummyMainModel} from './mod-dummy-main-model';

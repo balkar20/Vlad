@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreLocalizationLanguage} from '@app/core/localization/core-localization-language';
 

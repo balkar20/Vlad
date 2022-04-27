@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreCommonModJobOptionsGetOutputList} from '@app/core/common/mod/jobs/options/get/output/core-common-mod-job-options-get-output-list';
 import {AppModProductCommonJobOptionsGetOutputItem} from './mod-product-common-job-options-get-output-item';

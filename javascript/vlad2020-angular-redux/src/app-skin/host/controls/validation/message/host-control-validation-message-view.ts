@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AbstractControl} from '@angular/forms';
 import {AppHostControlValidationMessageView} from '@app/host/controls/validation/message/host-control-validation-message-view';

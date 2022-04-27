@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppRootPageSiteEnumActions} from '../enums/root-page-site-enum-actions';
 import {AppRootPageSiteState} from '../root-page-site-state';

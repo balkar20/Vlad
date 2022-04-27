@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {ModuleWithProviders, NgModule} from '@angular/core';
 import {AppCoreDialogService} from '@app/core/dialog/core-dialog.service';

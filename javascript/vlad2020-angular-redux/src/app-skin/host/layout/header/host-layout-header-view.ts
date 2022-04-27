@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppHostLayoutHeaderView} from '@app/host/layout/header/host-layout-header-view';
 import {SelectItem} from 'primeng/api';

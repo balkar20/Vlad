@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {select, Store} from '@ngrx/store';
 import {Observable, Subject} from 'rxjs';

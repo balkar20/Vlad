@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Ядро. Логирование. Вид записи в журнале. Значение. */
 export type AppCoreExecutionMethodValue = 'GET' | 'POST' | 'PUT' | 'DELETE';

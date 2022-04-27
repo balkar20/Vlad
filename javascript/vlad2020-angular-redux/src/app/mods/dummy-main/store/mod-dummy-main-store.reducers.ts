@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {ActionReducerMap} from '@ngrx/store';
 import {appModDummyMainPageIndexStoreReducer} from '../pages/index/store/mod-dummy-main-page-index-store.reducer';

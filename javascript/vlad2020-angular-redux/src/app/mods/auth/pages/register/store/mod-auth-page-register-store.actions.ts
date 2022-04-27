@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppModAuthPageRegisterStoreActionClear} from './actions/mod-auth-page-register-store-action-clear';
 import {AppModAuthPageRegisterStoreActionSave} from './actions/mod-auth-page-register-store-action-save';

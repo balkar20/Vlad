@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Injectable} from '@angular/core';
 import {AppCoreCommonDisposable} from '@app/core/common/core-common-disposable';

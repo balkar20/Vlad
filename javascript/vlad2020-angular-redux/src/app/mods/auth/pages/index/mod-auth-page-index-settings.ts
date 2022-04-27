@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {appModAuthPageIndexConfigFullPath, appModAuthPageIndexConfigKey} from '@app/mods/auth/pages/index/mod-auth-page-index-config';
 import {appModAuthPageLogonConfigTitleResourceKey} from '@app/mods/auth/pages/logon/mod-auth-page-logon-config';

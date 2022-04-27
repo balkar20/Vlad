@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Action} from '@ngrx/store';
 import {AppModAuthPageRegisterEnumActions} from '../../enums/mod-auth-page-register-enum-actions';

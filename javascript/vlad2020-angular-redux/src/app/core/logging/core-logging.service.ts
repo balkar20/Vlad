@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Inject, Injectable} from '@angular/core';
 import {AppCoreLoggingDefault} from './core-logging-default';

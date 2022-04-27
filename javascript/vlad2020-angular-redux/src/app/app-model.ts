@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 import {Observable, Subject} from 'rxjs';
 import {takeUntil} from 'rxjs/operators';
 import {AppCoreAuthTypeOidcJobStartService} from '@app/core/auth/types/oidc/jobs/start/core-auth-type-oidc-job-start.service';

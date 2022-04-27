@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 import {AppSkinModDummyMainPageItemComponent} from './mod-dummy-main-page-item.component';

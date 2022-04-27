@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Мод "Auth". Страницы. Перенаправление. Вид. */
 export abstract class AppModAuthPageRedirectView {

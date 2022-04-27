@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppRootPageErrorStoreActionClear} from './actions/root-page-error-store-action-clear';
 

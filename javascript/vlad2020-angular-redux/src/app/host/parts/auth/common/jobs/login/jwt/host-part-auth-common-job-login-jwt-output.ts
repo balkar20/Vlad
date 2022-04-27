@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import { AppHostPartAuthUser } from '../../../../host-part-auth-user';
 

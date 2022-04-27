@@ -1,4 +1,4 @@
-﻿//Author Maxim Kuzmin//makc//
+﻿//Author Vlad Balkarov//vlad//
 
 using Vlad2020.Apps.Api.Base.App.Common;
 using Vlad2020.Core.Base.Execution;

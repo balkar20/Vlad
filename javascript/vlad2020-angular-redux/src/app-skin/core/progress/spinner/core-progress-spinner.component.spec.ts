@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {async, TestBed} from '@angular/core/testing';
 import {AppSkinCoreProgressSpinnerComponent} from './core-progress-spinner.component';

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreAuthTypeJwtDefault} from '@app/core/auth/types/jwt/core-auth-type-jwt-default';
 import {Inject} from '@angular/core';

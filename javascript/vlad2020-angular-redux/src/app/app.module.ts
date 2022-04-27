@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {isPlatformBrowser} from '@angular/common';
 import {HttpClient, HttpClientModule} from '@angular/common/http';

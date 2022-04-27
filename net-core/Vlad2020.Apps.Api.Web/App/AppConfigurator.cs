@@ -1,4 +1,4 @@
-﻿//Author Maxim Kuzmin//makc//
+﻿//Author Vlad Balkarov//vlad//
 
 using Vlad2020.Root.Apps.Api.Web;
 using Microsoft.AspNetCore.Cors.Infrastructure;
@@ -26,7 +26,7 @@ namespace Vlad2020.Apps.Api.Web.App
 
             services.AddTransient(x => AppServer.Instance.GetContext());
 
-            services.AddControllers();//makc//???//.AddControllersAsServices();
+            services.AddControllers();//vlad//???//.AddControllersAsServices();
 
             services.Configure<CorsOptions>(options =>
                 options.AddPolicy(

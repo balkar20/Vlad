@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {FormBuilder} from '@angular/forms';
 import {Router} from '@angular/router';

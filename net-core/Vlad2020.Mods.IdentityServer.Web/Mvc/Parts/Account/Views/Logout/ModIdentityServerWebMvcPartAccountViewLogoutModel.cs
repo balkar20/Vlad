@@ -1,4 +1,4 @@
-﻿//Author Maxim Kuzmin//makc//
+﻿//Author Vlad Balkarov//vlad//
 
 namespace Vlad2020.Mods.IdentityServer.Web.Mvc.Parts.Account.Views.Logout
 {

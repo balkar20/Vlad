@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppModProductPageListResourceColumns} from './resources/mod-product-page-list-resource-columns';
 import {AppCoreLocalizationService} from '@app/core/localization/core-localization.service';

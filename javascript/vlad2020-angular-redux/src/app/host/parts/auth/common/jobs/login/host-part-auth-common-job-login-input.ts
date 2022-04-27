@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Хост. Часть "Auth". Общее. Задания. Вход в систему. Ввод. */
 export class AppHostPartAuthCommonJobLoginInput {

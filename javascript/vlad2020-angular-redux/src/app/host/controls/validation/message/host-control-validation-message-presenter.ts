@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreCommonUnsubscribable} from '@app/core/common/core-common-unsubscribable';
 import {AppCoreLocalizationService} from '@app/core/localization/core-localization.service';

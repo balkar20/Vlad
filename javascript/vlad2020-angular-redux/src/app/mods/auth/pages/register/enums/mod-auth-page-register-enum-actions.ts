@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Мод "Auth". Страницы. Регистрация. Перечисления. Действия. */
 export enum AppModAuthPageRegisterEnumActions {

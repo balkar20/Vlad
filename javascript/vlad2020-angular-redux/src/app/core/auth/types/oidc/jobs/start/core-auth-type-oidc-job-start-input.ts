@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Ядро. Аутентификация. Типы. OIDC. Задания. Запуск. Ввод. */
 export class AppCoreAuthTypeOidcJobStartInput {

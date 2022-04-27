@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppHostLayoutFooterActions} from '../host-layout-footer-actions';
 import {AppHostLayoutFooterState} from '../host-layout-footer-state';

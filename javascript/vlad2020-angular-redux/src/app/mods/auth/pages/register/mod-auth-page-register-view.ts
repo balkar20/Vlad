@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AbstractControl, FormGroup} from '@angular/forms';
 import {AppModAuthPageRegisterSettingErrors} from '../register/settings/mod-auth-page-register-setting-errors';

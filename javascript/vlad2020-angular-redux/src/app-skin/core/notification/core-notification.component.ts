@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Component} from '@angular/core';
 import {AppSkinCoreNotificationView} from './core-notification-view';

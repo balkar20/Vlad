@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {createSelector} from '@ngrx/store';
 import {appRootStoreSelector} from '../../../store/root-store.selectors';

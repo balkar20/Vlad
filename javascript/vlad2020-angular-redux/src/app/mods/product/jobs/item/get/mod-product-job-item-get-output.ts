@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppDataObjectProduct} from '@app/data/objects/data-object-product';
 import {AppDataObjectProductProductFeature} from '@app/data/objects/data-object-product-product-feature';

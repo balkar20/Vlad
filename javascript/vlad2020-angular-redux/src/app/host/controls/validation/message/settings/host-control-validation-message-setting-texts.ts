@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Хост. Элементы управления. Валидация. Сообщение. Настройки. Тексты. */
 export class AppHostControlValidationMessageSettingTexts {

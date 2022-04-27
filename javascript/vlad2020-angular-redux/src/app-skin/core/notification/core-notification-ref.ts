@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreCommonDisposable} from '@app/core/common/core-common-disposable';
 import {MessageService} from 'primeng/api';

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Component, ElementRef, ViewChild} from '@angular/core';
 import {AppCoreProgressSpinnerPresenter} from '@app/core/progress/spinner/core-progress-spinner-presenter';

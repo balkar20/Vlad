@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppRootPageErrorEnumActions} from '../enums/root-page-error-enum-actions';
 import {AppRootPageErrorState} from '../root-page-error-state';

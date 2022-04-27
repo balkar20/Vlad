@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {ComponentPortal} from '@angular/cdk/portal';
 import {ElementRef, Injectable} from '@angular/core';

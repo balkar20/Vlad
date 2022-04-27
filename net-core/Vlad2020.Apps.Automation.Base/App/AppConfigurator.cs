@@ -1,4 +1,4 @@
-﻿//Author Maxim Kuzmin//makc//
+﻿//Author Vlad Balkarov//vlad//
 
 using Vlad2020.Apps.Automation.Base.App.Parts.Angular.Jobs.Code.Generate;
 using Vlad2020.Apps.Automation.Base.App.Parts.NetCore.Jobs.Code.Generate;

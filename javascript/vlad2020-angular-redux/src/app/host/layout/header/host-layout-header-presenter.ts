@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {appCoreLocalizationConfigLanguages} from '@app/core/localization/core-localization-config';
 import {AppHostLayoutHeaderModel} from './host-layout-header-model';

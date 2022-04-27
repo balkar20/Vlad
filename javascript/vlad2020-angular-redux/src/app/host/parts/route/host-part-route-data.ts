@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppHostPartRouteDataPage} from '@app/host/parts/route/data/host-part-route-data-page';
 

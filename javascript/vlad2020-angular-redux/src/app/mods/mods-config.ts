@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Моды. Конфигурация. */
 const appModsConfigPath = 'mods';

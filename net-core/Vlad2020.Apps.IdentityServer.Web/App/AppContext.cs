@@ -1,4 +1,4 @@
-﻿//Author Maxim Kuzmin//makc//
+﻿//Author Vlad Balkarov//vlad//
 
 using Microsoft.Extensions.Logging;
 using Vlad2020.Root.Apps.IdentityServer.Web;

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreCommonTitlable} from '@app/core/common/core-common-titlable';
 import {AppCoreLocalizationService} from '@app/core/localization/core-localization.service';

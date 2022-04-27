@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Данные. Объекты. Сущность "ProductProductFeature". */
 export interface AppDataObjectProductProductFeature {

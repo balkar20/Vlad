@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppHostControlValidationMessageSettingTexts} from './settings/host-control-validation-message-setting-texts';
 

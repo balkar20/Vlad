@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Observable, of} from 'rxjs';
 import {switchMap, takeUntil} from 'rxjs/operators';

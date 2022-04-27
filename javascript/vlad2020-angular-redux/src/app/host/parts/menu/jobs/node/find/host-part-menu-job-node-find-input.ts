@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreTreeEnumAxisOne} from '@app/core/tree/enums/core-tree-enum-axis-one';
 import {AppHostPartMenuOption} from '@app/host/parts/menu/host-part-menu-option';

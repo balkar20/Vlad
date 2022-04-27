@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {FormControl} from '@angular/forms';
 import {AppModDummyMainPageListDataItem} from './data/mod-dummy-main-page-list-data-item';

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Inject} from '@angular/core';
 import {appBaseDiTokenWindow} from '../base-di';

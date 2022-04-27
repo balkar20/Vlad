@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreDialogView} from '@app/core/dialog/core-dialog-view';
 import {DynamicDialogRef} from 'primeng/api';

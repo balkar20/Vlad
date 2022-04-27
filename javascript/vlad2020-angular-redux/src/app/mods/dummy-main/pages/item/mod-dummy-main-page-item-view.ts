@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AbstractControl, FormGroup} from '@angular/forms';
 import {AppModDummyMainJobItemGetOutput} from '../../jobs/item/get/mod-dummy-main-job-item-get-output';

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppHostPartCalendarState} from '@app/host/parts/calendar/host-part-calendar-state';
 import {AppHostPartCalendarLocale} from '@app-skin/host/parts/calendar/host-part-calendar-locale';

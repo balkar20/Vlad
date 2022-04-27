@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Хост. Часть "Auth". Пользователь. */
 export interface AppHostPartAuthUser {

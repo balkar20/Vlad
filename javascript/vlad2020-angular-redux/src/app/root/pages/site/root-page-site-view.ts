@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {appModAuthPageIndexConfigFullPath} from '@app/mods/auth/pages/index/mod-auth-page-index-config';
 import {appRootPageContactsConfigFullPath} from '@app/root/pages/contacts/root-page-contacts-config';

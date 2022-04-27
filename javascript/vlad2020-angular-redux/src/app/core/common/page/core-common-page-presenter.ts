@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppCoreLoggingState} from '@app/core/logging/core-logging-state';
 import {AppCoreCommonPageModel} from '@app/core/common/page/core-common-page-model';

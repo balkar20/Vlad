@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {appRootPageErrorConfigFullPath, appRootPageErrorConfigKey} from './root-page-error-config';
 

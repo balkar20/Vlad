@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Мод "DummyMain". Страницы. Элемент. Настройки. Поля. */
 export class AppModDummyMainPageItemSettingFields {

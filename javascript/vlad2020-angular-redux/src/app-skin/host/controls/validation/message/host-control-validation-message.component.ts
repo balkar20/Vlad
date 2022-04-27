@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Component, Input, OnDestroy, OnInit} from '@angular/core';
 import {AbstractControl} from '@angular/forms';

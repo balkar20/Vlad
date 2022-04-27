@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Action} from '@ngrx/store';
 import {AppModProductJobListGetInput} from '../../../../jobs/list/get/mod-product-job-list-get-input';

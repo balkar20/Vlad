@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppModDummyMainPageIndexStoreActionClear} from './actions/mod-dummy-main-page-index-store-action-clear';
 

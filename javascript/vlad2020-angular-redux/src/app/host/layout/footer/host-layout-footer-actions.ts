@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 /** Хост. Разметка. Подвал. Действия. */
 export enum AppHostLayoutFooterActions {

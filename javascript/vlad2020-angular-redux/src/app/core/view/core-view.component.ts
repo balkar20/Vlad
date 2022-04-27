@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Component, ComponentFactoryResolver, Input, Type, ViewChild} from '@angular/core';
 import {AppCoreViewHostDirective} from './core-view-host.directive';

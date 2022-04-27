@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppModProductPageIndexState} from '../pages/index/mod-product-page-index-state';
 import {AppModProductPageItemState} from '../pages/item/mod-product-page-item-state';

@@ -1,4 +1,4 @@
-﻿//Author Maxim Kuzmin//makc//
+﻿//Author Vlad Balkarov//vlad//
 
 using Vlad2020.Apps.Api.Web.App;
 using Microsoft.AspNetCore.Builder;

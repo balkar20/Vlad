@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Observable} from 'rxjs';
 import {AppCoreCommonUnsubscribable} from '@app/core/common/core-common-unsubscribable';

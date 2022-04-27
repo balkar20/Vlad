@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Observable, Subject} from 'rxjs';
 import {AppCoreLocalizationService} from '@app/core/localization/core-localization.service';

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Injectable} from '@angular/core';
 import {AppModDummyMainPageIndexSettings} from './mod-dummy-main-page-index-settings';

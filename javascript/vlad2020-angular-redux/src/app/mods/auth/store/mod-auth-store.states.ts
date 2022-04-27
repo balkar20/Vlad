@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppModAuthPageIndexState} from '../pages/index/mod-auth-page-index-state';
 import {AppModAuthPageLogonState} from '../pages/logon/mod-auth-page-logon-state';

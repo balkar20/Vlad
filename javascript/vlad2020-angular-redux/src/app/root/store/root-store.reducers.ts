@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {ActionReducerMap} from '@ngrx/store';
 import {AppRootStoreStates} from './root-store.states';

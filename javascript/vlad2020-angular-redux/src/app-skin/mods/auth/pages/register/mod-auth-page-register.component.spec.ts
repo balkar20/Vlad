@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 import {AppSkinModAuthPageRegisterComponent} from './mod-auth-page-register.component';

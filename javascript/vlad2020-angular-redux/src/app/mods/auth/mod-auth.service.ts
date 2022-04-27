@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {Injectable} from '@angular/core';
 import {AppModAuthSettings} from './mod-auth-settings';

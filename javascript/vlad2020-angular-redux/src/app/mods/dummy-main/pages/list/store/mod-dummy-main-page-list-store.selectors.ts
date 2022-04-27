@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {createSelector} from '@ngrx/store';
 import {appModDummyMainStoreSelector} from '../../../store/mod-dummy-main-store.selectors';

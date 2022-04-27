@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppRootPageIndexEnumActions} from '../enums/root-page-index-enum-actions';
 import {AppRootPageIndexState} from '../root-page-index-state';

@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {AppModAuthResources} from './mod-auth-resources';
 import {AppModAuthModel} from './mod-auth-model';

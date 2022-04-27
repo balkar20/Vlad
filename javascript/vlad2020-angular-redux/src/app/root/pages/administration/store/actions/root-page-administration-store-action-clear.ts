@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import { Action } from '@ngrx/store';
 import { AppRootPageAdministrationEnumActions } from '../../enums/root-page-administration-enum-actions';

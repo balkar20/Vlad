@@ -1,4 +1,4 @@
-// //Author Maxim Kuzmin//makc//
+// //Author Vlad Balkarov//vlad//
 
 import {ElementRef} from '@angular/core';
 import {AppCoreCommonDisposable} from '../common/core-common-disposable';

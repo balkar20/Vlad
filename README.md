@@ -1,6 +1,6 @@
 # javascript
 
-## [makc2020-angular-redux](./javascript/makc2020-angular-redux/README.md)
+## [vlad2020-angular-redux](./javascript/makc2020-angular-redux/README.md)
 
 Стартовый комплект программиста. Клиентская часть.
 Технологии: Angular 8.x, TypeScript, HTML, CSS.
